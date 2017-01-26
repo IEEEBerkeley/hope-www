@@ -1,0 +1,15 @@
+body {
+    font-family: "Verdana", sans-serif;
+    line-height: 1.25;
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 1em 1em;
+}
+
+.title {
+    color: #006699;
+}
+
+#contents {
+    float: right;
+}
