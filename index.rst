@@ -23,7 +23,7 @@ Timeline
 ==== =================================
 Week Topic
 ==== =================================
-1    Introduction
+1    Introduction (`sign-in <https://goo.gl/forms/JS6tM8ldHNnUessc2>`_)
 2    Soldering
 3    Measurements and Schematics
 4    Ohm's Law, Power, and Batteries
