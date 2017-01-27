@@ -92,6 +92,14 @@ Decorum and Effort: 20%
 Students need at least 60 points to pass.
 
 
+FAQ
+===
+*I missed the first class. Can I still enroll?*
+
+Yes. You will be given the CCN during the second week of class. Please check
+the course web page and fill out the first week sign-in.
+
+
 Contact
 =======
 Kevin Zheng <kevinz@berkeley.edu>
