@@ -99,6 +99,11 @@ FAQ
 Yes. You will be given the CCN during the second week of class. Please check
 the course web page and fill out the first week sign-in.
 
+*I missed more classes and still want to enroll.*
+
+Fill out the first week sign-in to receive the CCN. Please review the
+`attendance`_ policy.
+
 
 Contact
 =======
