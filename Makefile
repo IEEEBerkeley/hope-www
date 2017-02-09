@@ -1,5 +1,5 @@
 PAGES = index.html
-EXTRA = 
+EXTRA = blinker.png
 WEBROOT = sdf.org:~/html/hope/
 
 .include "rstweb.mk"
