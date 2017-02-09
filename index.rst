@@ -23,8 +23,8 @@ Timeline
 ==== =================================
 Week Topic
 ==== =================================
-1    Introduction (`sign-in <https://goo.gl/forms/JS6tM8ldHNnUessc2>`_)
-2    Soldering
+1    `Introduction <https://drive.google.com/open?id=1JeudWFbAMpy737XSTjNGJYcNPEX0c_Jq3AW1dC1o68o>`_ (`sign-in <https://goo.gl/forms/JS6tM8ldHNnUessc2>`_)
+2    `Soldering <https://drive.google.com/open?id=1V5N4e89DgqEiXmZJKs6vsZ2FFsmag4vq6CPFqAPbrhA>`_
 3    Measurements and Schematics
 4    Ohm's Law, Power, and Batteries
 5    Digital Logic
