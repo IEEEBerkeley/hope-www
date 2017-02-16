@@ -26,7 +26,7 @@ Week Topic
 1    `Introduction <https://drive.google.com/open?id=1JeudWFbAMpy737XSTjNGJYcNPEX0c_Jq3AW1dC1o68o>`_ (`sign-in <https://goo.gl/forms/JS6tM8ldHNnUessc2>`_)
 2    `Soldering <https://drive.google.com/open?id=1V5N4e89DgqEiXmZJKs6vsZ2FFsmag4vq6CPFqAPbrhA>`_
 3    `Measurements and Schematics <https://drive.google.com/open?id=1ibTAUqvAglZpUyzHGs1NJHlxm1_-TalA4khlzpFLjBw>`_ (`schematic <blinker.png>`_)
-4    Ohm's Law, Power, and Batteries
+4    `Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/1g2jPTuqtqshloklDNrUQpdp6CSsaBCR1iKPAy3XuBZ0/edit?usp=sharing>`_
 5    Digital Logic
 6    Introduction to Microcontrollers
 7    Silicon and Semiconductors
