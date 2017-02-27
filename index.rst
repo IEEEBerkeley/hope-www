@@ -27,7 +27,7 @@ Week Topic
 2    `Soldering <https://drive.google.com/open?id=1V5N4e89DgqEiXmZJKs6vsZ2FFsmag4vq6CPFqAPbrhA>`_
 3    `Measurements and Schematics <https://drive.google.com/open?id=1ibTAUqvAglZpUyzHGs1NJHlxm1_-TalA4khlzpFLjBw>`_ (`schematic <blinker.png>`_)
 4    `Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/1g2jPTuqtqshloklDNrUQpdp6CSsaBCR1iKPAy3XuBZ0/edit?usp=sharing>`_
-5    Digital Logic
+5    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
 6    Introduction to Microcontrollers
 7    Silicon and Semiconductors
 8    Sensors and Signals
