@@ -30,13 +30,18 @@ Week Topic
 5    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
 6    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_ (`lab <lab6.html>`_)
 7    Silicon and Semiconductors
-8    Sensors and Signals
+8    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_
 9    Amplifiers
 10   Printed Circuit Boards
 11   Final Project
 12   Final Project
 13   Project Presentations
 ==== =================================
+
+
+Outreach
+========
+- `Pi Day <https://docs.google.com/presentation/d/1Sh8kJu3cklHbCxuyOUX8gmO6tu5ymLTC4f35HezohDE/edit?usp=sharing>`_ (2017-03-14)
 
 
 Policies
