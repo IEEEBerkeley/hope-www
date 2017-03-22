@@ -31,7 +31,7 @@ Week Topic
 6    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_ (`lab 6 <lab6.html>`_)
 7    Silicon and Semiconductors
 8    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_ (`lab 8 <lab8.html>`_)
-9    Amplifiers
+9    `Amplifiers <https://docs.google.com/presentation/d/1ZshOF_ZpFz_jq77Q9C9dV_WY-ta3J0Fe0Y71SCWHnO8/edit?usp=sharing>`_ (`week 8 sign-in <https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSffpYmpiP9cLVS7UbmU4St27J5IGLEFLWwONqr0eoGH_uvdOQ/viewform?usp=sf_link>`_) (`circuit simulator <http://www.falstad.com/circuit/>`_)
 10   Printed Circuit Boards
 11   Final Project
 12   Final Project
