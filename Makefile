@@ -1,4 +1,4 @@
-PAGES = index.html lab6.html
+PAGES = index.html lab6.html lab8.html
 EXTRA = blinker.png
 WEBROOT = sdf.org:~/html/hope/
 

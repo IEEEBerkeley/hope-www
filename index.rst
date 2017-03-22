@@ -28,9 +28,9 @@ Week Topic
 3    `Measurements and Schematics <https://drive.google.com/open?id=1ibTAUqvAglZpUyzHGs1NJHlxm1_-TalA4khlzpFLjBw>`_ (`schematic <blinker.png>`_)
 4    `Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/1g2jPTuqtqshloklDNrUQpdp6CSsaBCR1iKPAy3XuBZ0/edit?usp=sharing>`_
 5    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
-6    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_ (`lab <lab6.html>`_)
+6    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_ (`lab 6 <lab6.html>`_)
 7    Silicon and Semiconductors
-8    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_
+8    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_ (`lab 8 <lab8.html>`_)
 9    Amplifiers
 10   Printed Circuit Boards
 11   Final Project
