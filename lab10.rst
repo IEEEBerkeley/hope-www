@@ -10,6 +10,8 @@ light sensor we built during Week 8.
 
 Installing KiCad
 ================
+Download and install KiCad:
+http://kicad-pcb.org/download/
 
 
 Getting Started
@@ -75,7 +77,8 @@ Schematic Capture
 
 Footprint Assignment
 --------------------
-This means we're telling KiCad our parts look like physically on the board.
+We need to tell KiCad what our parts look like phyiscally on the board. In
+other words, we need to assign footprints to each symbol.
 
 #. Tools -> Assign Component Footprints. For each unassigned footprint, find
    the component below and assign it.
@@ -88,17 +91,38 @@ PCB Layout
 ==========
 #. Open the 'Pcbnew' app (3rd from the left).
 
+#. Make sure you're using the newer Cairo canvas. View -> Cairo Canvas.
+
 #. Tools -> Update PCB from Schematics -> Perform PCB Update -> Close.
 
-#. Make this:
+#. In the end we want something that looks like this:
 
    .. image:: led-sensor-pcb.png
       :width: 100%
 
-#. Drag the components until they're in place as shown.
+#. Move the op amp on the board. Move components by mousing over them and
+   typing 'm'. To rotate, type 'r'. Click to place back down.
 
-#. Route the red wires.
+#. Finish placing components on the board. Feel free to place them however
+   you wish, but try to minimize the number of crossing white wires.
 
-#. Switch layers.
+#. Switch to the track tool by typing 'x'. You should route a physical track
+   for each white line you see connecting different pins. Wires of the same
+   color (layer) may cross or overlap only if they're meant to be connected.
 
-#. Route the green wires.
+#. You may realize one layer might not be enough to ensure no overlaps. Type
+   'Page Down' to switch to the bottom layer. 'Page Up' will return you to
+   the top layer.
+
+#. Put your name on. Select 'F. SilkS' from the 'Visibles' right pane. Select
+   the text tool and click on your board. Type in your name, press 'OK', and
+   place it on the board, rotating it if desired.
+
+#. Once you are finished, perform a Design Rules Check. Tools -> DRC ->
+   Start DRC. KiCad will warn you if there are any errors.
+
+#. Admire your handiwork. View -> 3D Viewer.
+
+#. Submit your final DRC report file. In Tools -> DRC, check 'Create Report
+   File' and save it to a file on your computer. Re-run the DRC. Copy and
+   paste the result into today's attendance form.
