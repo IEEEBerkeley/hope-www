@@ -93,7 +93,10 @@ PCB Layout
 
 #. Make sure you're using the newer Cairo canvas. View -> Cairo Canvas.
 
-#. Tools -> Update PCB from Schematics -> Perform PCB Update -> Close.
+#. Tools -> Update PCB from Schematics -> Perform PCB Update -> Close. If
+   this option isn't in your menu, return to the schematic editor and click
+   Tools -> Generate Netlist File -> Generate -> Save -> Replace. Return
+   to the PCBnew and click Tools -> Netlist -> Read Current Netlist -> Yes.
 
 #. In the end we want something that looks like this:
 
