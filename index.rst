@@ -3,10 +3,10 @@ Hands-On Practical Electronics
 ==============================
 .. contents::
 
-| `Spring 2017 <http://decal.berkeley.edu/courses/43>`_
+| `Fall 2017 <http://decal.berkeley.edu/courses/43>`_
 | EE 198 (1 Unit)
 | Wednesday 8-10 PM, 140 Cory Hall
-| ieee-hope@berkeley.edu
+| http://kevinz.sdf.org/hope/
 
 This course is a whirlwind introduction to building useful things with
 electronics. Students will learn basic electronic theory, understand and
@@ -39,19 +39,14 @@ Week Topic
 ==== =================================
 
 
-Outreach
-========
-- `Pi Day <https://docs.google.com/presentation/d/1Sh8kJu3cklHbCxuyOUX8gmO6tu5ymLTC4f35HezohDE/edit?usp=sharing>`_ (2017-03-14)
-
-
 Policies
 ========
 
 Enrollment
 ----------
-We will do our best to accommodate all students who come to the first week
-of class. Students who wish to enroll past the second week of class should
-first contact the course facilitators for approval.
+Enrollment is limited to 40 students on a first-come basis and will be
+finalized during the third week of class. Priority will be given to students
+who consistently attend class.
 
 Course Format
 -------------
@@ -63,12 +58,11 @@ total of 45 hours over the semester.
 Each class begins with a short lecture followed by a hands-on lab. Each lab
 builds on previous weeks' labs. All equipment and materials will be
 provided. Computers will be used during lab. Students may bring their own
-laptops or use lab computers (instructional account provided).
+laptops or use lab computers with a provided EECS instructional account.
 
 The final project is intended to apply the concepts learned in the class to
 a practical or fun project that can be reasonably completed within a few
-weeks. The facilitators will help out with the completion of the projects as
-much as possible.
+weeks.
 
 Attendance
 ----------
@@ -76,25 +70,16 @@ You may miss up to three classes unexcused. If you miss a class, you may
 need to make up the missed lab before the next lecture. Contact the
 instructors to see if make-up is required.
 
-Each additional absence may result in a 10-point deduction from your
-attendance score. Excessive absence may result in a NP.
+Additional, excessive absence may result in a NP.
 
 Grading
 -------
-Your grade is primarily based on attendance and effort in class.
-Participation and completion of labs is strongly advised.
+Your grade is primarily based on completion of labs in class.  The final
+project is graded on effort and a demonstration or description of your work.
+Students need 60% to pass.
 
-Attendance: 60 points
-
-Final Project: 20 points
-    The final project is graded on effort and a demonstration or description
-    of your work.
-
-Decorum and Effort: 20%
-    Decorum and Effort is based on behavior in class, participation and
-    observance of safety instructions.
-
-Students need at least 60 points to pass.
+- Labs: 70%
+- Project: 30%
 
 
 FAQ
@@ -112,4 +97,14 @@ Fill out the first week sign-in to receive the CCN. Please review the
 
 Contact
 =======
-Kevin Zheng <kevinz@berkeley.edu>
+For course-related questions, email ieee-hope@lists.berkeley.edu.
+
+You may also contact the course facilitators in private directly:
+
+- Hall Chen
+- Kevin Zheng <kevinz@berkeley.edu>
+
+
+Outreach
+========
+- `Pi Day <https://docs.google.com/presentation/d/1Sh8kJu3cklHbCxuyOUX8gmO6tu5ymLTC4f35HezohDE/edit?usp=sharing>`_ (2017-03-14)
