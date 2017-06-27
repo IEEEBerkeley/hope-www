@@ -19,6 +19,7 @@ Students are not expected to have any background in electrical engineering.
 
 Timeline
 ========
+*This schedule is tentative and may change at instructor discretion.*
 
 ==== =================================
 Week Topic
@@ -39,69 +40,64 @@ Week Topic
 ==== =================================
 
 
-Policies
-========
-
-Enrollment
-----------
-Enrollment is limited to 40 students on a first-come basis and will be
-finalized during the third week of class. Priority will be given to students
-who consistently attend class.
-
 Course Format
--------------
-This course spans 13 weeks, with two hours of lecture and lab plus an
-additional hour of individual preparation per week. Students are expected to
-spend six hours outside of class to complete their final project. This is a
-total of 45 hours over the semester.
+=============
+This course spans 13 weeks. Class meets for two hours once a week. Students
+are expected to spend an hour a week outside of class reviewing material and
+preparing for class meetings. Final projects are expected to take up to six
+hours outside of class in all.
 
-Each class begins with a short lecture followed by a hands-on lab. Each lab
-builds on previous weeks' labs. All equipment and materials will be
-provided. Computers will be used during lab. Students may bring their own
-laptops or use lab computers with a provided EECS instructional account.
+Each class begins with a short lecture followed by a lab activity. Some labs
+build on previous weeks' labs. All equipment and materials will be provided.
+Computers will be used during lab; students may bring their own laptops or
+use lab computers with provided EECS instructional accounts.
 
 The final project is intended to apply the concepts learned in the class to
 a practical or fun project that can be reasonably completed within a few
 weeks.
 
-Attendance
+Enrollment
 ----------
-You may miss up to three classes unexcused. If you miss a class, you may
-need to make up the missed lab before the next lecture. Contact the
-instructors to see if make-up is required.
-
-Additional, excessive absence may result in a NP.
+CCNs are given out during the first week of class. Enrollment will be
+finalized during the third week of class. Priority will be given to students
+who consistently attend class.
 
 Grading
 -------
-Your grade is primarily based on completion of labs in class.  The final
+Your grade is primarily based on completion of labs in class. The final
 project is graded on effort and a demonstration or description of your work.
 Students need 60% to pass.
 
 - Labs: 70%
 - Project: 30%
 
+Attendance
+----------
+Since grading is primarily based on completion of labs during class,
+students should make a best effort to attend class.
+
+You may miss up to two labs unexcused; no instructor approval is required.
+If you miss a class, you may need to make up the missed lab before the next
+lecture. Labs that require make-up are labeled on the `Timeline`_.
+
+Additional unexcused absences may result in a NP.
+
 
 FAQ
 ===
 *I missed the first class. Can I still enroll?*
 
-Yes. You will be given the CCN during the second week of class. Please check
-the course web page and fill out the first week sign-in.
-
-*I missed more classes and still want to enroll.*
-
-Fill out the first week sign-in to receive the CCN. Please review the
-`attendance`_ policy.
+Yes. You will be given the CCN during the second week of class.
 
 
 Contact
 =======
-For course-related questions, email ieee-hope@lists.berkeley.edu.
+For course-related questions, concerns, or attendance issues, email
+ieee-hope@lists.berkeley.edu.
 
 You may also contact the course facilitators in private directly:
 
-- Hall Chen
+- Hall Chen <hallchen@berkeley.edu>
 - Kevin Zheng <kevinz@berkeley.edu>
 
 
