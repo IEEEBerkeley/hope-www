@@ -24,19 +24,81 @@ Timeline
 ==== =================================
 Week Topic
 ==== =================================
-1    `Introduction <https://drive.google.com/open?id=1JeudWFbAMpy737XSTjNGJYcNPEX0c_Jq3AW1dC1o68o>`_ (`sign-in <https://goo.gl/forms/JS6tM8ldHNnUessc2>`_)
+1    `Introduction <https://drive.google.com/open?id=1JeudWFbAMpy737XSTjNGJYcNPEX0c_Jq3AW1dC1o68o>`_
+     (`sign-in <https://goo.gl/forms/JS6tM8ldHNnUessc2>`_)
+
+     - Preparation: Review course syllabus
+     - Introduction to electronics engineering, overview of course material, syllabus review, address enrollment issues
+
 2    `Soldering <https://drive.google.com/open?id=1V5N4e89DgqEiXmZJKs6vsZ2FFsmag4vq6CPFqAPbrhA>`_
+     (make-up)
+
+     - Preparation: Review department lab safety guidelines
+     - Soldering demonstration with facilitators
+     - Build, troubleshoot, and demonstrate LED blinker with 555 timer
+
 3    `Measurements and Schematics <https://drive.google.com/open?id=1ibTAUqvAglZpUyzHGs1NJHlxm1_-TalA4khlzpFLjBw>`_ (`schematic <blinker.png>`_)
+
+     - Preparation: Review voltage, current, and resistance. Bring circuit from last lab
+     - Learn to use the digital multimeter to measure voltage, current, and resistance
+     - Learn schematic drawing and symbols for common parts
+     - Draw schematics for LED blinker circuit and measure node voltages
+
 4    `Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/1g2jPTuqtqshloklDNrUQpdp6CSsaBCR1iKPAy3XuBZ0/edit?usp=sharing>`_
+
+     - Preparation: Find the capacity of your mobile phone battery
+     - Apply Ohm’s law to predict voltage, current, and resistance in circuits
+     - Determine power consumption of LED blinker circuit
+     - Understand basic battery parameters
+
 5    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
-6    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_ (`lab 6 <lab6.html>`_)
-7    Silicon and Semiconductors
-8    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_ (`lab 8 <lab8.html>`_)
-9    `Amplifiers <https://docs.google.com/presentation/d/1ZshOF_ZpFz_jq77Q9C9dV_WY-ta3J0Fe0Y71SCWHnO8/edit?usp=sharing>`_ (`week 8 sign-in <https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSffpYmpiP9cLVS7UbmU4St27J5IGLEFLWwONqr0eoGH_uvdOQ/viewform?usp=sf_link>`_) (`circuit simulator <http://www.falstad.com/circuit/>`_)
+
+     - Preparation: Review counting in binary
+     - Understand logic levels, digital signals, combinational logic, and clocks
+     - Implement a binary adder using 74xx TTL AOI logic
+
+6    Silicon and Semiconductors
+
+     - Preparation: Go over silicon lecture slides on the HOPE website
+     - Guest lecture from Stanford EE Ph.D student.
+
+7    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_ (`lab 6 <lab6.html>`_)
+     (make-up)
+
+     - Preparation: Set up Arduino IDE
+     - Explain characteristics and features of a modern microcontroller
+     - Learn basic microcontroller programming using C
+     - Implement LED blinker using an Arduino
+
+8    `Amplifiers <https://docs.google.com/presentation/d/1ZshOF_ZpFz_jq77Q9C9dV_WY-ta3J0Fe0Y71SCWHnO8/edit?usp=sharing>`_ (`week 8 sign-in <https://docs.google.com/a/berkeley.edu/forms/d/e/1FAIpQLSffpYmpiP9cLVS7UbmU4St27J5IGLEFLWwONqr0eoGH_uvdOQ/viewform?usp=sf_link>`_) (`circuit simulator <http://www.falstad.com/circuit/>`_)
+
+     - Preparation: Review circuits
+     - Introduce operational amplifiers and common amplifier topologies
+     - Discuss op-amp specifications such as bandwidth and input offset
+     - Build an active low-pass filter as an Ardiuno frontend
+
+9    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_ (`lab 8 <lab8.html>`_)
+
+     - Preparation: Review sine, cosine functions
+     - Introduce AC, capacitors, inductors, filters, and frequency domain
+     - Build and test an LED ambient light sensor
+
 10   `Printed Circuit Boards <https://docs.google.com/presentation/d/1QYZqj06Y5b8uBLrT0Aa8-3H6v3CmBNQoMgbx7Z78tFM/edit?usp=sharing>`_ (`week 10 sign-in <https://docs.google.com/a/berkeley.edu/forms/d/1g1BceCMCuyAJnQ4peR-S08Rh8PoJk1c6iG1CXI-vr6E/edit>`_) (`lab 10 <lab10.html>`_)
+
+     - Preparation: Begin final project brainstorming, form project groups
+     - Demonstrate schematic capture and PCB layout software
+
 11   Final Project
+
+     - Outside class: build final projects
+     - In-class “office hours” with facilitators for project debugging
+
 12   Final Project
+
 13   Project Presentations
+
+     - Final project demonstration and videos
+
 ==== =================================
 
 
