@@ -114,19 +114,25 @@ Week Topic
 
 Course Format
 =============
-This course spans 13 weeks. Class meets for two hours once a week. Students
-are expected to spend an hour a week outside of class reviewing material and
-preparing for class meetings. Final projects are expected to take up to six
-hours outside of class in all.
-
-Each class begins with a short lecture followed by a lab activity. Some labs
-build on previous weeks' labs. All equipment and materials will be provided.
-Computers will be used during lab; students may bring their own laptops or
-use lab computers with provided EECS instructional accounts.
+This course spans 13 weeks. Class meets for two hours once a week. Each
+class begins with a short lecture followed by a lab activity. Some labs
+build on previous weeks' labs. Students are expected to spend an hour a week
+outside of class reviewing material and preparing for class meetings.
 
 The final project is intended to apply the concepts learned in the class to
 a practical or fun project that can be reasonably completed within a few
-weeks.
+weeks. Final projects are expected to take up to six hours of additional
+time outside of class.
+
+Materials
+---------
+All equipment and materials will be provided. Computers will be used during
+lab; students may bring their own laptops or use lab computers with provided
+EECS instructional accounts.
+
+Our optional, supplemental text is `Electronics`_ by Ali M. Niknejad.
+
+.. _Electronics: https://d1b10bmlvqabco.cloudfront.net/attach/icgvkl3p4x5m0/gyor3wfgyon205/if0gzqqzwtg7/ee16_electronics.pdf
 
 Enrollment
 ----------
