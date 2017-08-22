@@ -3,7 +3,7 @@ Hands-On Practical Electronics
 ==============================
 .. contents::
 
-| `Fall 2017 <http://decal.berkeley.edu/courses/43>`_
+| `Fall 2017 <http://decal.berkeley.edu/courses/4099>`_
 | EE 198 (1 Unit)
 | Wednesday 8-10 PM, 140 Cory Hall
 | http://kevinz.sdf.org/hope/
@@ -19,6 +19,8 @@ Students are not expected to have any background in electrical engineering.
 
 Timeline
 ========
+Our first class for Fall 2017 is on **Wednesday, August 30th**.
+
 *This schedule is tentative and may change at instructor discretion.*
 
 ==== =================================
