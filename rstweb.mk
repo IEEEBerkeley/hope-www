@@ -8,7 +8,10 @@ clean:
 publish: html
 	scp $(PAGES) $(EXTRA) $(WEBROOT)
 
-.SUFFIXES: .rst .html
+.SUFFIXES: .html .ipynb .rst
 
 .rst.html: style.css
 	rst2html --stylesheet-path html4css1.css,style.css $< $@
+
+.ipynb.html:
+	jupyter nbconvert --to html $<

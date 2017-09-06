@@ -10,6 +10,3 @@ syllabus.pdf: syllabus.tex
 syllabus.tex: Makefile index.rst
 	rst2latex index.rst syllabus.tex
 	sed -i .bak -e '/contents/d' syllabus.tex
-
-lab6.html: lab6.ipynb
-	jupyter nbconvert --to html $?
