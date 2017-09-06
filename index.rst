@@ -26,7 +26,7 @@ Our first class for Fall 2017 is on **Wednesday, August 30th**.
 ==== =================================
 Week Topic
 ==== =================================
-1    `Introduction <https://drive.google.com/open?id=1JeudWFbAMpy737XSTjNGJYcNPEX0c_Jq3AW1dC1o68o>`_
+1    `Introduction <https://docs.google.com/presentation/d/1V1GUiS81OiZVnL8c98kv4PT42Tgwh_WP_Cdp0BddmdU/edit?usp=sharing>`_
 
      - *Preparation: Review course syllabus*
      - Guest lecture from Stanford EE Ph.D student on Moore's Law and
