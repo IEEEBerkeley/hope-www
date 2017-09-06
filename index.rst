@@ -28,41 +28,33 @@ Week Topic
 ==== =================================
 1    `Introduction <https://docs.google.com/presentation/d/1V1GUiS81OiZVnL8c98kv4PT42Tgwh_WP_Cdp0BddmdU/edit?usp=sharing>`_
 
-     - *Preparation: Review course syllabus*
-     - Guest lecture from Stanford EE Ph.D student on Moore's Law and
-       current research in semiconductors
+     - *Preparation:* Review syllabus
+     - Introduction to electrical engineering, Moore's Law, and current
+       research in electrical engineering by guest lecturer Eric Wu
 
-2    `Soldering <https://drive.google.com/open?id=1V5N4e89DgqEiXmZJKs6vsZ2FFsmag4vq6CPFqAPbrhA>`_
-     (make-up)
+2    Soldering, Measurements, and Schematics
 
-     - *Preparation: Review department lab safety guidelines*
-     - Soldering demonstration with facilitators
-     - Build, troubleshoot, and demonstrate LED blinker with 555 timer
+     - *Preparation:* Review `lab policies <http://iesg.eecs.berkeley.edu/labs/labinfo/labrules.asp>`_
+     - Learn how to solder
+     - Assemble, troubleshoot, and demonstrate LED blinker with 555 timer
+     - Use the digital multimeter to measure voltage, current, and resistance
+     - Understand schematics and schematic symbols for common parts
+     - Draw schematics for LED blinker circuit
 
-3    `Measurements and Schematics <https://drive.google.com/open?id=1ibTAUqvAglZpUyzHGs1NJHlxm1_-TalA4khlzpFLjBw>`_
-     (`schematic <blinker.png>`_)
-
-     - *Preparation: Review voltage, current, and resistance. Bring circuit
-       from last lab.*
-     - Learn to use the digital multimeter to measure voltage, current, and
-       resistance
-     - Learn schematic drawing and symbols for common parts
-     - Draw schematics for LED blinker circuit and measure node voltages
-
-4    `Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/1g2jPTuqtqshloklDNrUQpdp6CSsaBCR1iKPAy3XuBZ0/edit?usp=sharing>`_
+3    `Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/1g2jPTuqtqshloklDNrUQpdp6CSsaBCR1iKPAy3XuBZ0/edit?usp=sharing>`_
 
      - *Preparation: Find the capacity of your mobile phone battery*
      - Apply Ohm’s law to predict voltage, current, and resistance in circuits
      - Determine power consumption of LED blinker circuit
      - Understand basic battery parameters
 
-5    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
+4    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
 
      - *Preparation: Review counting in binary*
      - Understand logic levels, digital signals, combinational logic, and clocks
      - Implement a binary adder using 74xx TTL AOI logic
 
-6    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_
+5    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_
      (`lab 6 <lab6.html>`_)
      (make-up)
 
@@ -71,7 +63,7 @@ Week Topic
      - Learn basic microcontroller programming using C
      - Implement LED blinker using an Arduino
 
-7    `Amplifiers <https://docs.google.com/presentation/d/1ZshOF_ZpFz_jq77Q9C9dV_WY-ta3J0Fe0Y71SCWHnO8/edit?usp=sharing>`_
+6    `Amplifiers <https://docs.google.com/presentation/d/1ZshOF_ZpFz_jq77Q9C9dV_WY-ta3J0Fe0Y71SCWHnO8/edit?usp=sharing>`_
      (`circuit simulator <http://www.falstad.com/circuit/>`_)
 
      - *Preparation: Review circuits*
@@ -79,20 +71,20 @@ Week Topic
      - Discuss op-amp specifications such as bandwidth and input offset
      - Build an active low-pass filter as an Ardiuno frontend
 
-8    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_
+7    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_
      (`lab 8 <lab8.html>`_)
 
      - *Preparation: Review sine, cosine functions*
      - Introduce AC, capacitors, inductors, filters, and frequency domain
      - Build and test an LED ambient light sensor
 
-9    Schematic Capture and Simulation
+8    Schematic Capture and Simulation
 
      - *Preparation: Install KiCad and LTSpice*
      - Use schematic capture on the LED ambient light sensor
      - Simulate circuit in LTSpice
 
-10   `Printed Circuit Boards <https://docs.google.com/presentation/d/1QYZqj06Y5b8uBLrT0Aa8-3H6v3CmBNQoMgbx7Z78tFM/edit?usp=sharing>`_
+9    `Printed Circuit Boards <https://docs.google.com/presentation/d/1QYZqj06Y5b8uBLrT0Aa8-3H6v3CmBNQoMgbx7Z78tFM/edit?usp=sharing>`_
      (`lab 10 <lab10.html>`_)
 
      - *Preparation: Begin final project brainstorming, form project groups*
@@ -100,10 +92,12 @@ Week Topic
      - Place components and route nets for a PCB
      - Run DRC and generate design files for PCB production
 
-11   Final Project
+10   Final Project
 
      - Outside class: build final projects
      - In-class “office hours” with facilitators for project debugging
+
+11   Final Project
 
 12   Final Project
 
