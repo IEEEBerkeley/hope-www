@@ -167,7 +167,9 @@ FAQ
 ===
 *I missed the first class. Can I still enroll?*
 
-Yes. You will be given the CCN during the second week of class.
+Yes. You will be given the CCN when you come to the second week of class. Keep
+in mind that we may not have enough seats for you to enroll, and that you will
+be joining the class with one absence.
 
 
 Contact
