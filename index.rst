@@ -40,7 +40,7 @@ Week Topic
      - Understand schematics and schematic symbols for common parts
      - Draw schematics for LED blinker circuit
 
-3    `Measurement, Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/16JfwM_R9d-kDkwtJGx3r9-rxD6CT-VtoLSr6ENg_jK8/edit?usp=sharing>`_ (`lab <lab3.html>`_)
+3    `Measurement, Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/16JfwM_R9d-kDkwtJGx3r9-rxD6CT-VtoLSr6ENg_jK8/edit?usp=sharing>`_ (`lab 3 <lab3.html>`_)
 
      - *Preparation: Find the capacity of your mobile phone battery*
      - Use the digital multimeter to measure voltage, current, and resistance
@@ -48,7 +48,7 @@ Week Topic
      - Determine power consumption of LED blinker circuit
      - Understand basic battery parameters
 
-4    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
+4    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_ (`lab 4 <lab4.html>`_)
 
      - *Preparation: Review counting in binary*
      - Understand logic levels, digital signals, combinational logic, and clocks
