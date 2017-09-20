@@ -123,8 +123,8 @@ time outside of class.
 Materials
 ---------
 All equipment and materials will be provided. Computers will be used during
-lab; students may bring their own laptops or use lab computers with provided
-EECS instructional accounts.
+lab; students may bring their own laptops or use lab computers with their
+`EECS instructional accounts <http://inst.eecs.berkeley.edu/webacct/>`_.
 
 Our optional, supplemental text is `Electronics`_ by Ali M. Niknejad.
 
