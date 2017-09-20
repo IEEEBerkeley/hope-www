@@ -32,18 +32,18 @@ Week Topic
      - Introduction to electrical engineering, Moore's Law, and current
        research in electrical engineering by guest lecturer Eric Wu
 
-2    Soldering, Measurements, and Schematics
+2    `Soldering and Schematics <https://docs.google.com/presentation/d/17NMX0_tvHMxNt_AMK2Vtq0mCD9GJMRTYzkVDENW4wk8/edit?usp=sharing>`_ (`schematic <blinker.png>`_)
 
      - *Preparation:* Review `lab policies <http://iesg.eecs.berkeley.edu/labs/labinfo/labrules.asp>`_
      - Learn how to solder
      - Assemble, troubleshoot, and demonstrate LED blinker with 555 timer
-     - Use the digital multimeter to measure voltage, current, and resistance
      - Understand schematics and schematic symbols for common parts
      - Draw schematics for LED blinker circuit
 
-3    `Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/1g2jPTuqtqshloklDNrUQpdp6CSsaBCR1iKPAy3XuBZ0/edit?usp=sharing>`_
+3    `Measurement, Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/16JfwM_R9d-kDkwtJGx3r9-rxD6CT-VtoLSr6ENg_jK8/edit?usp=sharing>`_ (`lab <lab3.html>`_)
 
      - *Preparation: Find the capacity of your mobile phone battery*
+     - Use the digital multimeter to measure voltage, current, and resistance
      - Apply Ohm’s law to predict voltage, current, and resistance in circuits
      - Determine power consumption of LED blinker circuit
      - Understand basic battery parameters
