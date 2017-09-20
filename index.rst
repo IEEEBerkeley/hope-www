@@ -171,11 +171,6 @@ Contact
 For course-related questions, concerns, or attendance issues, email
 ieee-hope@lists.berkeley.edu.
 
-You may also contact the course facilitators in private directly:
-
-- Hall Chen <hallchen@berkeley.edu>
-- Kevin Zheng <kevinz@berkeley.edu>
-
 
 Outreach
 ========
