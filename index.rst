@@ -42,7 +42,6 @@ Week Topic
 
 3    `Measurement, Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/16JfwM_R9d-kDkwtJGx3r9-rxD6CT-VtoLSr6ENg_jK8/edit?usp=sharing>`_ (`lab 3 <lab3.html>`_)
 
-     - *Preparation: Find the capacity of your mobile phone battery*
      - Use the digital multimeter to measure voltage, current, and resistance
      - Apply Ohm’s law to predict voltage, current, and resistance in circuits
      - Determine power consumption of LED blinker circuit
@@ -50,9 +49,10 @@ Week Topic
 
 4    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_ (`lab 4 <lab4.html>`_)
 
-     - *Preparation: Review counting in binary*
-     - Understand logic levels, digital signals, combinational logic, and clocks
-     - Implement a binary adder using 74xx TTL AOI logic
+     - Understand logic levels, binary, and their relationship to voltage
+     - Recognize AOI logic gates and draw their truth tables
+     - Use truth tables to establish logic equivalence and simplify logic
+     - Implement combinational logic using 74xx TTL
 
 5    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_
      (`lab 6 <lab6.html>`_)
