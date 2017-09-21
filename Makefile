@@ -4,9 +4,5 @@ WEBROOT = sdf.org:~/html/hope/
 
 .include "rstweb.mk"
 
-syllabus.pdf: syllabus.tex
-	pdflatex syllabus.tex
-
-syllabus.tex: Makefile index.rst
-	rst2latex index.rst syllabus.tex
-	sed -i .bak -e '/contents/d' syllabus.tex
+syllabus.rst: index.rst
+	sed -e '/^.. contents/d' index.rst > syllabus.rst
