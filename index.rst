@@ -72,7 +72,7 @@ Week Topic
      - Build an active low-pass filter as an Ardiuno frontend
 
 7    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_
-     (`lab 8 <lab8.html>`_)
+     (`communicating with light <light-comms.html>`_)
 
      - *Preparation: Review sine, cosine functions*
      - Introduce AC, capacitors, inductors, filters, and frequency domain
