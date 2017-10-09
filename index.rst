@@ -175,3 +175,11 @@ ieee-hope@lists.berkeley.edu.
 Outreach
 ========
 - `Pi Day <https://docs.google.com/presentation/d/1Sh8kJu3cklHbCxuyOUX8gmO6tu5ymLTC4f35HezohDE/edit?usp=sharing>`_ (2017-03-14)
+
+----
+
+.. image:: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+   :alt: Creative Commons License
+   :target: http://creativecommons.org/licenses/by-sa/4.0/
+
+This course is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`_.
