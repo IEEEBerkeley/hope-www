@@ -54,11 +54,11 @@ Week Topic
      - Use truth tables to establish logic equivalence and simplify logic
      - Implement combinational logic using 74xx TTL
 
-5    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1L4rAwnCeKv4PU6jPSrPBH_dVItmxYyw1lVik3DUGDoo/edit?usp=sharing>`_
-     (`lab 6 <lab6.html>`_)
+5    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1XiTt_lH5PZnhaSt5dSoF9CNK0IY0aOstyY64y7tWgho/edit?usp=sharing>`_
+     (`microcontroller lab <microcontroller_lab.html>`_)
      (make-up)
 
-     - *Preparation: Set up Arduino IDE on your laptop*
+     - Set up the `Arduino IDE <https://www.arduino.cc/en/Main/Software>`_ on your laptop
      - Explain characteristics and features of a modern microcontroller
      - Learn basic microcontroller programming using C
      - Implement LED blinker using an Arduino
