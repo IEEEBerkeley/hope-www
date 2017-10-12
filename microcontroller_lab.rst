@@ -2,7 +2,7 @@
 Microcontrollers
 ================
 
-In this lab, you will build circuits which are controlled by the Arduino microcontroller.
+In this lab, you will build microcontroller circuits on the Arduino Uno.
 
 .. contents::
 .. sectnum::
@@ -12,26 +12,32 @@ Installing Arduino IDE
 Download and install:
 https://www.arduino.cc/en/Main/Software
 
+
 Blinking LED
-====================
-In this part of the lab, you will make an LED blink once every second, twice every second, and six times every second.
+============
+Earlier in this class, you soldered a board with a circuit that flashed LEDs
+using analog circuits. This circuit had many components and was hard to modify
+once you built it.
+
+In this part of the lab, you will make an LED blink once every second, twice
+every second, and six times every second.
 
 Assembling the Circuit
 -----------------------
 
    .. image:: ledblink_demo.jpg
-      :width: 100%
       
 You will need an LED and 300 Ω resistor to assemble this circuit.
 
-#. Connect the anode of the LED to the resistor, and then connect the other end of the resistor to any one of the digital output pins of the Arduino numbered 2 to 13. Also onnect the LED’s cathode to ground.
+#. Connect the anode (positive terminal) of the LED to the resistor and the
+   cathode (negative terminal) to ground.
+#. Connect the other end of the resistor to any one of the digital output pins of the Arduino numbered 2 to 13.
 
 Writing a Blink Sketch
 ----------------------
 You will use the program shown in the lecture slides. 
 
    .. image:: blink_code.png
-      :width: 100%
      
 #. Copy the program into your Arduino IDE.
 
@@ -49,7 +55,6 @@ Assembling the Circuit
 ----------------------
 
    .. image:: lightmeter_demo.png
-      :width: 100%
       
 In order to start off, you will need five 300 Ω resistors, a 1 kΩ resistor and a photoresistor.
 
@@ -64,7 +69,6 @@ We first have to make sure our sensor is sending data to the Arduino board befor
 #. Copy this code into your Arduino IDE.
 
    .. image:: sensor_test.png
-      :width: 100%
 
 #. In this program, we are taking the sensor information from pin A0 and displaying that data in the Serial Monitor. The Serial Monitor is a feature of the Arduino IDE, and can be accessed by clicking on the magnifying glass icon in top right corner of the program or pressing Ctrl + M (Command + M).
 
@@ -77,4 +81,13 @@ We first have to make sure our sensor is sending data to the Arduino board befor
 Hint: Use conditional statements (such as if, else if, and else) to control your LEDs. Read more about them here: https://www.arduino.cc/en/Reference/If You may have also noticed that your sensor gives you values from 0 - 1024. In order to use this information, you have to use the built-in maps function: https://www.arduino.cc/en/Reference/Map
 
 
+Extra Fun
+=========
 
+Serial Communication
+--------------------
+#. Write and test a program that echos characters sent to the Arduino back to
+   the computer.
+
+#. Using serial communication, write a program that blinks the LED a certain
+   number of times based on the number sent to it via the serial interface.
