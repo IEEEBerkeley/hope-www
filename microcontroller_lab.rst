@@ -18,14 +18,21 @@ In this part of the lab, you will make an LED blink once every second, twice eve
 
 Assembling the Circuit
 -----------------------
+
+   .. image:: ledblink_demo.png
+      :width: 100%
+      
 You will need an LED and 300 Ω resistor to assemble this circuit.
 
 #. Connect the anode of the LED to the resistor, and then connect the other end of the resistor to any one of the digital output pins of the Arduino numbered 2 to 13. Also onnect the LED’s cathode to ground.
 
 Writing a Blink Sketch
 ----------------------
-You will use the program shown in the lecture slides. Here it is.
+You will use the program shown in the lecture slides. 
 
+   .. image:: blink_led.png
+      :width: 100%
+     
 #. Copy the program into your Arduino IDE.
 
 #. Upload your program by pressing the on screen upload or Ctrl + U. When you press upload, Arduino in fact compiles your compiles your program. In other words, the Arduino IDE lets you know if there errors in your code. If you want to just compile, and not upload, then you can press the compile button on screen or Ctrl + R.
@@ -40,6 +47,10 @@ For this part of the lab, you will creating a light meter which measures an amou
 
 Assembling the Circuit
 ----------------------
+
+   .. image:: lightmeter_demo.png
+      :width: 100%
+      
 In order to start off, you will need five 300 Ω resistors, a 1 kΩ resistor and a photoresistor.
 
 #. On the breadboard, connect each LED cathode (the shorter lead) to ground. Then, connect every LED anode (the longer lead) to a 300 Ω resistor. It is completeley up to you which of the Arduino digital pins you want to connect the resistors to.
@@ -51,6 +62,9 @@ Writing a Meter Sketch
 We first have to make sure our sensor is sending data to the Arduino board before we begin to program the LEDs.
 
 #. Copy this code into your Arduino IDE.
+
+   .. image:: sensor_test.png
+      :width: 100%
 
 #. In this program, we are taking the sensor information from pin A0 and displaying that data in the Serial Monitor. The Serial Monitor is a feature of the Arduino IDE, and can be accessed by clicking on the magnifying glass icon in top right corner of the program or pressing Ctrl + M (Command + M).
 
