@@ -19,7 +19,7 @@ In this part of the lab, you will make an LED blink once every second, twice eve
 Assembling the Circuit
 -----------------------
 
-   .. image:: ledblink_demo.png
+   .. image:: ledblink_demo.jpg
       :width: 100%
       
 You will need an LED and 300 Ω resistor to assemble this circuit.
@@ -30,7 +30,7 @@ Writing a Blink Sketch
 ----------------------
 You will use the program shown in the lecture slides. 
 
-   .. image:: blink_led.png
+   .. image:: blink_code.png
       :width: 100%
      
 #. Copy the program into your Arduino IDE.
