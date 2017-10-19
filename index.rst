@@ -78,11 +78,11 @@ Week Topic
      - Introduce AC, capacitors, inductors, filters, and frequency domain
      - Build and test an LED ambient light sensor
 
-8    Schematic Capture and Simulation
+8    Schematic Capture and Simulation (`Simulation lab <ltspice_lab.html>`_)
 
      - *Preparation: Install KiCad and LTSpice*
-     - Use schematic capture on the LED ambient light sensor
      - Simulate circuit in LTSpice
+     - Use schematic capture on the LED ambient light sensor (next week's lab)
 
 9    `Printed Circuit Boards <https://docs.google.com/presentation/d/1QYZqj06Y5b8uBLrT0Aa8-3H6v3CmBNQoMgbx7Z78tFM/edit?usp=sharing>`_
      (`lab 10 <lab10.html>`_)
