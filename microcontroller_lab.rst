@@ -91,3 +91,9 @@ Serial Communication
 
 #. Using serial communication, write a program that blinks the LED a certain
    number of times based on the number sent to it via the serial interface.
+
+Interactive Computation
+-----------------------
+So far, every time you wanted to make a program change you had to re-compile
+and upload a binary to the Arduino. Using serial communication, how would you
+make it so that you could program the Arduino on-the-fly?
