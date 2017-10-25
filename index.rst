@@ -32,7 +32,7 @@ Week Topic
      - Introduction to electrical engineering, Moore's Law, and current
        research in electrical engineering by guest lecturer Eric Wu
 
-2    `Soldering and Schematics <https://docs.google.com/presentation/d/17NMX0_tvHMxNt_AMK2Vtq0mCD9GJMRTYzkVDENW4wk8/edit?usp=sharing>`_ (`schematic <blinker.png>`_)
+2    `Soldering and Schematics <https://docs.google.com/presentation/d/17NMX0_tvHMxNt_AMK2Vtq0mCD9GJMRTYzkVDENW4wk8/edit?usp=sharing>`_
 
      - *Preparation:* Review `lab policies <http://iesg.eecs.berkeley.edu/labs/labinfo/labrules.asp>`_
      - Learn how to solder
@@ -40,14 +40,14 @@ Week Topic
      - Understand schematics and schematic symbols for common parts
      - Draw schematics for LED blinker circuit
 
-3    `Measurement, Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/16JfwM_R9d-kDkwtJGx3r9-rxD6CT-VtoLSr6ENg_jK8/edit?usp=sharing>`_ (`lab 3 <lab3.html>`_)
+3    `Measurement, Ohm's Law, Power, and Batteries <https://docs.google.com/presentation/d/16JfwM_R9d-kDkwtJGx3r9-rxD6CT-VtoLSr6ENg_jK8/edit?usp=sharing>`_
 
      - Use the digital multimeter to measure voltage, current, and resistance
      - Apply Ohm’s law to predict voltage, current, and resistance in circuits
      - Determine power consumption of LED blinker circuit
      - Understand basic battery parameters
 
-4    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_ (`lab 4 <lab4.html>`_)
+4    `Digital Logic <https://docs.google.com/presentation/d/1q7Mee7jhD04bXGtXMSydEP8WgvzXqiOVUtTKF28A2nE/edit?usp=sharing>`_
 
      - Understand logic levels, binary, and their relationship to voltage
      - Recognize AOI logic gates and draw their truth tables
@@ -55,8 +55,6 @@ Week Topic
      - Implement combinational logic using 74xx TTL
 
 5    `Introduction to Microcontrollers <https://docs.google.com/presentation/d/1XiTt_lH5PZnhaSt5dSoF9CNK0IY0aOstyY64y7tWgho/edit?usp=sharing>`_
-     (`microcontroller lab <microcontroller_lab.html>`_)
-     (make-up)
 
      - Set up the `Arduino IDE <https://www.arduino.cc/en/Main/Software>`_ on your laptop
      - Explain characteristics and features of a modern microcontroller
@@ -64,7 +62,6 @@ Week Topic
      - Implement LED blinker using an Arduino
 
 6    `Amplifiers <https://docs.google.com/presentation/d/1ZshOF_ZpFz_jq77Q9C9dV_WY-ta3J0Fe0Y71SCWHnO8/edit?usp=sharing>`_
-     (`circuit simulator <http://www.falstad.com/circuit/>`_)
 
      - *Preparation: Review circuits*
      - Introduce operational amplifiers and common amplifier topologies
@@ -72,20 +69,18 @@ Week Topic
      - Build an active low-pass filter as an Ardiuno frontend
 
 7    `Sensors and Signals <https://docs.google.com/presentation/d/1B0Imht6UXSRAs7mPj-C2r4lP4X1SzNJn0NxEhjcb1so/edit?usp=sharing>`_
-     (`communicating with light <light-comms.html>`_)
 
      - *Preparation: Review sine, cosine functions*
      - Introduce AC, capacitors, inductors, filters, and frequency domain
      - Build and test an LED ambient light sensor
 
-8    Schematic Capture and Simulation (`Simulation lab <ltspice_lab.html>`_) (`download ZIP <http://bit.ly/hopespicelab>`_)
+8    Schematic Capture and Simulation (`Simulation lab <labs/simulation/ltspice_lab.html>`_) (`download ZIP <http://bit.ly/hopespicelab>`_)
 
      - *Preparation: Install KiCad and LTSpice*
      - Simulate circuit in LTSpice
      - Use schematic capture on the LED ambient light sensor (next week's lab)
 
-9    `Printed Circuit Boards <https://docs.google.com/presentation/d/1QYZqj06Y5b8uBLrT0Aa8-3H6v3CmBNQoMgbx7Z78tFM/edit?usp=sharing>`_
-     (`lab 10 <lab10.html>`_)
+9    `Printed Circuit Boards <https://docs.google.com/presentation/d/1QYZqj06Y5b8uBLrT0Aa8-3H6v3CmBNQoMgbx7Z78tFM/edit?usp=sharing>`_ (`PCB lab <labs/pcb/pcb.html>`_)
 
      - *Preparation: Begin final project brainstorming, form project groups*
      - Learn how printed circuit boards (PCBs) are manufactured
