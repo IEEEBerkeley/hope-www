@@ -2,54 +2,37 @@
 LED Light Sensor PCB
 ====================
 
-We will be building an Arduino Uno extension module ('shield') with the LED
-light sensor we built during Week 8.
+In this lab, we will build a printed circuit board (PCB) for our LED light
+sensor.
 
 .. contents::
 .. sectnum::
 
-Installing KiCad
-================
-Download and install KiCad:
-http://kicad-pcb.org/download/
-
 
 Getting Started
 ===============
-1. Start KiCad.
+#. `Download and install KiCad <http://kicad-pcb.org/download/>`_.
 
-#. File -> New Project -> New Project From Template
+#. Start KiCad.
 
-#. Create a new folder where you'd like to save your project. Open the
-   directory you just created.
-
-#. Under 'System Templates', select 'Arduino Uno' and press 'OK'.
-
-The following steps are optional:
-
-5. Open the 'Pcbnew' app (3rd from the left). This is the template board with
-   the shield that will fit over the Arduino.
-
-#. View -> 3D Viewer. This is your unpopulated board.
+#. File → New Project → New Project. A prompt will appear asking where to save
+   your project. Choose a name and create your project.
 
 
 Schematic Capture
 =================
-1. Open the 'Eeschema' app (1st from the left). This is a mostly empty
-   schematic populated with the shield connectors.
+#. Open the 'Eeschema' app (1st from the left).
 
 #. We want to add components to build this:
 
    .. image:: led-sensor.png
-      :width: 100%
 
-#. Press 'a' and search for 'LMC6082'. We will be using this instead of the
-   LMC6482 we actually used in lab because KiCad doesn't have this part in
-   its library yet. Open the drop-down and select 'Unit A'. Place the unit on
-   the schematic. Repeat with 'Unit B'. Press 'ESC' to exit insert mode.
+#. Press 'a' and search for 'LMC6482'. If it does not exist, try the
+   'LMC6082'. Open the drop-down and select 'Unit A'. Place the unit on the
+   schematic. Repeat with 'Unit B'. Press 'ESC' to exit insert mode.
 
 #. Flip Unit A horizontally. Right click Unit A of the op amp and Orient
-   Component -> Mirror --.
+   Component → Mirror --.
 
 #. Press 'a' and search for 'R'. Place 3 resistors as shown in the schematic.
    To rotate before placing, press 'r' before placing the component.
@@ -64,6 +47,8 @@ Schematic Capture
 
 #. Place 5 grounds ('GND') as shown.
 
+#. Place a 1×3 connector ('CONN_01x03') as shown.
+
 #. Now we need to hook everything up with wires. Move your mouse to where you
    want to start a wire, press 'w', click around to snap wire, and click on
    a pin to end the wire. Repeat until the schematic is fully captured.
@@ -73,35 +58,43 @@ Schematic Capture
    Omit units.
 
 #. Assign unique numbers to each component. Do this automatically by using
-   Tools -> Annotate Schematic -> Annotate -> OK.
+   Tools → Annotate Schematic → Annotate → OK.
 
 Footprint Assignment
 --------------------
-We need to tell KiCad what our parts look like phyiscally on the board. In
+We need to tell KiCad what our parts look like physically on the board. In
 other words, we need to assign footprints to each symbol.
 
-#. Tools -> Assign Component Footprints. For each unassigned footprint, find
+#. Tools → Assign Component Footprints. For each unassigned footprint, find
    the component below and assign it.
 
    .. image:: led-sensor-footprints.png
-      :width: 100%
 
 
 PCB Layout
 ==========
 #. Open the 'Pcbnew' app (3rd from the left).
 
-#. Make sure you're using the newer Cairo canvas. View -> Cairo Canvas.
+#. Make sure you're using the newer Cairo canvas. View → Cairo Canvas.
 
-#. Tools -> Update PCB from Schematics -> Perform PCB Update -> Close. If
+#. Design Rules → Design Rules → Net Classes Editor. We will be using
+   conservative design rules that can be fabricated using a 1/32" drill bit on
+   an `Othermill <https://support.bantamtools.com/hc/en-us/articles/115003453943-Design-Considerations>`_:
+
+   .. image:: drc.png
+
+#. Design Rules → Layer Setup. At the top left, set Preset Layer Groupings to
+   "Two layers, parts on Back only" with a board thickness of 1.54 mm. Using
+   the Othermill requires that we place the components on the back.
+
+#. Tools → Update PCB from Schematics → Perform PCB Update → Close. If
    this option isn't in your menu, return to the schematic editor and click
-   Tools -> Generate Netlist File -> Generate -> Save -> Replace. Return
-   to the PCBnew and click Tools -> Netlist -> Read Current Netlist -> Yes.
+   Tools → Generate Netlist File → Generate → Save → Replace. Return
+   to the PCBnew and click Tools → Netlist → Read Current Netlist → Yes.
 
 #. In the end we want something that looks like this:
 
    .. image:: led-sensor-pcb.png
-      :width: 100%
 
 #. Move the op amp on the board. Move components by mousing over them and
    typing 'm'. To rotate, type 'r'. Click to place back down.
@@ -121,11 +114,14 @@ PCB Layout
    the text tool and click on your board. Type in your name, press 'OK', and
    place it on the board, rotating it if desired.
 
-#. Once you are finished, perform a Design Rules Check. Tools -> DRC ->
-   Start DRC. KiCad will warn you if there are any errors.
+#. Add edge cuts for the board. Select the 'Edge.Cuts' layer and draw a
+   rectangle that contains all the footprints on your board. You may choose to
+   draw rounded corners, too.
 
-#. Admire your handiwork. View -> 3D Viewer.
+#. Once you are finished, perform a Design Rules Check. Tools → DRC → Start
+   DRC. KiCad will warn you if there are any errors. Correct your design until
+   there are no more DRC violations.
 
-#. Submit your final DRC report file. In Tools -> DRC, check 'Create Report
-   File' and save it to a file on your computer. Re-run the DRC. Copy and
-   paste the result into today's attendance form.
+#. Admire your handiwork. View → 3D Viewer.
+
+#. Show your DRC report to an instructor for check-off.
