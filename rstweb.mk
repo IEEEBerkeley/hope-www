@@ -4,7 +4,7 @@ clean:
 	rm -f $(PAGES)
 
 publish: html
-	scp $(PAGES) $(EXTRA) $(WEBROOT)
+	rsync -avm --delete --include='*.html' --include='*.png' --include='*/' --exclude='*' ./ $(WEBROOT)
 
 .PHONY: clean html publish
 

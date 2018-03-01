@@ -8,7 +8,7 @@ PAGES = index.html \
 
 EXTRA = blinker.png led-sensor.png led-sensor-footprints.png led-sensor-pcb.png led-tx.png lightmeter_demo.png ledblink_demo.jpg blink_code.png sensor_test.png \
 				lt_logo.png ltspice_open.png ltspice_task1.png ltspice_task2_schematic.png ltspice_task2_simulation.png ltspice_task2_simulation2.png trans_sim.asc
-WEBROOT = sdf.org:~/html/hope/
+WEBROOT = ieee:/home/hope/public_html/hope/
 
 .include "rstweb.mk"
 
