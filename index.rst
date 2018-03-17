@@ -103,6 +103,20 @@ Week Topic
 ==== =================================
 
 
+Resources
+=========
+Our optional, supplemental text is `Electronics`_ by Ali M. Niknejad.
+
+.. _Electronics: https://d1b10bmlvqabco.cloudfront.net/attach/icgvkl3p4x5m0/gyor3wfgyon205/if0gzqqzwtg7/ee16_electronics.pdf
+
+Simulation
+----------
+- For absolute beginners: `PhET Circuit Construction Kit <https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_en.html>`_
+
+- For beginning and intermediate students: `Falstad Circuit Simulator <http://www.falstad.com/circuit/circuitjs.html>`_
+
+- For advanced students: `LTspice <http://www.linear.com/designtools/software/#LTspice>`_
+
 Course Format
 =============
 This course spans 13 weeks. Class meets for two hours once a week. Each
@@ -120,10 +134,6 @@ Materials
 All equipment and materials will be provided. Computers will be used during
 lab; students may bring their own laptops or use lab computers with their
 `EECS instructional accounts <http://inst.eecs.berkeley.edu/webacct/>`_.
-
-Our optional, supplemental text is `Electronics`_ by Ali M. Niknejad.
-
-.. _Electronics: https://d1b10bmlvqabco.cloudfront.net/attach/icgvkl3p4x5m0/gyor3wfgyon205/if0gzqqzwtg7/ee16_electronics.pdf
 
 Enrollment
 ----------
