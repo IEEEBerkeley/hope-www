@@ -4,7 +4,7 @@ clean:
 	rm -f $(PAGES)
 
 publish: html
-	rsync -avm --delete --include='*.html' --include='*.png' --include='*/' --exclude='*' ./ $(WEBROOT)
+	rsync -avm --include='*.css' --include='*.html' --include='*.js' --include='*.png' --include='*/' --exclude='*' ./ $(WEBROOT)
 
 .PHONY: clean html publish
 
