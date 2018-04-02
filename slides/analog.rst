@@ -74,7 +74,7 @@ rather than a continuous spectrum
 
 Making Measurements
 ===================
-Most analog-to-digital converters (ADCs) can only operate on voltages.
+Most *analog-to-digital converters* (ADCs) can only operate on voltages.
 
 - To measure a physical quantity, use a process that converts that quantity to
   a voltage
@@ -102,9 +102,18 @@ What's Voltage?
   
   - 1 V = 1 Joule per Coulomb
 
-- In conductors, obeys Ohm's Law: :math:`\Delta V = IR`
-
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Electrostatic_definition_of_voltage.svg/220px-Electrostatic_definition_of_voltage.svg.png
+
+
+What's Current?
+===============
+- Flow of electric charge, :math:`I`
+
+- Measured in Amperes (A)
+
+  - 1 A = 1 Coulomb per second
+
+- In conductors, obeys Ohm's Law: :math:`\Delta V = IR`
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/OhmsLaw.svg/150px-OhmsLaw.svg.png
 
@@ -134,16 +143,16 @@ Signals might:
 Analog Toolbox
 ==============
 ADCs
-  Convert analog signals to digital ones
+  `Convert analog signals to digital ones`
 
 Amplifiers
-  Increase the signal level
+  `Increase the signal level`
 
 Filters
-  Reduce noise in signals
+  `Separate wanted signal from unwanted noise`
 
 Isolators
-  Protect sensitive circuits from damage
+  `Protect sensitive circuits from damage`
 
 
 ADCs
@@ -160,6 +169,8 @@ Amplifiers
 - Increase the signal level by a ratio called *gain*
 
 - Built using *active* devices—devices that consume power
+
+- Commonly realized using *operational amplifiers* (op amps)
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Op-amp_symbol.svg/200px-Op-amp_symbol.svg.png
 
@@ -186,9 +197,65 @@ Integrated Circuits
 - Integration increases speed, performance, reliability; reduces cost
 
 
+Breadboards
+===========
+- Power rails connected vertically
+
+- Terminal strips connected horizontally, but not across trough
+
+.. image:: https://cdn.sparkfun.com/r/600-600/assets/0/a/b/a/5/5192a48fce395f1573000000.jpg
+  :width: 45%
+
+.. image:: https://cdn.sparkfun.com/r/600-600/assets/6/3/7/f/3/518c07b8ce395fd064000000.jpg
+  :width: 45%
+
+Potentiometers
+==============
+- Resistors with an adjustable center tap
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Potentiometer.jpg/220px-Potentiometer.jpg
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Potentiometer_symbol.svg/100px-Potentiometer_symbol.svg.png
+
+
+LEDs
+====
+- Light emitting diodes emit light when properly biased
+
+- Polarity is important
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/LED%2C_5mm%2C_green_%28en%29.svg/450px-LED%2C_5mm%2C_green_%28en%29.svg.png
+  :width: 30%
+
+.. image:: https://cdn.sparkfun.com/r/600-600/assets/1/b/b/3/a/518c07b8ce395f7962000000.jpg
+  :width: 30%
+
+
+Op Amps
+=======
+- Differential, high-gain, voltage amplifier
+
+- :math:`V_out = A_v(V_+ - V_-)`
+
+- :math:`A_v` is the DC gain, up to several million (:math:`10^6`)
+
+- Gain adjusted using *negative feedback*
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Op-amp_symbol.svg/200px-Op-amp_symbol.svg.png
+
+
+Op Amp Packages
+===============
+- LMC6482 has two op amps in one IC package
+
+- On breadboards, DIP packages sit across trough
+
+.. image:: https://cdn.sparkfun.com/r/600-600/assets/1/0/c/f/9/518d22f8ce395f5d51000000.jpg
+
+
 Lab
 ===
 Ambient light sensor with binary output and adjustable threshold
 
-.. image:: ../labs/pcb/led-sensor.png
+.. image:: ../labs/light-sensor.png
    :width: 60%
