@@ -104,6 +104,9 @@ What's Voltage?
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Electrostatic_definition_of_voltage.svg/220px-Electrostatic_definition_of_voltage.svg.png
 
+.. image:: http://practicalphysics.org/images/hill_diagram.jpg
+  :width: 50%
+
 
 What's Current?
 ===============
@@ -209,20 +212,47 @@ Breadboards
 .. image:: https://cdn.sparkfun.com/r/600-600/assets/6/3/7/f/3/518c07b8ce395fd064000000.jpg
   :width: 45%
 
+
+Resistors
+=========
+- Add resistance between two *nodes* in a circuit
+
+- Resisting current dissipates energy as heat
+
+- Measured by *resistance* (Ohms)
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Resistor.jpg/200px-Resistor.jpg
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Resistors.svg/100px-Resistors.svg.png
+
+
 Potentiometers
 ==============
-- Resistors with an adjustable center tap
+- Resistor with an adjustable center tap
+
+- Equivalent to two series resistors with adjustable ratio
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Potentiometer.jpg/220px-Potentiometer.jpg
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Potentiometer_symbol.svg/100px-Potentiometer_symbol.svg.png
 
 
+Capacitors
+==========
+- Temporarily store energy in electric fields
+
+- Measured by *capacitance*, the ability to store charge (Farads)
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Capacitors_%287189597135%29.jpg/230px-Capacitors_%287189597135%29.jpg
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Types_of_capacitor.svg/230px-Types_of_capacitor.svg.png
+
+
 LEDs
 ====
 - Light emitting diodes emit light when properly biased
 
-- Polarity is important
+- Exposed PN junctions allows use as a photodiode
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/LED%2C_5mm%2C_green_%28en%29.svg/450px-LED%2C_5mm%2C_green_%28en%29.svg.png
   :width: 30%
@@ -250,8 +280,13 @@ Op Amp Packages
 
 - On breadboards, DIP packages sit across trough
 
-.. image:: https://cdn.sparkfun.com/r/600-600/assets/1/0/c/f/9/518d22f8ce395f5d51000000.jpg
+- Notch 'U' or dot at the top of the package
 
+.. image:: https://cdn.sparkfun.com/r/600-600/assets/1/0/c/f/9/518d22f8ce395f5d51000000.jpg
+  :width: 48%
+
+.. image:: http://www.ti.com/ds_dgm/images/fbd_snos674e.gif
+  :width: 48%
 
 Lab
 ===
@@ -259,3 +294,8 @@ Ambient light sensor with binary output and adjustable threshold
 
 .. image:: ../labs/light-sensor.png
    :width: 60%
+
+
+Attendance
+==========
+https://goo.gl/forms/roprB3KkiEMTQUTC3
