@@ -1,12 +1,16 @@
 ========================
 Hands-On PCB Engineering
 ========================
+.. warning::
+
+  This course is still under development.
+
 .. contents::
 
 | `Fall 2018 <http://decal.berkeley.edu/courses/4099>`_
 | EE 198 (1 Unit)
 | Wednesday 8-10 PM, 140 Cory Hall
-| http://kevinz.sdf.org/hope/
+| http://ieee.berkeley.edu/hope/
 
 This course discusses advanced printed circuit board (PCB) design and layout
 practices and concerns. It is intended for students who are part of or intend
@@ -19,8 +23,8 @@ design patterns, key specifications, part selection, and DFT.
 
 .. sidebar:: Looking for Hands-On Practical Electronics?
 
-  Hands-On Practical Electronics is not currently being offered. For the old
-  course website...
+  Hands-On Practical Electronics is not being offered this semester. However,
+  course materials from previous semesters are still available.
 
 Timeline
 ========
@@ -28,15 +32,78 @@ Our first class for Fall 2018 is on **Wednesday, August 30th**.
 
 *This schedule is tentative and may change at instructor discretion.*
 
-==== =================================
-Week Topic
-==== =================================
-1    ECAD in 2018
+**Week 1: Intro**
 
-     - Survey of state-of-the-art PCB ECAD tools
-     - The challenge of design verification
-     - KiCad
-==== =================================
+- The role of the PCB in system design
+- Overview of PCB anatomy and the PCB design workflow
+- Survey of EDA tools, suppliers, and resources for PCB design
+- Introduction to KiCad
+
+**Week 2: Schematic Design Crash-Course**
+
+- Organizing schematics for readability and communicating design intent
+- Checking a schematic design with ERC
+
+**Week 3: Layout Design Crash-Course**
+
+- Design rules and designing for manufacturability (DFM)
+- Stackup and organizing layers
+- Placing parts and routing nets
+- Generating fabrication outputs
+
+**Week 4: Selecting and Using Parts**
+
+- Evaluating parts based on power supply, package, cost, and interface
+- Making schematic symbols from datasheets
+- Making footprints
+- Following datasheet recommendations for schematic and layout
+- Mechanical considerations
+
+**Week 5: Layout Considerations**
+
+- Electrical minimums (width, clearance)
+- Thermal minimums
+- Trace resistance, inductance, capacitance
+- Decoupling, current return path
+- Stackup design and planes
+- EMC/EMI
+
+**Week 6: Microcontroller Designs**
+
+- Off-chip components (crystals) and peripherals
+- Programming
+- Toolchains
+
+**Week 7: Interface**
+
+- Digital interfaces and buses (SPI, I2C)
+- Power protection (TVS, PTC)
+- Isolation
+
+**Week 8: Sensors**
+
+- Current/voltage sense
+- Temperature
+- Acceleration
+- Amplifiers and ADCs
+
+**Week 9: Specialty Designs**
+
+- Picking passive components
+- Power
+- RF
+
+**Week 10: Designing for Testing and Debugging**
+
+- Debugging strategies
+- Test points
+- Designing for test (DFT)
+
+**Week 11: Your Own System and Schematic Design**
+
+**Week 12: Your Own Layout Design**
+
+**Week 13: Your Own Fabrication**
 
 
 Course Format
