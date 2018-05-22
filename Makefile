@@ -1,4 +1,6 @@
 PAGES = index.html \
+		checklist.html \
+		new.html \
 		labs/digital-logic.html \
 		labs/light-comms/light-comms.html \
 		labs/measurements.html \
