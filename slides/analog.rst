@@ -292,6 +292,8 @@ Lab
 ===
 Ambient light sensor with binary output and adjustable threshold
 
+https://ieee.berkeley.edu/hope/labs/light-sensor.html
+
 .. image:: ../labs/light-sensor.png
    :width: 60%
 
