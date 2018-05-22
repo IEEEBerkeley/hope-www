@@ -70,36 +70,42 @@ Our first class for Fall 2018 is on **Wednesday, August 30th**.
 
 **Week 6: Microcontroller Designs**
 
-- Off-chip components (crystals) and peripherals
-- Programming
-- Toolchains
+- Microcontroller features and specifications
+- Supporting microcontrollers on PCBs
+- Common microcontroller peripherals
+- PWM, ADC, watchdog, RTC
+- Microcontroller datasheets
 
-**Week 7: Interface**
+**Week 7: Firmware**
 
-- Digital interfaces and buses (SPI, I2C)
-- Power protection (TVS, PTC)
-- Isolation
+- ICSP
+- Setting up toolchains, developing firmware
+- Project to make your own USBTinyISP
 
-**Week 8: Sensors**
+**Week 8: Sensors and Interfaces**
 
 - Current/voltage sense
 - Temperature
-- Acceleration
-- Amplifiers and ADCs
+- Specifications for amplifiers and ADCs
+- Digital interfaces and buses (SPI, I2C)
+- Power protection (TVS, PTC)
 
-**Week 9: Specialty Designs**
+**Week 9: Power**
 
 - Picking passive components
-- Power
-- RF
-
-**Week 10: Designing for Testing and Debugging**
-
-- Debugging strategies
+- Isolation
 - Test points
 - Designing for test (DFT)
 
+**Week 10: RF**
+
+- PCB antennas
+- Transmission lines, grounding
+- Debugging strategies
+
 **Week 11: Your Own System and Schematic Design**
+
+- BOM
 
 **Week 12: Your Own Layout Design**
 
