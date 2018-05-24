@@ -1,8 +1,7 @@
+*.aux
 *.html
+*.log
+*.pdf
 *.swp
-syllabus.aux
-syllabus.log
-syllabus.pdf
-syllabus.rst
-syllabus.tex
-syllabus.toc
+*.tex
+*.toc

@@ -15,6 +15,3 @@ EXTRA = blinker.png led-sensor.png led-sensor-footprints.png led-sensor-pcb.png 
 WEBROOT = ieee:/home/hope/public_html/hope/
 
 .include "rstweb.mk"
-
-syllabus.rst: index.rst
-	sed -e '/^.. contents/d' index.rst > syllabus.rst
