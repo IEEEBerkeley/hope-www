@@ -1,134 +1,169 @@
 ========================
 Hands-On PCB Engineering
 ========================
-.. warning::
-
-  This course is still under development.
+:Institution: University of California, Berkeley
+:Semester: `Fall 2018 <http://decal.berkeley.edu/courses/4099>`_
+:Course Number: EE 198 (1 Unit)
+:Time/Location: Wednesday 8-10 PM, 140 Cory Hall
+:Instructors: Kevin Zheng and Olivia Hsu
+:Website: http://ieee.berkeley.edu/hope/new.html
 
 .. contents::
 
-| `Fall 2018 <http://decal.berkeley.edu/courses/4099>`_
-| EE 198 (1 Unit)
-| Wednesday 8-10 PM, 140 Cory Hall
-| http://ieee.berkeley.edu/hope/
-
-This course discusses advanced printed circuit board (PCB) design and layout
-practices and concerns. It is intended for students who are part of or intend
-to join engineering student organizations with working knowledge in PCB
-design.
-
-Students learn layout through hands-on experience with grounding, decoupling,
-EMC/EMI, and DFM. Students then design actual building blocks after learning
-design patterns, key specifications, part selection, and DFT.
+Overview
+========
+This course introduces printed circuit board (PCB) design and layout practices
+and concerns. It is intended for students with some experience with circuits
+who are interested in learning or improving their PCB design and fabrication
+skills, and particularly those who are part of or intend to join engineering
+student organizations with working knowledge in PCB design.
 
 .. sidebar:: Looking for Hands-On Practical Electronics?
 
   Hands-On Practical Electronics is not being offered this semester. However,
   course materials from previous semesters are still available.
 
+Prerequisites
+-------------
+EE 16A or similar working knowledge in circuits
+
+Objective
+---------
+Students learn effective system, schematic, and layout design through hands-on
+applications and exposure to advanced concerns including DFT, DFM, grounding,
+decoupling, EMC/EMI, thermals, isolation, and high-speed.
+
+
 Timeline
 ========
-Our first class for Fall 2018 is on **Wednesday, August 30th**.
+Our first class for Fall 2018 is on **Wednesday, August 29th**. *This schedule
+is tentative and may change at instructor discretion.*
 
-*This schedule is tentative and may change at instructor discretion.*
+- **Week 1: Intro**
 
-**Week 1: Intro**
+  - The role of the PCB in system design
+  - PCB anatomy
+  - PCB design workflows
+  - Survey of EDA tools, vendors, and resources for PCB design
+  - Introduction to KiCad
 
-- The role of the PCB in system design
-- Overview of PCB anatomy and the PCB design workflow
-- Survey of EDA tools, suppliers, and resources for PCB design
-- Introduction to KiCad
+- **Week 2: Schematic Design Crash-Course**
 
-**Week 2: Schematic Design Crash-Course**
+  - Constructing a schematic from high level specifications
+  - Making schematic symbols from datasheets
+  - Organizing schematics for readability and communicating design intent
+  - Checking a schematic design with ERC
 
-- Organizing schematics for readability and communicating design intent
-- Checking a schematic design with ERC
+- **Week 3: Layout Design Crash-Course**
 
-**Week 3: Layout Design Crash-Course**
+  - Design rules and designing for manufacturability (DFM)
+  - Stackup and organizing layers
+  - Electrical minimums (width, clearance)
+  - Making footprints
+  - Placing parts and routing nets
+  - Checking mechanical assemblies
+  - Running DRC
+  - Generating fabrication outputs
 
-- Design rules and designing for manufacturability (DFM)
-- Stackup and organizing layers
-- Placing parts and routing nets
-- Generating fabrication outputs
+- **Week 4: Selecting and Using Parts**
 
-**Week 4: Selecting and Using Parts**
+  - Survey of IC, module, and passive product families
+  - Preview of assembly technology
+  - Evaluating parts based on power supply, package, cost, and interface
+  - Following datasheet recommendations for schematic and layout
+  - Mechanical and thermal considerations
 
-- Evaluating parts based on power supply, package, cost, and interface
-- Making schematic symbols from datasheets
-- Making footprints
-- Following datasheet recommendations for schematic and layout
-- Mechanical considerations
+- **Week 5: Layout Considerations**
 
-**Week 5: Layout Considerations**
+  - Trace resistance, inductance, capacitance
+  - Decoupling, current return path
+  - Stackup design and planes
+  - EMC/EMI
+  - Thermal minimums
 
-- Electrical minimums (width, clearance)
-- Thermal minimums
-- Trace resistance, inductance, capacitance
-- Decoupling, current return path
-- Stackup design and planes
-- EMC/EMI
+- **Week 6: Microcontroller Designs**
 
-**Week 6: Microcontroller Designs**
+  - Microcontroller features and specifications
+  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
+  - Supporting microcontrollers on PCBs
+  - Microcontroller datasheets
 
-- Microcontroller features and specifications
-- Supporting microcontrollers on PCBs
-- Common microcontroller peripherals
-- PWM, ADC, watchdog, RTC
-- Microcontroller datasheets
+- **Week 7: Firmware**
 
-**Week 7: Firmware**
+  - Setting up toolchains, developing firmware
+  - ICSP
+  - Project to make your own USBTinyISP
 
-- ICSP
-- Setting up toolchains, developing firmware
-- Project to make your own USBTinyISP
+- **Week 8: Designing Your Own System**
 
-**Week 8: Sensors and Interfaces**
+  - Design patterns and blocks for common applications
+  - Generating specifications from high-level goals
+  - Managing Bill-Of-Materials (BOM)
+  - Design For Test (DFT)
+  - Schematic design review
 
-- Current/voltage sense
-- Temperature
-- Specifications for amplifiers and ADCs
-- Digital interfaces and buses (SPI, I2C)
-- Power protection (TVS, PTC)
+- **Week 9: Designing Your Own Layout**
 
-**Week 9: Power**
+  - Assembly methods and techniques
+  - Design For Manufacturability (DFM)
+  - Layout design review
+  - Buying parts
+  - Generating production files
 
-- Picking passive components
-- Isolation
-- Test points
-- Designing for test (DFT)
+- **Week 10: Sensors and Interfaces**
 
-**Week 10: RF**
+  - Current/voltage sense
+  - Temperature
+  - Specifications for amplifiers and ADCs
+  - Digital interfaces and buses (SPI, I2C)
+  - Power protection (TVS, PTC)
 
-- PCB antennas
-- Transmission lines, grounding
-- Debugging strategies
+- **Week 11: Power and High Speed**
 
-**Week 11: Your Own System and Schematic Design**
+  - Picking passive components
+  - Isolation
+  - Test points
+  - Designing for test (DFT)
+  - PCB antennas
+  - Transmission lines, grounding
 
-- BOM
+- **Week 12: Assembly**
 
-**Week 12: Your Own Layout Design**
+  - Soldering, hot air, and reflow techniques
+  - Preheat
+  - Hand place, vaccums, pick-and-place
 
-**Week 13: Your Own Fabrication**
+- **Week 13: Test**
+
+  - Avoiding measurement errors
+  - Understanding limitations in test equipment
+  - Debugging strategies
 
 
 Course Format
 =============
-This course spans 13 weeks. Class meets for two hours once a week. Each
-class begins with a short lecture followed by a lab activity. Some labs
-build on previous weeks' labs. Students are expected to spend an hour a week
-outside of class reviewing material and preparing for class meetings.
+This course spans 13 weeks. Class meets for two hours once a week. Each class
+begins with a short lecture followed by a lab activity or practical
+assignment. Labs and assignments build on those from previous weeks. Students
+are expected to spend an hour a week outside of class reviewing material,
+preparing for class meetings, and completing assignments.
 
-The final project is intended to apply the concepts learned in the class to
-a practical or fun project that can be reasonably completed within a few
-weeks. Final projects are expected to take up to six hours of additional
-time outside of class.
+Students are required to complete a final project: a complete PCB design and
+assembly. Students may choose to design a PCB for an engineering student
+organization or another design of their choice, with instructor approval.
+Final projects are expected to take up to six hours of additional time outside
+of class.
 
 Materials
 ---------
-All equipment and materials will be provided. Computers will be used during
-lab; students may bring their own laptops or use lab computers with their
-`EECS instructional accounts <http://inst.eecs.berkeley.edu/webacct/>`_.
+Students should bring to class a laptop computer or similar device capable of
+running the following software:
+
+- GNU Compiler Collection for AVR (avr-gcc) or similar
+- KiCad 5
+
+If you have difficulty obtaining the required course materials, please
+contact_ the instructors.
 
 Enrollment
 ----------
@@ -138,11 +173,11 @@ who consistently attend class.
 
 Grading
 -------
-Your grade is primarily based on completion of labs in class. The final
+Your grade is primarily based on completion of labs and assignments. The final
 project is graded on effort and a demonstration or description of your work.
-Students need 60% to pass.
+Students need 70% to pass.
 
-- Labs: 70%
+- Labs and assignments: 70%
 - Project: 30%
 
 Attendance
@@ -150,20 +185,20 @@ Attendance
 Since grading is primarily based on completion of labs during class,
 students should make a best effort to attend class.
 
-You may miss up to two labs unexcused; no instructor approval is required.
-If you miss a class, you may need to make up the missed lab before the next
-lecture. Labs that require make-up are labeled on the `Timeline`_.
+You may miss up to two labs unexcused; no instructor approval is required. If
+you miss a class, you must make up the missed lab or assignment before the
+next lecture.
 
 Additional unexcused absences may result in a NP.
 
 
 FAQ
 ===
-*I missed the first class. Can I still enroll?*
+I missed the first class. Can I still enroll?
 
-Yes. You will be given the CCN when you come to the second week of class. Keep
-in mind that we may not have enough seats for you to enroll, and that you will
-be joining the class with one absence.
+  Yes. You will be given the CCN when you come to the second week of class.
+  Keep in mind that we may not have enough seats for you to enroll, and that
+  you will be joining the class with one absence.
 
 
 Contact
