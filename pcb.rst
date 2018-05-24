@@ -6,7 +6,7 @@ Hands-On PCB Engineering
 :Course Number: EE 198 (1 Unit)
 :Time/Location: Wednesday 8-10 PM, 140 Cory Hall
 :Instructors: Kevin Zheng and Olivia Hsu
-:Website: http://ieee.berkeley.edu/hope/new.html
+:Website: http://ieee.berkeley.edu/hope/pcb.html
 
 .. contents::
 

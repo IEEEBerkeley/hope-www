@@ -1,5 +1,6 @@
 PAGES = index.html \
 		checklist.html \
+		pcb.html \
 		new.html \
 		labs/digital-logic.html \
 		labs/light-comms/light-comms.html \
@@ -15,3 +16,6 @@ EXTRA = blinker.png led-sensor.png led-sensor-footprints.png led-sensor-pcb.png 
 WEBROOT = ieee:/home/hope/public_html/hope/
 
 .include "rstweb.mk"
+
+new.html: pcb.html
+	cp $? $@
