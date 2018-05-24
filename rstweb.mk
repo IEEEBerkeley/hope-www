@@ -20,6 +20,7 @@ publish: html
 
 .tex.pdf:
 	pdflatex $<
+	pdflatex $<
 
 .ipynb.html:
 	jupyter nbconvert --to html $<
