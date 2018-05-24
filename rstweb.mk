@@ -15,6 +15,7 @@ publish: html
 
 .rst.tex:
 	rst2latex --font-encoding="" --use-latex-docinfo \
+		--documentoptions="letter" \
 		--latex-preamble="\usepackage{fullpage}" $< $@
 
 .tex.pdf:
