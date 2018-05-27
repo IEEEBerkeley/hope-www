@@ -105,6 +105,7 @@ is tentative and may change at instructor discretion.*
 - **Week 9: Designing Your Own Layout**
 
   - Assembly methods and techniques
+  - Finishes (HASL, ENIG)
   - Design For Manufacturability (DFM)
   - Layout design review
   - Buying parts

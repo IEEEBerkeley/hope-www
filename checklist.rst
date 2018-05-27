@@ -25,7 +25,7 @@ Your answers should be **YES** to all of the following:
 
 - Power connectors are present, accessible, and present no danger of shorting.
 
-- Unused inputs are terminated.
+- Unused inputs are terminated according to datasheet.
 
 - Test points are present on regulator outputs, clocks, and data interfaces.
 
