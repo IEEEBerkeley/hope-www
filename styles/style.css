@@ -14,6 +14,15 @@ img {
     color: #006699;
 }
 
+/* Table styling */
+table.docinfo {
+    margin: 2em auto 2em auto;
+}
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+    text-align: right;
+}
+
 #contents {
     float: right;
 }
