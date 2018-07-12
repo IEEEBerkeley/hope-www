@@ -1,9 +1,18 @@
+html {
+    background: #36454f;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 body {
     font-family: "Verdana", sans-serif;
-    line-height: 1.25;
-    margin: 0 auto;
-    max-width: 50em;
-    padding: 1em 1em;
+    line-height: 1.5;
+    margin: 0 auto 1em auto;
+    max-width: 55em;
+    padding: 1em 4em;
+    box-shadow: 5px 5px 5px black;
+    font-size: 16px;
+    background: white;
 }
 
 /* Table styling */
