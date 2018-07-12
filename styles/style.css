@@ -37,7 +37,7 @@ div.contents ul {
     background-color: #f1f1f1;
 }
 
-li a {
+div.contents li a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -45,7 +45,7 @@ li a {
     transition: 0.2s;
 }
 
-li a:hover {
+div.contents li a:hover {
     background-color: #006699;
     color: white;
     text-decoration: none;
