@@ -23,8 +23,43 @@ table.docutils th.field-name, table.docinfo th.docinfo-name {
     text-align: right;
 }
 
-#contents {
+/* Styling for the table of contents */
+div#contents ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    background-color: #f1f1f1;
+}
+
+div#contents > ul ul li a {
+    font-size: 90%;
+    padding-left: 2.5em;
+}
+
+div#contents > ul ul li a:hover {
+    padding-left: 3.0em;
+}
+
+div#contents li a {
+    display: block;
+    color: #000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+div#contents li a:hover {
+    background-color: #006699;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+    padding-left: 1.5em;
+}
+
+div#contents {
     float: right;
+    margin: 1em 0 2em 2em;
 }
 
 a {
