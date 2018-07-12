@@ -62,6 +62,12 @@ div#contents {
     margin: 1em 0 2em 2em;
 }
 
+/* Styling for side alerts */
+div.sidebar {
+    border: 1px solid black;
+    margin: 1em 0 1em 1em;
+}
+
 /* Styling for header links */
 h1 a, h2 a {
     transition: 0.2s;
