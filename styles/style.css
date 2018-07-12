@@ -25,10 +25,6 @@ table.docutils th.field-name, table.docinfo th.docinfo-name {
 }
 
 /* Styling for the table of contents */
-div.topic {
-    margin: 1em 0 2em 2em;
-}
-
 div.contents ul {
     list-style-type: none;
     margin: 0;
@@ -55,6 +51,7 @@ div.contents li a:hover {
 
 #contents {
     float: right;
+    margin: 1em 0 2em 2em;
 }
 
 /* Styling for side alerts */
