@@ -56,6 +56,12 @@ li a:hover {
     float: right;
 }
 
+/* Styling for side alerts */
+div.sidebar {
+    border: 1px solid black;
+    margin: 1em 0 1em 1em;
+}
+
 /* Styling for header links */
 h1 a.toc-backref, h2 a.toc-backref {
     transition: 0.2s;
