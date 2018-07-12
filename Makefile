@@ -1,7 +1,8 @@
 PAGES = index.html \
 		checklist.html \
-		pcb.html \
+		hope.html \
 		new.html \
+		pcb.html \
 		labs/digital-logic.html \
 		labs/light-comms/light-comms.html \
 		labs/measurements.html \
