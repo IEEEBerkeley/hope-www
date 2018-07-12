@@ -10,8 +10,9 @@ publish: html
 
 .SUFFIXES: .html .ipynb .pdf .rst .tex
 
-.rst.html: style.css
-	rst2html --stylesheet-path html4css1.css,style.css $< $@
+.rst.html:
+	rst2html --link-style --stylesheet-path html4css1.css,style.css \
+		--stylesheet-dirs=styles $< $@
 
 .rst.tex:
 	rst2latex --font-encoding="" --use-latex-docinfo \
@@ -23,4 +24,4 @@ publish: html
 	pdflatex $<
 
 .ipynb.html:
-	jupyter nbconvert --to html $<
+	jupyter-nbconvert --to html $<
