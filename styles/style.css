@@ -6,14 +6,6 @@ body {
     padding: 1em 1em;
 }
 
-img {
-    max-width: 100%;
-}
-
-.title {
-    color: #006699;
-}
-
 /* Table styling */
 table.docinfo {
     margin: 2em auto 2em auto;
@@ -90,4 +82,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+    color: #006699;
+    font-weight: normal;
+    font-size: 36px;
 }
