@@ -26,3 +26,12 @@ table.docutils th.field-name, table.docinfo th.docinfo-name {
 #contents {
     float: right;
 }
+
+a {
+    color: #0664d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
