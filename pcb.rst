@@ -175,8 +175,8 @@ who consistently attend class.
 Grading
 -------
 Your grade is primarily based on completion of labs and assignments. The final
-project is graded on effort and a demonstration or description of your work.
-Students need 70% to pass.
+project is graded on effort and a demonstration of concepts taught in the
+course. Students need 70% to pass.
 
 - Labs and assignments: 70%
 - Project: 30%
