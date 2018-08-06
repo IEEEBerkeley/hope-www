@@ -65,7 +65,14 @@ is tentative and may change at instructor discretion.*
   - Running DRC
   - Generating fabrication outputs
 
-- **Week 4: Selecting and Using Parts**
+- **Week 4: Microcontroller Designs**
+
+  - Microcontroller features and specifications
+  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
+  - Supporting microcontrollers on PCBs
+  - Microcontroller datasheets
+
+- **Week 5: Selecting and Using Parts**
 
   - Survey of IC, module, and passive product families
   - Preview of assembly technology
@@ -73,20 +80,13 @@ is tentative and may change at instructor discretion.*
   - Following datasheet recommendations for schematic and layout
   - Mechanical and thermal considerations
 
-- **Week 5: Layout Considerations**
+- **Week 6: Layout Considerations**
 
   - Trace resistance, inductance, capacitance
   - Decoupling, current return path
   - Stackup design and planes
   - EMC/EMI
   - Thermal minimums
-
-- **Week 6: Microcontroller Designs**
-
-  - Microcontroller features and specifications
-  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
-  - Supporting microcontrollers on PCBs
-  - Microcontroller datasheets
 
 - **Week 7: Firmware**
 
