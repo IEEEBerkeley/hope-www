@@ -193,6 +193,11 @@ next lecture.
 Additional unexcused absences may result in a NP.
 
 
+Resources
+=========
+- `PCB Checklist <checklist.html>`_
+
+
 FAQ
 ===
 I missed the first class. Can I still enroll?
