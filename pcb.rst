@@ -98,8 +98,7 @@ Design In-Depth
 - **Week 7: Firmware**
 
   - Setting up toolchains, developing firmware
-  - ICSP
-  - Project to make your own USBTinyISP
+  - Programmers and interfaces
 
 Project
 -------
@@ -169,8 +168,9 @@ Materials
 Students should bring to class a laptop computer or similar device capable of
 running the following software:
 
-- GNU Compiler Collection for AVR (avr-gcc) or similar
-- KiCad 5
+- `KiCad 5 <http://kicad-pcb.org/download/>`_
+- `MSP430-GCC <http://www.ti.com/tool/msp430-gcc-opensource>`_ from TI
+- `MSPDebug <https://dlbeer.co.nz/mspdebug/>`_
 
 If you have difficulty obtaining the required course materials, please
 contact_ the instructors.
