@@ -42,6 +42,8 @@ is tentative and may change at instructor discretion.*
 For alternative or in-depth treatment of topics discussed in class, see
 `Supplemental Reading`_.
 
+Getting Started
+---------------
 - **Week 1: Intro**
 
   - The role of the PCB in system design
@@ -75,6 +77,8 @@ For alternative or in-depth treatment of topics discussed in class, see
   - Supporting microcontrollers on PCBs
   - Microcontroller datasheets
 
+Design In-Depth
+---------------
 - **Week 5: Selecting and Using Parts**
 
   - Survey of IC, module, and passive product families
@@ -97,6 +101,8 @@ For alternative or in-depth treatment of topics discussed in class, see
   - ICSP
   - Project to make your own USBTinyISP
 
+Project
+-------
 - **Week 8: Designing Your Own System**
 
   - Design patterns and blocks for common applications
