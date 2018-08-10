@@ -39,6 +39,9 @@ Timeline
 Our first class for Fall 2018 is on **Wednesday, August 29th**. *This schedule
 is tentative and may change at instructor discretion.*
 
+For alternative or in-depth treatment of topics discussed in class, see
+`Supplemental Reading`_.
+
 - **Week 1: Intro**
 
   - The role of the PCB in system design
@@ -195,7 +198,22 @@ Additional unexcused absences may result in a NP.
 
 Resources
 =========
-- `PCB Checklist <checklist.html>`_
+- HOPE's `PCB Checklist <checklist.html>`_
+
+Supplemental Reading
+--------------------
+- Week 1
+
+  - Wahby 2013. `PCB design basics <https://www.edn.com/design/pc-board/4424239/2/PCB-design-basics>`_. *EDN*.
+
+- Week 2, 3
+
+  - Wahby 2014. `PCB Design Basics: Example design flow <https://www.edn.com/design/pc-board/4426878/PCB-Design-Basics--Example-design-flow>`_. *EDN*.
+
+- Week 6
+
+  - HOPE's `PCB Checklist <checklist.html>`_
+  - Dunn 2013. `PCB design course & checklist <https://www.edn.com/design/pc-board/4422579/PCB-design-course---checklist>`_. *EDN*.
 
 
 FAQ
