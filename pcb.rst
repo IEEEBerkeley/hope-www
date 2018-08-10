@@ -239,4 +239,6 @@ ieee-hope@lists.berkeley.edu.
 
 ----
 
-This course is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`_.
+Copyright ⓒ 2018 Kevin Zheng. This course is licensed under a `Creative
+Commons Attribution-ShareAlike 4.0 International License
+<http://creativecommons.org/licenses/by-sa/4.0/>`_.
