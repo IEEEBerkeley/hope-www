@@ -177,9 +177,9 @@ contact_ the instructors.
 
 Enrollment
 ----------
-CCNs are given out during the first week of class. Enrollment will be
-finalized during the third week of class. Priority will be given to students
-who consistently attend class.
+CCNs are given out during the first week of class. Priority will be given to
+students who fill out the `interest form
+<https://docs.google.com/forms/d/e/1FAIpQLScJ8gtqfZHcSPD28C5hmdw5zGJKj7a4ZlUaBT3yXB8G9p7I-Q/viewform?usp=sf_link>`_.
 
 Grading
 -------
