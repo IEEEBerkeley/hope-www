@@ -205,7 +205,12 @@ Additional unexcused absences may result in a NP.
 Resources
 =========
 - HOPE's `PCB Checklist <checklist.html>`_
+- KiCad's `Documentation Page <http://kicad-pcb.org/help/documentation/>`_
 
+  - `KiCad Cheatsheet <https://silica.io/wp-content/uploads/2018/06/kicad-cheatsheet-landscape.pdf>`_
+  - KiCad's `Getting Started Guide <http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.pdf>`_ 
+
+ 
 Supplemental Reading
 --------------------
 - Week 1
@@ -215,6 +220,8 @@ Supplemental Reading
 - Week 2, 3
 
   - Wahby 2014. `PCB Design Basics: Example design flow <https://www.edn.com/design/pc-board/4426878/PCB-Design-Basics--Example-design-flow>`_. *EDN*.
+  - Voltage Protection:
+    - Pickering 2016. `Reverse-Polarity Protection in Automotive Design <https://www.electronicdesign.com/power/reverse-polarity-protection-automotive-design>`_. 
 
 - Week 6
 
@@ -224,7 +231,7 @@ Supplemental Reading
 
 FAQ
 ===
-I missed the first class. Can I still enroll?
+**I missed the first class. Can I still enroll?**
 
   Yes. You will be given the CCN when you come to the second week of class.
   Keep in mind that we may not have enough seats for you to enroll, and that
