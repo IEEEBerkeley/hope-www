@@ -2,11 +2,12 @@
 KiCad Introduction Lab
 ======================
 
+------
 Week 1
-######
+------
 
-:authors: Kevin Zheng, Hall Chen, and Olivia Hsu
-:date: 8/29/2018
+:authors: Kevin Zheng, Hall Chen, Olivia Hsu
+:date: 2018-08-29
 
 In this lab, we will build a printed circuit board (PCB) for the LED light
 sensor talked about during lecture.
