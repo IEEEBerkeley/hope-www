@@ -167,7 +167,7 @@ PCB Layout
    
    #. Then click on screen where you want the first corner of your ground plane
       to be. Make sure to give yourself enough room so that the plane will be able to
-      cover all of the componenets and so that the plane will be larger than the
+      cover all of the components and so that the plane will be larger than the
       overall board size.    
 
    #. A settings window should pop up. Select 'F.Cu' for Layer and 'GND' for Net. 
@@ -206,7 +206,7 @@ PCB Layout
 
 #. Add edge cuts for the board. Select the 'Edge.Cuts' layer and draw a
    rectangle that contains all the footprints on your board. Make sure that the
-   board edge rectangle is also inside the ground plane rectangele. You may choose to
+   board edge rectangle is also inside the ground plane rectangle. You may choose to
    draw rounded corners, too.
 
 #. Once you are finished, perform a Design Rules Check. Tools → DRC → Start
