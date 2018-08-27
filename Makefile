@@ -17,7 +17,7 @@ EXTRA = blinker.png led-sensor.png led-sensor-footprints.png led-sensor-pcb.png 
 				lt_logo.png ltspice_open.png ltspice_task1.png ltspice_task2_schematic.png ltspice_task2_simulation.png ltspice_task2_simulation2.png trans_sim.asc
 WEBROOT = ieee:/home/hope/public_html/hope/
 
-.include "rstweb.mk"
+include rstweb.mk
 
 new.html: pcb.html
 	cp $? $@
