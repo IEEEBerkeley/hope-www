@@ -90,7 +90,7 @@ other words, we need to assign footprints to each symbol.
    the actual parts you'll put on your PCB.
    
    For purposes of this exercise, you don't have to use the ones indicated
-   here.
+   here. However, the footprints you assign for each symbol must be valid.
 
    .. image:: led-sensor-footprints.png
 
@@ -113,6 +113,11 @@ PCB Layout
    #. Now assign values into the 'Default' row for each that you think would
       work with BAC capabilities found on their page. 
 
+   #. Your DRC window should look something like this (keep in mind the values may be different):
+
+   .. image:: drc.png
+   
+   
 #. Setup → Layer Setup. At the top left, set Preset Layer Groupings to "Two
    layers, parts on front and back." Also set the board thickness to an
    appropriate value so that it falls under BAC capabilities.
@@ -139,12 +144,40 @@ PCB Layout
    this particular design, they're part of the mounting structure of the
    potentiometer.
 
+   The pink lines denote the silkscreen, which will be talked about later. 
+   
+   The gray boundaries denote component courtyards (F/B.CrtYd), or boundaries. If component
+   courtyards overlap, a DRC error will occur since two components are trying to
+   occupy the same place. 
+
+   The blue lines show component images (F/B.fab). This is used for automated
+   pick and place machines when a board is being assembled at a fab house
+
 #. Move the op amp on the board. Move components by mousing over them and
    typing 'm'. To rotate, type 'r'. Click to place back down.
 
 #. Finish placing components on the board. Feel free to place them however
    you wish, but try to minimize the number of crossing white wires.
 
+#. We will be adding a ground plane/ground pour to this board on both the top
+   and bottom layers. A ground plane is generally a good idea because it makes
+   routing easier and reduces ground noise. To do this:
+   
+   #. Click the 'Add filled zones' icon on the right-hand side toolbar. 
+   
+   #. Then click on screen where you want the first corner of your ground plane
+      to be. Make sure to give yourself enough room so that the plane will be able to
+      cover all of the componenets and so that the plane will be larger than the
+      overall board size.    
+
+   #. A settings window should pop up. Select 'F.Cu' for Layer and 'GND' for Net. 
+   
+   #. Finish drawing the ground plane by clicking the other four corners of the
+      polygon. Double click on the last corner to close the polygon. 
+
+   #. Repeat the above steps again to make a second ground plane but this time
+      on the 'B.Cu' layer. 
+ 
 #. Switch to the track tool by typing 'x'. You should route a physical track
    for each white line you see connecting different pins. Wires of the same
    color (layer) may cross or overlap only if they're meant to be connected.
@@ -152,6 +185,13 @@ PCB Layout
 #. You may realize one layer might not be enough to ensure no overlaps. Type
    'Page Down' to switch to the bottom layer. 'Page Up' will return you to
    the top layer.
+
+#. Once all traces have been placed, we now need to place ground vias. Vias, or
+   vertical interconnect access, are an electrical connection between multiple
+   physical layers in a circuit board. Since most circuits share a common
+   ground, ground vias are needed for connecting the two ground planes. Add vias
+   by typing 'v' and clicking where you want the via located. Place a sufficient
+   number of ground vias spaced throughout the board.   
 
 #. To put your name on the board, we will be adding to the board silkscreen (or 
    the identification layer). 
@@ -165,7 +205,8 @@ PCB Layout
       place it on the board, rotating it if desired.
 
 #. Add edge cuts for the board. Select the 'Edge.Cuts' layer and draw a
-   rectangle that contains all the footprints on your board. You may choose to
+   rectangle that contains all the footprints on your board. Make sure that the
+   board edge rectangle is also inside the ground plane rectangele. You may choose to
    draw rounded corners, too.
 
 #. Once you are finished, perform a Design Rules Check. Tools → DRC → Start
@@ -174,11 +215,13 @@ PCB Layout
 
 #. Admire your handiwork. View → 3D Viewer.
 
-#. Show your DRC report to an instructor for check-off.
-
-
 Generating Fabrication Outputs
 ==============================
 #. File → Plot -> Plot
 
 #. Generate Drill Files → Generate Drill File
+
+Lab Checkoff
+============
+#. Show your DRC report, layout, schematic, and output files to an instructor
+   for check-off.
