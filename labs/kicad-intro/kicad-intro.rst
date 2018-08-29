@@ -38,7 +38,7 @@ Schematic Capture
    'LMC6082'. Open the drop-down and select 'Unit A'. Place the unit on the
    schematic. Repeat with 'Unit B'. Press 'ESC' to exit insert mode.
 
-#. Flip Unit A horizontally. Right click Unit A of the op amp and Orientation
+#. Flip Unit A vertically. Right click Unit A of the op amp and Orientation
    → Mirror across X axis.
 
 #. Press 'a' and search for 'R'. Place 3 resistors as shown in the schematic.
