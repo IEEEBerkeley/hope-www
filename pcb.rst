@@ -50,7 +50,7 @@ Getting Started
   - PCB anatomy
   - PCB design workflows
   - Survey of EDA tools, vendors, and resources for PCB design
-  - Introduction to KiCad
+  - `Introduction to KiCad lab <labs/kicad-intro/kicad-intro.html>`_
 
 - **Week 2: Schematic Design Crash-Course**
 
