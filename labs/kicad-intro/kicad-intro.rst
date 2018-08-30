@@ -34,9 +34,9 @@ Schematic Capture
 
    .. image:: led-sensor.png
 
-#. Press 'a' and search for 'LMC6482'. If it does not exist, try the
-   'LMC6082'. Open the drop-down and select 'Unit A'. Place the unit on the
-   schematic. Repeat with 'Unit B'. Press 'ESC' to exit insert mode.
+#. Press 'a' and search for 'LMC6482'.  Open the drop-down and select 'Unit
+   A'. Place the unit on the schematic. Repeat with 'Unit B' and 'Unit C'.
+   Place 'Unit C' only once. Press 'ESC' to exit insert mode.
 
 #. Flip Unit A vertically. Right click Unit A of the op amp and Orientation
    → Mirror across X axis.
@@ -50,13 +50,13 @@ Schematic Capture
 
 #. Place a potentiometer ('POT') as shown.
 
-#. Place 3 voltage sources ('+3.3V') as shown.
+#. Place 4 voltage sources ('+3.3V') as shown.
 
    For this step it may be easier to duplicate a component instead of adding
    multiple of the same component. To do this, hover your cursor over the
    component you want copied and press 'c'.
 
-#. Place 5 grounds ('GND') as shown.
+#. Place 6 grounds ('GND') as shown.
 
 #. Place a 1×3 connector ('CONN_01x03') as shown.
 
@@ -111,9 +111,13 @@ PCB Layout
    #. Setup → Design Rules → Design Rules → Net Classes Editor
     
    #. Now assign values into the 'Default' row for each that you think would
-      work with BAC capabilities found on their page. 
+      work with BAC capabilities found on their page. You can compute the
+      via diameter by adding two times the annular ring width to the drill
+      diameter. Since you will be building a two-layer board, you should use
+      the design rule widths for outer layers.
 
-   #. Your DRC window should look something like this (keep in mind the values may be different):
+   #. Your DRC window should look something like this (keep in mind the values
+      may be different):
 
    .. image:: drc.png
    
@@ -205,9 +209,9 @@ PCB Layout
       place it on the board, rotating it if desired.
 
 #. Add edge cuts for the board. Select the 'Edge.Cuts' layer and draw a
-   rectangle that contains all the footprints on your board. Make sure that the
-   board edge rectangle is also inside the ground plane rectangle. You may choose to
-   draw rounded corners, too.
+   rectangular outline that contains all the footprints and traces on your
+   board. Make sure that the board edge rectangle is also inside the ground
+   plane rectangle. You may choose to draw rounded corners, too.
 
 #. Once you are finished, perform a Design Rules Check. Tools → DRC → Start
    DRC. KiCad will warn you if there are any errors. Correct your design until
