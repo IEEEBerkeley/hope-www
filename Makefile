@@ -3,6 +3,7 @@ PAGES = index.html \
 		hope.html \
 		new.html \
 		pcb.html \
+		labs/charger/schematic.html \
 		labs/digital-logic.html \
 		labs/building-gates.html \
 		labs/kicad-intro/kicad-intro.html \

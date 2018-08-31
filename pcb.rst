@@ -58,6 +58,7 @@ Getting Started
   - Making schematic symbols from datasheets
   - Organizing schematics for readability and communicating design intent
   - Checking a schematic design with ERC
+  - `USB Charger Schematic Design lab <labs/charger/schematic.html>`_
 
 - **Week 3: Layout Design Crash-Course**
 
