@@ -42,59 +42,59 @@ is tentative and may change at instructor discretion.*
 For alternative or in-depth treatment of topics discussed in class, see
 `Supplemental Reading`_.
 
-Getting Started
----------------
+Crash Course
+------------
 - **Week 1: Intro**
 
   - The role of the PCB in system design
   - PCB anatomy
   - PCB design workflows
   - Survey of EDA tools, vendors, and resources for PCB design
-  - `Introduction to KiCad lab <labs/kicad-intro/kicad-intro.html>`_
+  - `Introduction to KiCad Lab <labs/kicad-intro/kicad-intro.html>`_
 
-- **Week 2: Schematic Design Crash-Course**
+- **Week 2: Selecting and Using Parts**
+
+  - Survey of IC, module, and passive product families
+  - Preview of assembly technology and packaging
+  - Evaluating parts based on suitability and cost
+  - Selecting peripherals based on datasheet recommendations
+  - Writing a Bill Of Materials (BOM)
+  - `USB Charger Lab <labs/charger/schematic.html>`_
+
+- **Week 3: Schematic Design Crash-Course**
 
   - Constructing a schematic from high level specifications
   - Making schematic symbols from datasheets
   - Organizing schematics for readability and communicating design intent
   - Checking a schematic design with ERC
-  - `USB Charger Schematic Design lab <labs/charger/schematic.html>`_
+  - `USB Charger Lab <labs/charger/schematic.html>`_
 
-- **Week 3: Layout Design Crash-Course**
+- **Week 4: Layout Design Crash-Course**
 
   - Design rules and designing for manufacturability (DFM)
   - Stackup and organizing layers
   - Electrical minimums (width, clearance)
   - Making footprints
   - Placing parts and routing nets
+  - Layout best practice
   - Checking mechanical assemblies
   - Running DRC
   - Generating fabrication outputs
 
-- **Week 4: Microcontroller Designs**
-
-  - Microcontroller features and specifications
-  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
-  - Supporting microcontrollers on PCBs
-  - Microcontroller datasheets
-
-Design In-Depth
----------------
-- **Week 5: Selecting and Using Parts**
-
-  - Survey of IC, module, and passive product families
-  - Preview of assembly technology
-  - Evaluating parts based on power supply, package, cost, and interface
-  - Following datasheet recommendations for schematic and layout
-  - Mechanical and thermal considerations
-
-- **Week 6: Layout Considerations**
+- **Week 5: Layout Considerations**
 
   - Trace resistance, inductance, capacitance
   - Decoupling, current return path
   - Stackup design and planes
   - EMC/EMI
   - Thermal minimums
+
+- **Week 6: Microcontroller Designs**
+
+  - Microcontroller features and specifications
+  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
+  - Supporting microcontrollers on PCBs
+  - Microcontroller datasheets
 
 - **Week 7: Firmware**
 
@@ -132,6 +132,7 @@ Project
 
   - Picking passive components
   - Isolation
+  - Mechanical and thermal considerations
   - Test points
   - Designing for test (DFT)
   - PCB antennas
