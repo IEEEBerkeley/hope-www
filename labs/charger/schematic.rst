@@ -40,7 +40,8 @@ For your design to be functional and reliable, your design must:
 
 What Specifications?
 ====================
-First, you have to make some high-level design choices:
+If you were starting a design on your own, you'd first have to make some
+high-level design choices:
 
 - What do you want the allowable range of input voltages to be?
 
@@ -54,6 +55,19 @@ First, you have to make some high-level design choices:
 - Do you want to be able to turn your charger on and off via Bluetooth?
 
 - When do you stop? (probably around bullets 2 or 3; why?)
+
+In this lab, we'll give you your high-level specifications:
+
+- Input voltage range covering 9-24V DC
+
+- 1x USB Battery Charging 1.2-compliant USB charging port
+
+- Green LED indicating that the charger is connected to a powered DC outlet
+
+- (optional) Other functionality like protection circuitry as mentioned in
+  `The Big Picture`_
+
+- Minimum cost
 
 Understanding USB
 -----------------
@@ -106,7 +120,9 @@ Which parts did you choose, and why?
 Reverse Polarity Protection
 ---------------------------
 There are many [#rpp]_ ways to protect a circuit from being connected in
-reverse:
+reverse. Here are some options, in approximate order of increasing design
+complexity. Remember that more complex designs will most likely cost more, and
+that your time isn't free!
 
 - No protection. Congratulations, you're done!
 
@@ -135,7 +151,9 @@ reverse:
   However, you'll need to use a dedicated integrated circuit to drive the gate
   high.
 
-How do you want to protect your charger? What parts did you choose and why?
+How do you want to protect your charger? (If you're new to PCB design, you may
+want to avoid the PMOS and NMOS options for now.) What parts did you choose
+and why?
 
 
 DC-DC Converter
