@@ -176,6 +176,12 @@ circuit protection on the output. Again, you have choices:
 What type of protection did you pick? How much current must the protection
 device support without tripping? What part did you choose, and why?
 
+.. note::
+
+  You're now ready for checkoff. Show an instructor your BOM.
+
+  If you have time, you may proceed. Otherwise, we'll resume next week.
+
 
 Schematic Drawing
 =================
