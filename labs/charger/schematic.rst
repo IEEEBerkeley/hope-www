@@ -284,13 +284,23 @@ Which option did you pick? What parts did you choose and why?
 
 Passives
 --------
-Depending on your answers to the above, you'll need some passive components
+Like we talked about in lecture, many ICs will have accompanying passives
+associated with that component. This will generally be in the **"Application Circuit"**
+section of the IC datasheet. Some datasheets may even include recommended
+passives (including part numbers) to use. To answer the below questions, skim
+and look through the entire datasheet for the regulator you chose.  
+
+Depending on your answers to the above (mainly the regulator you chose and the
+USB connection between D+ and D-), you'll need some passive components
 like resistors, capacitors, and inductors. For each component:
 
 - What value(s) do you need?
 - In what form factor?
 - With what kind of component tolerances?
 - With what kind of component parasitics (like ESR)?
+
+Once all of these questions have been answered for each passive needed, please
+add the passives to your BOM. 
 
 Short Circuit Protection
 ------------------------
