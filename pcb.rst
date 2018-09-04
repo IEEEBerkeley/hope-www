@@ -44,7 +44,7 @@ For alternative or in-depth treatment of topics discussed in class, see
 
 Crash Course
 ------------
-- **Week 1: Intro**
+- **Week 1:** `Intro <https://docs.google.com/presentation/d/1ASJPINnZD4yf0E0k_IJHtEYiVdZqlXHoTTlJ_wvKl40/edit?usp=sharing>`_
 
   - The role of the PCB in system design
   - PCB anatomy
