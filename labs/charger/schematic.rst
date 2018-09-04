@@ -208,10 +208,10 @@ to withstand 14V reverse voltage for at least 60 seconds according to ISO
   and components to protect the gate.
 
   According to ISO 7637-2 standard [#iso2]_ automotive devices have to be able
-  to withstand short ~150ns pulses of up to -150V in addition to the -14V for 60
+  to withstand short ~150ns pulses of approximately -100V in addition to the -14V for 60
   seconds mentioned above. We ignored this case when selecting a diode because
   diodes can recover from short pulses beyond their reverse breakdown voltage.
-
+ 
   When choosing a PMOS it is important to look at the *continuous drain
   current, and drain-source breakdown voltage* :math:`V_{(BR)DSS}`.
 
@@ -222,7 +222,12 @@ to withstand 14V reverse voltage for at least 60 seconds according to ISO
 
   #. `PMOS Option 2 <https://www.digikey.com/product-detail/en/infineon-technologies/BSR92PH6327XTSA1/BSR92PH6327XTSA1CT-ND/6559925>`_
 
-  #. `PMOS Option 3 
+  #. `PMOS Option 3 <https://www.digikey.com/product-detail/en/infineon-technologies/BSP317PH6327XTSA1/BSP317PH6327XTSA1CT-ND/5409993>`_
+
+  #. `PMOS Option 4 <https://www.digikey.com/product-detail/en/stmicroelectronics/STN1NK60Z/497-3523-1-ND/669373>`_
+
+  #. `PMOS Option 5 <https://www.digikey.com/product-detail/en/infineon-technologies/SPD04P10PLGBTMA1/SPD04P10PLGBTMA1CT-ND/5413612>`_
+
 - High-side NMOS with gate driver:
 
   .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F5.gif
@@ -247,7 +252,29 @@ to power your charger. We discussed the following options:
 - Resistor divider
 - Op amp buffer
 - `Linear regulator <https://www.digikey.com/short/j2m978>`_, also called a low-dropoff regulator (LDO)
+
+  If you decide to use an LDO, pick from one of the 5 below: 
+
+  #. `LDO Option 1 <https://www.digikey.com/product-detail/en/stmicroelectronics/L78S05CV/497-1468-5-ND/585989>`_
+  #. `LDO Option 2 <https://www.digikey.com/product-detail/en/semtech-corporation/SC4215HSETRT/SC4215HSETR-ND/3083518>`_
+  #. `LDO Option 3 <https://www.diodes.com/assets/Datasheets/AZ2117.pdf>`_
+  #. `LDO Option 4 <https://www.digikey.com/product-detail/en/diodes-incorporated/AP1186T5-50L-U/1034-AP1186T5-50L-U-ND/5684579>`_
+  #. `LDO Option 5 <https://www.digikey.com/product-detail/en/rohm-semiconductor/BA00DD0WHFP-TR/BA00DD0WHFPCT-ND/3663725>`_
+
 - `Switching regulator <https://www.digikey.com/short/j2m972>`_
+  Keep in mind that switching regulators are more complicated than linear
+  regulators and improper schematic or layout design can likely lead to the
+  regulator not working.  
+  
+  If you decide to use a switching regulator, follow these steps:
+  
+  #. Go to the step-down regulator page of `Analog Devices (ADI) <http://www.analog.com/en/products/power-management/switching-regulators/step-down-buck-regulators.html>`_ and enter in the regulator specs for this project 
+  #. This will give you a table of all of the switching regulators that fit our
+     application. Find the cheapest one listed (Hint: this should be an ADPXXXX
+     part). 
+  #. Now go to Digi-Key, Mouser, Arrow, and Newark and enter in the manufaturer
+     part for the componenet you found and pick the cheapest distributor. 
+  #. Now add this component to your BOM. 
 
 Which option did you pick? What parts did you choose and why?
 
