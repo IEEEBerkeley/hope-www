@@ -301,7 +301,8 @@ circuit protection on the output. Again, you have choices:
 - **Fuse.** If you decide to use this option, please find a fuse that meets specifications yourself. 
 
 - **Resettable "polyfuse"**, also called "PTC" for its positive temperature
-  coefficient
+  coefficient. Here are `some options
+  <https://www.digikey.com/short/j294np>`_.
 
 What type of protection did you pick? How much current must the protection
 device support without tripping? What part did you choose, and why?
