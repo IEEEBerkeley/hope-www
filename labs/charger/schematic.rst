@@ -1,7 +1,6 @@
 ============================
 USB Charger Schematic Design
 ============================
-
 USB car chargers convert an automobile's 12V DC outlet (originally for
 lighting cigarettes) into a regulated 5V DC supply that can charge USB
 devices, like smartphones and tablets.
@@ -13,6 +12,8 @@ easily, charge slowly, or even cause damage to your device.
 In this lab, you'll design schematics and pick parts for the electronics on a
 USB car charger. Will you trust your design enough to plug your device into
 it?
+
+.. contents::
 
 
 The Big Picture
@@ -56,9 +57,10 @@ high-level design choices:
 
 - When do you stop? (probably around bullets 2 or 3; why?)
 
-In this lab, we are giving you your high-level specifications due to time constraints:
+In this lab, we are giving you your high-level specifications due to time
+constraints:
 
-- Input voltage range covering 9-24V DC
+- Input voltage range covering 9-18V DC
 
 - 1x USB Battery Charging 1.2-compliant USB charging port
 
@@ -102,23 +104,23 @@ At some point you may start wondering what parts you need to realize your
 design. When designing PCBs, many high-level design choices depend on the cost
 and availability of parts!
 
-Digi-Key and Mouser are two commonly used electronic component distributors. We've provided
-pre-filled links to Digi-Key's component search or compare product tools to help narrow down your
-search.
+Digi-Key and Mouser are two commonly used electronic component distributors.
+We've provided pre-filled links to Digi-Key's component search or compare
+product tools to help narrow down your search.
 
-As mentioned in lecture, you should start a Bill of Materials (BOM). A BOM is a spreadsheet or
-table with the quantity, value, part number, cost, and other information about
-the parts you decide to use. *Make sure to include a 'description' column in this
-BOM and put in a description for each component on how you chose the part.*
+As mentioned in lecture, you should start a Bill of Materials (BOM). A BOM is
+a spreadsheet or table with the quantity, value, part number, cost, and other
+information about the parts you decide to use. *Make sure to include a
+'description' column in this BOM and put in a description for each component
+on how you chose the part.*
 
 Connectors
 ----------
 - Select an **input connector** 
 
-  - The prefilled Digi-Key search tool link can be found `here <https://www.digikey.com/short/j29839>`_
-    
-    - When creating a design from scratch, this is where you would look to find
-      the right connector. As you can see there are 38,348 components to choose from.
+  - Digi-Key carries over 38,000 `rectangular male header pins
+    <https://www.digikey.com/short/j29839>`_. You'd start your search here if
+    you were working on your own design.
 
   - In order to make the choice easier, select the best connector to use from
     these `5 choices <https://www.digikey.com/short/j29q00>`_ and add it to
@@ -274,8 +276,8 @@ to power your charger. We discussed the following options:
   #. This will give you a table of all of the switching regulators that fit our
      application. Find the cheapest one listed (Hint: this should be an ADPXXXX
      part). 
-  #. Now go to Digi-Key, Mouser, Arrow, and Newark and enter in the manufaturer
-     part for the componenet you found and pick the cheapest distributor. 
+  #. Now go to Digi-Key, Mouser, Arrow, and Newark and enter in the manufacturer
+     part for the component you found and pick the cheapest distributor. 
   #. Now add this component to your BOM. 
 
 Which option did you pick? What parts did you choose and why?
@@ -296,7 +298,7 @@ You might also decide to protect your charger from short circuit conditions.
 Depending on your choice of DC-DC converter, you may already have short
 circuit protection on the output. Again, you have choices:
 
-- **No protection.** We will not be using this option since it is unsafe. 
+- **No protection.** Congratulations, you're finished!
 
 - **Fuse.** If you decide to use this option, please find a fuse that meets specifications yourself. 
 
@@ -311,7 +313,8 @@ device support without tripping? What part did you choose, and why?
 
   You're now ready for checkoff. Show an instructor your BOM.
 
-  If you have time, you may proceed. Otherwise, we'll resume next week.
+  If you have time, you may proceed on your own. Otherwise, we'll resume next
+  week with more guidance.
 
 
 Schematic Drawing
