@@ -113,7 +113,7 @@ BOM and put in a description for each component on how you chose the part.*
 
 Connectors
 ----------
-- Select an input connector 
+- Select an **input connector** 
 
   - The prefilled Digi-Key search tool link can be found `here <https://www.digikey.com/short/j29839>`_
     
@@ -124,7 +124,9 @@ Connectors
     these `5 choices <https://www.digikey.com/short/j29q00>`_ and add it to
     your BOM.
 
-- Select an output USB-A receptacle.
+    - Remember to think about what our inputs are. How many pins will we need? 
+
+- Select an output **USB-A receptacle.**
 
   #.  Let's take a look at the steps required to narrow down your search when
       starting from scratch. First go to `Digi-Key's website
@@ -172,10 +174,10 @@ Also keep in mind that for automotive standards, the reverse protection needs
 to withstand 14V reverse voltage for at least 60 seconds according to ISO
 16750-2 [#iso1]_
 
-- No protection. Congratulations, you're done! However, this is bad practice
+- **No protection.** Congratulations, you're done! However, this is bad practice
   since your circuit will break easily. We will not be using this method. 
 
-- Diode in series with the load:
+- **Diode** in series with the load:
 
   .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F2.gif
 
@@ -199,7 +201,7 @@ to withstand 14V reverse voltage for at least 60 seconds according to ISO
 
   #. `Diode Option 5 <https://www.digikey.com/product-detail/en/comchip-technology/ACDBA260-HF/ACDBA260-HF-ND/7100901>`_
 
-- High-side PMOS with gate tied to ground:
+- High-side **PMOS** with gate tied to ground:
 
   .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F3_0.gif
 
@@ -228,7 +230,7 @@ to withstand 14V reverse voltage for at least 60 seconds according to ISO
 
   #. `PMOS Option 5 <https://www.digikey.com/product-detail/en/infineon-technologies/SPD04P10PLGBTMA1/SPD04P10PLGBTMA1CT-ND/5413612>`_
 
-- High-side NMOS with gate driver:
+- High-side **NMOS** with gate driver:
 
   .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F5.gif
 
@@ -249,9 +251,9 @@ DC-DC Converter
 As discussed in lecture, you'll need a way to convert one DC voltage to 5V DC
 to power your charger. We discussed the following options:
 
-- Resistor divider
-- Op amp buffer
-- `Linear regulator <https://www.digikey.com/short/j2m978>`_, also called a low-dropoff regulator (LDO)
+- **Resistor divider**
+- **Op amp buffer**
+- **Linear regulator**, also called a low-dropoff regulator (LDO)
 
   If you decide to use an LDO, pick from one of the 5 below: 
 
@@ -261,7 +263,7 @@ to power your charger. We discussed the following options:
   #. `LDO Option 4 <https://www.digikey.com/product-detail/en/diodes-incorporated/AP1186T5-50L-U/1034-AP1186T5-50L-U-ND/5684579>`_
   #. `LDO Option 5 <https://www.digikey.com/product-detail/en/rohm-semiconductor/BA00DD0WHFP-TR/BA00DD0WHFPCT-ND/3663725>`_
 
-- `Switching regulator <https://www.digikey.com/short/j2m972>`_
+- **Switching regulator** 
   Keep in mind that switching regulators are more complicated than linear
   regulators and improper schematic or layout design can likely lead to the
   regulator not working.  
@@ -294,11 +296,11 @@ You might also decide to protect your charger from short circuit conditions.
 Depending on your choice of DC-DC converter, you may already have short
 circuit protection on the output. Again, you have choices:
 
-- No protection
+- **No protection.** We will not be using this option since it is unsafe. 
 
-- Fuse
+- **Fuse.** If you decide to use this option, please find a fuse that meets specifications yourself. 
 
-- Resettable "polyfuse", also called "PTC" for its positive temperature
+- **Resettable "polyfuse"**, also called "PTC" for its positive temperature
   coefficient
 
 What type of protection did you pick? How much current must the protection
