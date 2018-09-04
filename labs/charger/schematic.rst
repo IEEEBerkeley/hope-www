@@ -56,7 +56,7 @@ high-level design choices:
 
 - When do you stop? (probably around bullets 2 or 3; why?)
 
-In this lab, we'll give you your high-level specifications:
+In this lab, we are giving you your high-level specifications due to time constraints:
 
 - Input voltage range covering 9-24V DC
 
@@ -64,8 +64,8 @@ In this lab, we'll give you your high-level specifications:
 
 - Green LED indicating that the charger is connected to a powered DC outlet
 
-- (optional) Other functionality like protection circuitry as mentioned in
-  `The Big Picture`_
+- At least one form of protection circuitry as mentioned in
+  `The Big Picture`_. More on this later in the lab. 
 
 - Minimum cost
 
@@ -93,6 +93,8 @@ questions:
 
 - How should you connect the D+ and D- pins?
 
+From the answers above, you should now know the full specifications of your car
+charging circuit. 
 
 Choosing Parts
 ==============
@@ -100,21 +102,63 @@ At some point you may start wondering what parts you need to realize your
 design. When designing PCBs, many high-level design choices depend on the cost
 and availability of parts!
 
-Digi-Key is one of many electronic component distributors. We've provided
-pre-filled links to Digi-Key's component search tool to help narrow down your
+Digi-Key and Mouser are two commonly used electronic component distributors. We've provided
+pre-filled links to Digi-Key's component search or compare product tools to help narrow down your
 search.
 
-You may want to start a Bill of Materials (BOM). A BOM is a spreadsheet or
+As mentioned in lecture, you should start a Bill of Materials (BOM). A BOM is a spreadsheet or
 table with the quantity, value, part number, cost, and other information about
-the parts you pick.
+the parts you decide to use. *Make sure to include a 'description' column in this
+BOM and put in a description for each component on how you chose the part.*
 
 Connectors
 ----------
-- Select an input `connector <https://www.digikey.com/short/j2mhb5>`_
+- Select an input connector 
 
-- Select an output `USB-A receptacle <https://www.digikey.com/short/j2mh9f>`_
+  - The prefilled Digi-Key search tool link can be found `here <https://www.digikey.com/short/j29839>`_
+    
+    - When creating a design from scratch, this is where you would look to find
+      the right connector. As you can see there are 38,348 components to choose from.
 
-Which parts did you choose, and why?
+  - In order to make the choice easier, select the best connector to use from
+    these `5 choices <https://www.digikey.com/short/j29q00>`_ and add it to
+    your BOM.
+
+- Select an output USB-A receptacle.
+
+  #.  Let's take a look at the steps required to narrow down your search when
+      starting from scratch. First go to `Digi-Key's website
+      <https://www.digikey.com>`_ and click the products tab. 
+
+  #.  What component are we looking for? A USB-A receptacle, which is a type of connector. This
+      means we need to head to the 'Connectors, Interconnects' section and look for
+      the correct category. Click on the category and it should take you to a list of
+      all of the parts in that category. 
+      Hint: The category probably has 'USB' in it.  
+
+  #.  Now we are at the results page. There should be approximately 3,000
+      products to choose from and 19 categories to filter the selection by (that's a
+      lot). So before it becomes too overwhelming, let's break it down and see what
+      we really care about. It turns out we really only care about two categories,
+      *connector type and gender.* 
+
+  #.  Select the correct connector type and gender filter (Hint: if you're
+      unsure look above again to see what type of part we are looking for). Also
+      remember to check the 'In Stock' option under Stock Status. Now click 'Apply
+      Filters.' 
+
+  #.  Now we should have narrowed down our search to around 275
+      results, but how do we select the final component? Keep in mind that one of our
+      specifications is minimum cost. So from here we can find the 'Unit Price USD'
+      column and if you click the up-arrow underneath, it will sort all of the
+      results by cost.  
+
+  #.  You should now have your final USB-A receptacle chosen.
+      Click on it's Digi-Key part number for more information on the component and
+      fill out the appropriate columns in your BOM. 
+
+Which parts did you choose, and why? Remember to put the answer in the
+'description' column of your BOM.
 
 
 Reverse Polarity Protection
@@ -124,7 +168,12 @@ reverse. Here are some options, in approximate order of increasing design
 complexity. Remember that more complex designs will most likely cost more, and
 that your time isn't free!
 
-- No protection. Congratulations, you're done!
+Also keep in mind that for automotive standards, the reverse protection needs
+to withstand 14V reverse voltage for at least 60 seconds according to ISO
+16750-2 [#iso1]_
+
+- No protection. Congratulations, you're done! However, this is bad practice
+  since your circuit will break easily. We will not be using this method. 
 
 - Diode in series with the load:
 
@@ -134,6 +183,22 @@ that your time isn't free!
   V_{diode}`. You can cut your losses with a `Schottky diode
   <https://en.wikipedia.org/wiki/Schottky_diode>`_.
 
+  When choosing a protection diode, it is important to look at the diode's
+  *type, output current, and DC reverse voltage.*
+ 
+  If you choose this option, pick the best diode from the 5 options below and
+  add it to your BOM:
+  
+  #. `Diode Option 1 <https://www.digikey.com/product-detail/en/on-semiconductor/NHP220SFT3G/NHP220SFT3GOSCT-ND/5801747>`_
+  
+  #. `Diode Option 2 <https://www.digikey.com/product-detail/en/on-semiconductor/MBRA210ET3G/MBRA210ET3GOSCT-ND/2705027>`_
+
+  #. `Diode Option 3 <https://www.digikey.com/product-detail/en/comchip-technology/CDBMT240-HF/641-1446-1-ND/2734598>`_
+
+  #. `Diode Option 4 <https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG4010BEV115/1727-5838-6-ND/2697853>`_
+
+  #. `Diode Option 5 <https://www.digikey.com/product-detail/en/comchip-technology/ACDBA260-HF/ACDBA260-HF-ND/7100901>`_
+
 - High-side PMOS with gate tied to ground:
 
   .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F3_0.gif
@@ -142,6 +207,22 @@ that your time isn't free!
   be less tolerant to high voltage spikes and may require additional circuitry
   and components to protect the gate.
 
+  According to ISO 7637-2 standard [#iso2]_ automotive devices have to be able
+  to withstand short ~150ns pulses of up to -150V in addition to the -14V for 60
+  seconds mentioned above. We ignored this case when selecting a diode because
+  diodes can recover from short pulses beyond their reverse breakdown voltage.
+
+  When choosing a PMOS it is important to look at the *continuous drain
+  current, and drain-source breakdown voltage* :math:`V_{(BR)DSS}`.
+
+  If you choose this option, pick the best PMOS from the 5 options below and
+  add it to your BOM:
+    
+  #. `PMOS Option 1 <https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3099L-7/DMP3099L-7DICT-ND/5218217>`_
+
+  #. `PMOS Option 2 <https://www.digikey.com/product-detail/en/infineon-technologies/BSR92PH6327XTSA1/BSR92PH6327XTSA1CT-ND/6559925>`_
+
+  #. `PMOS Option 3 
 - High-side NMOS with gate driver:
 
   .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F5.gif
@@ -151,9 +232,11 @@ that your time isn't free!
   However, you'll need to use a dedicated integrated circuit to drive the gate
   high.
 
+  If you choose this option, find the NMOS and gate driver IC yourself.
+
 How do you want to protect your charger? (If you're new to PCB design, you may
-want to avoid the PMOS and NMOS options for now.) What parts did you choose
-and why?
+want to avoid the PMOS and NMOS options for now.) Remember, you must pick one
+type of protection. What parts did you choose and why?
 
 
 DC-DC Converter
@@ -225,3 +308,5 @@ Final Touches
 Fill out the fields in the title block.
 
 .. [#rpp] Paul Pickering, `Reverse-Polarity Protection in Automotive Design <https://www.electronicdesign.com/power/reverse-polarity-protection-automotive-design>`_, *EDN*, 2016.
+.. [#iso1] `ISO 16750-2 Standard <http://www.compel.ru/wordpress/wp-content/uploads/2017/05/ISO-16750-22010E-.pdf>`_, *ISO*, 2010.
+.. [#iso2] `ISO 7637-2 Standard <http://www.compel.ru/wordpress/wp-content/uploads/2017/05/ISO-7637-22011E.pdf>`_, *ISO*, 2011.
