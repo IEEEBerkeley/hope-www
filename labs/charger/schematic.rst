@@ -2,7 +2,7 @@
 USB Charger Schematic Design
 ============================
 USB car chargers convert an automobile's 12V DC outlet (originally for
-lighting cigarettes) into a regulated 5V DC supply that can charge USB
+lighting cigarettes!) into a regulated 5V DC supply that can charge USB
 devices, like smartphones and tablets.
 
 These chargers are available online for under $10; you can often find them for
@@ -18,23 +18,26 @@ it?
 
 The Big Picture
 ===============
-For your design to be functional and reliable, your design must:
+Your charger is a USB "upstream device" that supplies power to a "downstream
+device" being charged. In order for it to be functional and reliable, your
+charger needs to:
 
-- Provide physical connectors for both of the above supplies. One of them
-  needs to be a USB-A female receptacle.
+- Provide physical power connectors. The output needs to be a USB-A female
+  receptacle, and assume someone else is designing the input plug for your
+  car; you just need to provide two pins (car power and ground).
 
-- Convert the automobile's 12V DC supply into a 5V DC supply. You do not know
-  the load ahead of time, and the load can change anytime during operation.
+- Convert the automobile's 12V DC supply to a 5V DC supply. The output load is
+  unknown and may change over time.
 
-- Indicate to the downstream device that it is capable of "fast charging".
-  This is what causes non-compliant devices to charge slowly.
+- Indicate to the downstream device that it is "fast charging" capable. If you
+  don't, your device will charge slowly.
 
 - Protect itself and the downstream device against high voltage transients and
   voltage reverse polarity. The former can occur while starting the engine and
   during normal operation, and the latter when replacing the auto battery or
   due to user error.
 
-- Protect both the input and output supply from short circuit conditions.
+- Protect both the input and output from short circuit conditions.
 
 - Cost less than $10. Otherwise, you could have just bought one online.
 
@@ -42,38 +45,24 @@ For your design to be functional and reliable, your design must:
 What Specifications?
 ====================
 If you were starting a design on your own, you'd first have to make some
-high-level design choices:
-
-- What do you want the allowable range of input voltages to be?
-
-- Do you want any LEDs?
-
-- How many charging ports do you want?
-
-- Should your charger have a battery backup so that it can charge your device
-  for a little while even after the car is off?
-
-- Do you want to be able to turn your charger on and off via Bluetooth?
-
-- When do you stop? (probably around bullets 2 or 3; why?)
-
-In this lab, we are giving you your high-level specifications due to time
-constraints:
+high-level design choices. In this lab, we are giving you your high-level
+specifications due to time constraints:
 
 - Input voltage range covering 9-18V DC
 
-- 1x USB Battery Charging 1.2-compliant USB charging port
+- 1x USB charging port compliant with USB Battery Charging 1.2
 
 - Green LED indicating that the charger is connected to a powered DC outlet
 
-- At least one form of protection circuitry as mentioned in
-  `The Big Picture`_. More on this later in the lab. 
+- Some form of protection circuitry as mentioned in `The Big Picture`_. More
+  on this later in the lab. 
 
 - Minimum cost
 
 Understanding USB
 -----------------
-A `USB Type-A female receptacle <https://en.wikipedia.org/wiki/USB_(Physical)#Pinouts>`_ has 4 pins:
+A `USB Type-A female receptacle
+<https://en.wikipedia.org/wiki/USB_(Physical)#Pinouts>`_ has 4 pins:
 
 ===  ====  =============
 Pin  Name  What it's for
@@ -93,10 +82,8 @@ questions:
 
 - How much current must your charger be able to supply without shutting down?
 
-- How should you connect the D+ and D- pins?
-
-From the answers above, you should now know the full specifications of your car
-charging circuit. 
+- How should your charger connect the D+ and D- pins to indicate that it is a
+  charging port?
 
 Choosing Parts
 ==============
@@ -108,25 +95,28 @@ Digi-Key and Mouser are two commonly used electronic component distributors.
 We've provided pre-filled links to Digi-Key's component search or compare
 product tools to help narrow down your search.
 
-As mentioned in lecture, you should start a Bill of Materials (BOM). A BOM is
-a spreadsheet or table with the quantity, value, part number, cost, and other
-information about the parts you decide to use. *Make sure to include a
-'description' column in this BOM and put in a description for each component
-on how you chose the part.*
+You should start a Bill of Materials (BOM). A BOM is a spreadsheet or table
+with the quantity, value, part number, cost, and other information about the
+parts you decide to use.
+
+.. important::
+
+  To help us check you off, make sure to include a 'description' column in
+  this BOM and put in a description on how you chose the part for each
+  component.
 
 Connectors
 ----------
-- Select an **input connector** 
+.. sidebar:: Too Many Parts!
 
-  - Digi-Key carries over 38,000 `rectangular male header pins
+    Digi-Key carries over 38,000 `rectangular male header pins
     <https://www.digikey.com/short/j29839>`_. You'd start your search here if
     you were working on your own design.
 
-  - In order to make the choice easier, select the best connector to use from
-    these `5 choices <https://www.digikey.com/short/j29q00>`_ and add it to
-    your BOM.
+- Select an **input connector**. Select the best connector to use from these
+  `5 choices <https://www.digikey.com/short/j29q00>`_ and add it to your BOM.
 
-    - Remember to think about what our inputs are. How many pins will we need? 
+  - Remember to think about what our inputs are. How many pins will we need? 
 
 - Select an output **USB-A receptacle.**
 
@@ -172,12 +162,13 @@ reverse. Here are some options, in approximate order of increasing design
 complexity. Remember that more complex designs will most likely cost more, and
 that your time isn't free!
 
-Also keep in mind that for automotive standards, the reverse protection needs
-to withstand 14V reverse voltage for at least 60 seconds according to ISO
-16750-2 [#iso1]_
+.. attention::
 
-- **No protection.** Congratulations, you're done! However, this is bad practice
-  since your circuit will break easily. We will not be using this method. 
+  To be automotive-rated under ISO 16750-2 [#iso1]_ standards, the reverse
+  protection needs to withstand 14V of reverse voltage for at least 60
+  seconds.
+
+- **No protection.** This risks damage to your charger and device.
 
 - **Diode** in series with the load:
 
