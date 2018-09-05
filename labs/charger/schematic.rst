@@ -76,11 +76,18 @@ Pin  Name  What it's for
 Read Section 4.4 "Dedicated Charging Port" in the `USB Battery Charging
 Specification, Revision 1.2
 <http://composter.com.ua/documents/BC1.2_FINAL.pdf>`_ and answer the following
+
+Make sure to pay attention to the third paragraph in part 4.4.1 "Required Operating Ranges."
+
 questions:
 
 - What is the allowable range of output (VBUS) voltages from your charger?
+- In the third paragraph of part 4.4.1, which current line must the load curve
+  cross? 
+- What is the value of :math:`I_{DEV_CHG}`? 
 
-- How much current must your charger be able to supply without shutting down?
+  - Therefore, how much current must your charger be able to supply without
+    shutting down if your charger must support more than 2V?
 
 - How should your charger connect the D+ and D- pins to indicate that it is a
   charging port?
