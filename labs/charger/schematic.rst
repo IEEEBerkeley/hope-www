@@ -257,9 +257,9 @@ to power your charger. We discussed the following options:
 
   If you decide to use an LDO, pick from one of the 5 below: 
 
-  #. `LDO Option 1 <https://www.digikey.com/product-detail/en/stmicroelectronics/L78S05CV/497-1468-5-ND/585989>`_
-  #. `LDO Option 2 <https://www.digikey.com/product-detail/en/semtech-corporation/SC4215HSETRT/SC4215HSETR-ND/3083518>`_
-  #. `LDO Option 3 <https://www.diodes.com/assets/Datasheets/AZ2117.pdf>`_
+  #. `LDO Option 1 <https://www.digikey.com/product-detail/en/semtech-corporation/SC4215HSETRT/SC4215HSETR-ND/3083518>`_
+  #. `LDO Option 2 <https://www.diodes.com/assets/Datasheets/AZ2117.pdf>`_
+  #. `LDO Option 3 <https://www.digikey.com/product-detail/en/stmicroelectronics/L78S05CV/497-1468-5-ND/585989>`_
   #. `LDO Option 4 <https://www.digikey.com/product-detail/en/diodes-incorporated/AP1186T5-50L-U/1034-AP1186T5-50L-U-ND/5684579>`_
   #. `LDO Option 5 <https://www.digikey.com/product-detail/en/rohm-semiconductor/BA00DD0WHFP-TR/BA00DD0WHFPCT-ND/3663725>`_
 
