@@ -52,7 +52,7 @@ Crash Course
   - Survey of EDA tools, vendors, and resources for PCB design
   - `Introduction to KiCad Lab <labs/kicad-intro/kicad-intro.html>`_
 
-- **Week 2: Selecting and Using Parts**
+- **Week 2:** `Selecting and Using Parts <https://drive.google.com/open?id=1UwjUa_PgatswsSNDikb3DO8pBhv38KhNhP3nIsuHdNY>`_
 
   - Survey of IC, module, and passive product families
   - Preview of assembly technology and packaging
