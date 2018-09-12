@@ -63,10 +63,11 @@ Crash Course
 
 - **Week 3: Schematic Design Crash-Course**
 
-  - Constructing a schematic from high level specifications
-  - Making schematic symbols from datasheets
-  - Organizing schematics for readability and communicating design intent
-  - Checking a schematic design with ERC
+  - Drawing schematics with best practices to communicate design intent
+  - Creating symbols by reading component datasheets
+  - Importing and checking symbols from other sources
+  - Reviewing schematic designs with peers
+  - Checking schematics with ERC
   - `USB Charger Lab <labs/charger/schematic.html>`_
 
 - **Week 4: Layout Design Crash-Course**
