@@ -328,17 +328,41 @@ device support without tripping? What part did you choose, and why?
 Schematic Drawing
 =================
 Now that you've picked your parts, you're ready to start drawing the
-schematic. Open KiCad and start drawing!
+schematic. Open KiCad and draw a schematic for your USB charger, keeping in
+mind the schematic best practices we talked about in lecture. Include symbols
+for all input and output pins.
+
+Here are some common symbols and their symbol names in KiCad:
+
+.. csv-table::
+   :header: "Part", "Symbol Name"
+
+   Resistor, R
+   Resistor (small symbol), R_Small
+   Capacitor, C
+   Inductor, L
+   Resettable PTC fuse, Polyfuse
+
+Many parts, including R, C, and L, come in the ``_Small`` varieties.
 
 Creating Symbols
 ----------------
-You might notice that KiCad's symbol libraries might not have all the parts
-you want to use.
+You might notice that KiCad's symbol libraries may not have all the parts you
+want to use. For each symbol that is missing, try one of these solutions:
+
+1. Create a symbol from the datasheet
+2. Download, import, and check a symbol from an online service
+3. Use an existing symbol, or copy and change it if needed
+
+We suggest trying #1 with your regulator IC, #3 for your discrete
+semiconductors. Try out #2 to practice importing symbols, too.
 
 Schematic Conventions
 ---------------------
 Your fellow engineers use your schematic to try to understand not only how
-your design works, but also your design intent.
+your design works, but also your design intent. Show your schematic to another
+group in class. Can they follow what's going on in your schematic? Ask them
+for constructive criticism.
 
 Schematic Checking
 ------------------
