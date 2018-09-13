@@ -7,6 +7,7 @@ Hands-On PCB Engineering
 :Time/Location: Wednesday 8-10 PM, 140 Cory Hall
 :Instructors: Kevin Zheng and Olivia Hsu
 :Website: http://ieee.berkeley.edu/hope/pcb.html
+:Lab Checkoff: http://tinyurl.com/hopecheckoff
 
 .. contents::
 
