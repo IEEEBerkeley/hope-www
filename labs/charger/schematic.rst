@@ -418,7 +418,8 @@ the USB-A receptacle, and option #3 for your discrete semiconductors.
         Note: we will not be using the tri-state, open collector, and open
         emitter electrical connection types in HOPE. 
      
-     6. Once finished, select the 'Save Current Symbol' icon or press the 'Save All Libraries' icon.  
+     8. Once finished, select the 'Save Current Symbol' icon or press the
+        'Save All Libraries' icon.
         
 2. Download, import, and check  a symbol from an online service
    
