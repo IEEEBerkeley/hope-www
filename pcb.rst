@@ -82,6 +82,7 @@ Crash Course
   - Checking mechanical assemblies
   - Running DRC
   - Generating fabrication outputs
+  - `USB Charger Layout <labs/charger/layout.html>`_
 
 - **Week 5: Layout Considerations**
 
@@ -90,6 +91,7 @@ Crash Course
   - Stackup design and planes
   - EMC/EMI
   - Thermal minimums
+  - `USB Charger Layout <labs/charger/layout.html>`_
 
 - **Week 6: Microcontroller Designs**
 
