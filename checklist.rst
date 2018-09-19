@@ -6,7 +6,7 @@ HOPE PCB Checklist
 
 .. warning::
 
-  This course is still under development.
+  This checklist is still a work in progress.
 
 .. contents::
 
