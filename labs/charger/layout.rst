@@ -38,6 +38,10 @@ Footprints
 1. Find footprints for the parts you picked in KiCad's footprint library or
    online. If you cannot find a footprint, create it yourself.
 
+   #. Hint, you will probably need to make the USB footprint yourself. Check
+      the datasheet to make sure you are creating the footprint correctly.  
+   #. Double hint, if you're stuck click `here <http://kicadhowto.wikidot.com/mcf1foot1>`_
+ 
 #. Check all your footprints, except for standard passives, against the
    manufacturer data sheet.
 
