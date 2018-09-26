@@ -71,7 +71,7 @@ Crash Course
   - Checking schematics with ERC
   - `USB Charger Lab <labs/charger/schematic.html>`_
 
-- **Week 4: Layout Design Crash-Course**
+- **Week 4:** `Layout Design Crash-Course <https://docs.google.com/presentation/d/14tELDl2pM7SW283r4j0ss56-cByL4AKiBaCvH36ElMI/edit?usp=sharing>`_
 
   - Design rules and designing for manufacturability (DFM)
   - Stackup and organizing layers
@@ -84,7 +84,7 @@ Crash Course
   - Generating fabrication outputs
   - `USB Charger Layout <labs/charger/layout.html>`_
 
-- **Week 5: Layout Considerations**
+- **Week 5:** `Layout Considerations <https://drive.google.com/open?id=1bh5BnUw3GGC3n5HzebGmxYvm3rWWThicUv-IrDPH658>`_
 
   - Trace resistance, inductance, capacitance
   - Decoupling, current return path
