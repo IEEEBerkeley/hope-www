@@ -23,11 +23,11 @@ Setup
 
    The output should show where your shell found these binaries.
 
-#. Set the ``MSP430_SUPPORT_DIR`` environment variable to point to
-   msp430-elf-gcc's *include/* directory. For example (make sure to change
+#. Set the ``MSP430_TOOLCHAIN`` environment variable to point to the directory
+   in which msp430-elf-gcc is installed. For example (make sure to change
    this)::
 
-    $ export MSP430_SUPPORT_DIR=/usr/local/gcc-msp430-ti-toolchain-5.01.02.00/include/
+    $ export MSP430_SUPPORT_DIR=/usr/local/gcc-msp430-ti-toolchain-5.01.02.00/
 
 #. Verify that the support files for MSPDebug are installed. Without plugging
    your LaunchPad to your computer, run::
@@ -50,31 +50,99 @@ Setup
 
     $ mspdebug tilib
 
+   MSPDebug may warn you that the programmer firmware is out of date. If so,
+   run::
+
+    $ mspdebug tilib --allow-fw-update
+
    If everything worked, you should be in a prompt like::
 
     (mspdebug)
 
    Enter ``exit`` to quit.
 
+#. Obtain our example code::
+
+    $ git clone TODO FIX THIS
+
 
 Blinky LED
 ==========
-Write a program that blinks an LED on the LaunchPad on 1 second intervals.
+Change to the *blink/* directory. Open *blink.c* in our example code. This
+program blinks an LED on the LaunchPad on 1-second intervals.
 
-Assuming you named your file *blink.c*, compile your program with::
+Compile the example by running::
 
-  $ msp430-elf-gcc blink.c -o blink
+  $ make blink
 
-If compilation is successful, program the target using::
+From the command-line output, you can see what commands ``make`` ran, as if
+you had typed those commands in yourself.
 
-  $ mspdebug tilib 'prog blink'
+With your LaunchPad plugged in, program your target by running::
+
+  $ make prog
 
 Does the LED on your LaunchPad blink?
+
+With help from the `datasheet <http://www.ti.com/lit/gpn/msp430f5529>`_, write
+down answers to the following questions for checkoff:
+
+#. What is a watchdog timer? What is ``WDTCTL``? Why is ``WDTCTL`` set to the
+   bitwise-or (OR) of ``WDTPW`` and ``WDTHOLD``?
+
+#. What is ``P1DIR``? What does it mean when a bit in ``P1DIR`` is set? Why do
+   we set all the bits in ``P1DIR`` high?
+
+#. What is ``P1OUT``? What does repeatedly exclusive-or'ing (XOR) the bottom
+   bit of ``P1OUT`` do to it?
+
+#. What IO pin is controlled by the lowest bit of ``P1DIR``? What device is
+   connected to it?
+
+#. Can you guess what ``__delay_cycles`` does? (Hint: it's not in the part
+   datasheet, but the MSP430-GCC manual). Why is the argument 500000? What
+   clock frequency does the microcontroller start up with?
 
 
 Push-Button LED
 ===============
-Write a program that toggles the LED when a button is pushed.
+Change to the *push_blink/* directory. Change the example code to toggle the
+LED when a button on the LaunchPad is pushed. Some starter code is provided.
 
-Because of mechanical imperfections in the push button switch, you will most
-likely have to debounce your button-handling code.
+.. hint::
+
+  On the LaunchPad, the switches are designed to pull-down to ground when
+  pressed. When disengaged, the microcontroller input is left floating. **This
+  means you will need to configure the built-in pull-up resistor.**
+
+In addition to finishing and testing your program, answer the following:
+
+#. What are interrupts? What are interrupt vectors? When can our program be
+   delivered an interrupt?
+
+#. What is ``LPM4``? Why do we enter it at the end of ``main``?
+
+Debounce
+--------
+Because of mechanical imperfections in the push button, one physical button
+press may trigger multiple interrupts. To fix this, you'll need to *debounce*
+your button-handling code.
+
+
+Timer Blinky LED
+================
+The original `Blinky LED`_ example used ``__delay_cycles`` to keep time by
+running a bunch of no-ops. While this works, this wastes power because the CPU
+has to busily "do nothing" instead of shutting itself off.
+
+Rewrite the Blinky LED example using timer interrupts. That means your
+``main`` function should end with entry into ``LPM0``. You will have to use
+timer interrupts to toggle the LED. Consult the datasheet for more
+information.
+
+
+UART
+====
+The MSP430 has a hardware UART module. Write a program to display characters
+over the built-in UART. Observe your program's outputs using a serial console.
+You will need to consult the datasheet.
