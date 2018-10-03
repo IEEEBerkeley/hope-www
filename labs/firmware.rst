@@ -52,9 +52,9 @@ Setup
 
    If everything worked, you should be in a prompt like::
 
-    mspdebug>
+    (mspdebug)
 
-   Enter ``quit`` to exit.
+   Enter ``exit`` to quit.
 
 
 Blinky LED
