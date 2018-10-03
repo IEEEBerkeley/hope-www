@@ -6,6 +6,7 @@ PAGES = index.html \
 		labs/charger/layout.html \
 		labs/charger/schematic.html \
 		labs/digital-logic.html \
+		labs/firmware.html \
 		labs/building-gates.html \
 		labs/kicad-intro/kicad-intro.html \
 		labs/light-comms/light-comms.html \
