@@ -63,7 +63,7 @@ Setup
 
 #. Obtain our example code::
 
-    $ git clone TODO FIX THIS
+    $ git clone https://github.com/Partmedia/firmware-examples.git
 
 
 Blinky LED
@@ -127,6 +127,10 @@ Debounce
 Because of mechanical imperfections in the push button, one physical button
 press may trigger multiple interrupts. To fix this, you'll need to *debounce*
 your button-handling code.
+
+Once the button interrupt is triggered, find a way to disable button
+interrupts for a "hold off" time (a few hundred milliseconds) before
+re-enabling the interrupt again.
 
 
 Timer Blinky LED
