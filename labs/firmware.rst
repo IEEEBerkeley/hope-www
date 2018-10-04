@@ -66,6 +66,16 @@ Setup
     $ git clone https://github.com/Partmedia/firmware-examples.git
 
 
+Documentation
+=============
+For information about the modules and peripheral functions available on the
+your microcontroller, refer to the `MSP430F5529 datasheet
+<http://www.ti.com/lit/gpn/msp430f5529>`_.
+
+While writing firmware, you should refer to the `MSP430 Family User Guide
+<http://www.ti.com/lit/ug/slau208q/slau208q.pdf>`_.
+
+
 Blinky LED
 ==========
 Change to the *blink/* directory. Open *blink.c* in our example code. This
@@ -84,8 +94,8 @@ With your LaunchPad plugged in, program your target by running::
 
 Does the LED on your LaunchPad blink?
 
-With help from the `datasheet <http://www.ti.com/lit/gpn/msp430f5529>`_, write
-down answers to the following questions for checkoff:
+With help from the datasheet and user guide, write down answers to the
+following questions for checkoff:
 
 #. What is a watchdog timer? What is ``WDTCTL``? Why is ``WDTCTL`` set to the
    bitwise-or (OR) of ``WDTPW`` and ``WDTHOLD``?
@@ -141,12 +151,12 @@ has to busily "do nothing" instead of shutting itself off.
 
 Rewrite the Blinky LED example using timer interrupts. That means your
 ``main`` function should end with entry into ``LPM0``. You will have to use
-timer interrupts to toggle the LED. Consult the datasheet for more
-information.
+timer interrupts to toggle the LED. Consult the datasheet and user guide for
+more information.
 
 
 UART
 ====
 The MSP430 has a hardware UART module. Write a program to display characters
 over the built-in UART. Observe your program's outputs using a serial console.
-You will need to consult the datasheet.
+You will need to consult the datasheet and user guide.
