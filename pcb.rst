@@ -93,7 +93,7 @@ Crash Course
   - Thermal minimums
   - `USB Charger Layout <labs/charger/layout.html>`_
 
-- **Week 6: Microcontroller Firmware**
+- **Week 6:** `Microcontroller Firmware <https://docs.google.com/presentation/d/1gAiM9IsCU4zszUrDoP3xG2uiVYdznDj-7lJsu4rkGsI/edit?usp=sharing>`_
 
   - Microcontroller features and specifications
   - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
