@@ -105,6 +105,7 @@ Crash Course
   - Supporting microcontrollers on PCBs
   - Programmers and interfaces
   - Microcontroller datasheets
+  - Submit your `project proposal <https://goo.gl/forms/L8E0ZPaHPfKsObbN2>`_
 
 Project
 -------
