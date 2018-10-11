@@ -115,6 +115,7 @@ Project
   - Managing Bill-Of-Materials (BOM)
   - Design For Test (DFT)
   - Schematic design review
+  - **Draft BOM and schematics due Oct. 23rd, 11:59 PM**
 
 - **Week 9: Designing Your Own Layout**
 
@@ -124,6 +125,7 @@ Project
   - Layout design review
   - Buying parts
   - Generating production files
+  - **Final BOM and Gerbers due Nov. 1st, 11:59 PM**
 
 - **Week 10: Sensors and Interfaces**
 
