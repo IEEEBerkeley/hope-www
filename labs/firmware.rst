@@ -27,7 +27,7 @@ Setup
    in which msp430-elf-gcc is installed. For example (make sure to change
    this)::
 
-    $ export MSP430_SUPPORT_DIR=/usr/local/gcc-msp430-ti-toolchain-5.01.02.00/
+    $ export MSP430_TOOLCHAIN=/usr/local/gcc-msp430-ti-toolchain-5.01.02.00/
 
 #. Verify that the support files for MSPDebug are installed. Without plugging
    your LaunchPad to your computer, run::
