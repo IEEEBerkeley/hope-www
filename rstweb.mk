@@ -20,8 +20,7 @@ publish: html
 		--latex-preamble="\usepackage{fullpage}" $< $@
 
 .tex.pdf:
-	pdflatex $<
-	pdflatex $<
+	latexmk -pdf $<
 
 .ipynb.html:
 	jupyter-nbconvert --to html $<

@@ -1,4 +1,6 @@
 *.aux
+*.fdb_latexmk
+*.fls
 *.html
 *.log
 *.pdf
