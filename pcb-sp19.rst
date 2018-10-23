@@ -7,7 +7,6 @@ Hands-On PCB Engineering
 :Time/Location: TBD
 :Instructors: Kevin Zheng and Olivia Hsu
 :Website: http://ieee.berkeley.edu/hope/pcb.html
-:Lab Checkoff: http://tinyurl.com/hopecheckoff
 
 .. contents::
 
