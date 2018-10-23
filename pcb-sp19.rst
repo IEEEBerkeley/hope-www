@@ -2,12 +2,12 @@
 Hands-On PCB Engineering
 ========================
 :Institution: University of California, Berkeley
-:Semester: `Spring 2019 <https://decal.berkeley.edu/courses/4529>`_
+:Semester: Spring 2019
 :Course Number: EE 198 (1 Unit)
 :Time/Location: TBD
 :Instructors: Kevin Zheng and Olivia Hsu
 :Website: http://ieee.berkeley.edu/hope/pcb.html
-:Lab Checkoff: http://tinyurl.com/hopecheckoffsp19
+:Lab Checkoff: http://tinyurl.com/hopecheckoff
 
 .. contents::
 
@@ -187,9 +187,8 @@ contact_ the instructors.
 
 Enrollment
 ----------
-CCNs are given out during the first week of class. Priority will be given to
-students who fill out the `interest form
-<https://docs.google.com/forms/d/e/1FAIpQLScJ8gtqfZHcSPD28C5hmdw5zGJKj7a4ZlUaBT3yXB8G9p7I-Q/viewform?usp=sf_link>`_.
+CCNs are given out during the first week of class. Enrollment will be finalized during the third week of class.
+Priority will be given to students who consistently attend class.
 
 Grading
 -------
@@ -207,7 +206,7 @@ students should make a best effort to attend class.
 
 You may miss up to two labs unexcused; no instructor approval is required. If
 you miss a class, you must make up the missed lab or assignment before the
-next lecture.
+next lecture. Please also read over the lecture slides from the class you missed.
 
 Additional unexcused absences may result in a NP.
 
