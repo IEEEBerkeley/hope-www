@@ -109,7 +109,7 @@ Crash Course
 
 Project
 -------
-- **Week 8: Designing Your Own System**
+- **Week 8: Designing Your Own System** 
 
   - Design patterns and blocks for common applications
   - Generating specifications from high-level goals
@@ -118,7 +118,7 @@ Project
   - Schematic design review
   - **Draft BOM and schematics due Oct. 23rd, 11:59 PM**
 
-- **Week 9: Designing Your Own Layout**
+- **Week 9:** `Designing Your Own Layout <https://docs.google.com/presentation/d/1thvhuq1MOiqblA2-qIQquESdVCvOETkQoEtBpz3mFmQ/edit?usp=sharing>`_
 
   - Assembly methods and techniques
   - Finishes (HASL, ENIG)
