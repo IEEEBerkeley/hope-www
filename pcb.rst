@@ -127,6 +127,7 @@ Project
   - Buying parts
   - Generating production files
   - **Final BOM and Gerbers due Nov. 1st, 11:59 PM**
+  - `Project Submission <project.html>`_
 
 - **Week 10: Sensors and Interfaces**
 

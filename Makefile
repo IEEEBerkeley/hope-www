@@ -3,6 +3,7 @@ PAGES = index.html \
 		hope.html \
 		new.html \
 		pcb.html \
+		project.html \
 		labs/charger/layout.html \
 		labs/charger/schematic.html \
 		labs/digital-logic.html \
