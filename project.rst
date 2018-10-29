@@ -5,7 +5,7 @@ Project Submission
 #. Upload your design to `InstantDFM
    <http://instantdfm.bayareacircuits.com/>`_. Select 'Blue' soldermask and
    use default settings for the rest. When InstantDFM passes, send us your
-   InstantDFM link.
+   InstantDFM link and the gerbers attached in a zip file format.
 
 #. Submit your BOM for a **single** board in **CSV format**. Your BOM must
    have the following columns, in order:
@@ -29,7 +29,7 @@ Project Submission
    your resistors, please leave these fields blank to help us consolidate
    orders.*
 
-#. Send us your InstantDFM link, BOM, and desired quantity of boards. We will
+#. *Email us your InstantDFM link, BOM, zipped gerbers, and desired quantity of boards.* We will
    tell you if you need to make changes and how many boards we think we can
    provide PCBs and parts for.
 
