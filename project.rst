@@ -2,6 +2,16 @@
 Project Submission
 ==================
 
+#. Add the Bay Area Circuits and IEEE logos to your PCB by following the steps below:
+
+   1. If you are using Eagle, find the steps `here <https://www.instructables.com/id/Adding-Custom-Graphics-to-EAGLE-PCB-Layouts/>`_.
+      You can find the bitmap logo files from this `link <https://tinyurl.com/hopelogosbitmap>`_.
+   2. If you are using KiCad, download our footprints for the `two logos <https://tinyurl.com/hopelogos>`_.
+   3. Add the footprints into your KiCad footprint library by going to
+      Footprint Editor → Preferences → Manage Footprint Libraries → Project Specific
+      Tab → Browse Libraries → Locate the downloaded folder. 
+   4. Add these logos to your footprint by pressing 'O' and then finding the correct library and the correct components. 
+   
 #. Upload your design to `InstantDFM
    <http://instantdfm.bayareacircuits.com/>`_. Select 'Blue' soldermask and
    use default settings for the rest. When InstantDFM passes, send us your
