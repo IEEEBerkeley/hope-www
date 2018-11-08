@@ -129,7 +129,14 @@ Project
   - **Final BOM and Gerbers due Nov. 1st, 11:59 PM**
   - `Project Submission <project.html>`_
 
-- **Week 10: Sensors and Interfaces**
+- **Week 10:** `Assembly <https://docs.google.com/presentation/d/1jV1MScLm9tKhi292k43Lg3h-zFpUQxMkxrVTYr1lOa0/edit#slide=id.g45d43c0b18_1_31>`_
+
+  - Soldering, hot air, and reflow techniques
+  - Preheat
+  - Hand place, vaccums, pick-and-place
+  - Phone charger (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
+
+- **Week 11: Sensors and Interfaces**
 
   - Current/voltage sense
   - Temperature
@@ -137,7 +144,7 @@ Project
   - Digital interfaces and buses (SPI, I2C)
   - Power protection (TVS, PTC)
 
-- **Week 11: Power and High Speed**
+- **Week 12: Power and High Speed**
 
   - Picking passive components
   - Isolation
@@ -146,12 +153,6 @@ Project
   - Designing for test (DFT)
   - PCB antennas
   - Transmission lines, grounding
-
-- **Week 12: Assembly**
-
-  - Soldering, hot air, and reflow techniques
-  - Preheat
-  - Hand place, vaccums, pick-and-place
 
 - **Week 13: Test**
 
