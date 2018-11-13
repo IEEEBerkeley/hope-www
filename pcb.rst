@@ -217,11 +217,11 @@ Additional unexcused absences may result in a NP.
 Resources
 =========
 - HOPE's `PCB Checklist <checklist.html>`_
-- KiCad's `Documentation Page <http://kicad-pcb.org/help/documentation/>`_
 
-  - `KiCad Cheatsheet <https://silica.io/wp-content/uploads/2018/06/kicad-cheatsheet-landscape.pdf>`_
-  - KiCad's `Getting Started Guide <http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.pdf>`_ 
+- `KiCad Documentation <http://kicad-pcb.org/help/documentation/>`_
 
+  - `Cheatsheet <https://silica.io/wp-content/uploads/2018/06/kicad-cheatsheet-landscape.pdf>`_
+  - `Getting Started Guide <http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.pdf>`_
  
 Supplemental Reading
 --------------------
