@@ -256,6 +256,20 @@ For course-related questions, concerns, or attendance issues, email
 ieee-hope@lists.berkeley.edu.
 
 
+Acknowledgements
+================
+Hands-On PCB Engineering is made possible by donations from our generous
+industry sponsors:
+
+- `Bay Area Circuits <https://bayareacircuits.com/>`_ sponsors our students'
+  PCB prototypes. Bay Area Circuit's experienced staff in Silicon Valley have
+  delivered quality PCBs on-time for over 40 years.
+
+- `Texas Instruments <http://www.ti.com/>`_ donates development boards for our
+  labs and parts for student projects. Texas Instruments is a leader in
+  analog, embedded processing, and semiconductors, with a part to fill every
+  need from low-power microcontrollers to millimeter-wave radar.
+
 ----
 
 Copyright ⓒ 2018 Kevin Zheng. This course is licensed under a `Creative
