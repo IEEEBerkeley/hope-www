@@ -154,7 +154,7 @@ Project
   - PCB antennas
   - Transmission lines, grounding
 
-- **Week 13: Test**
+- **Week 13:** `Test <https://docs.google.com/presentation/d/1AgCBiqZ_lEFT4XU_19aTyCwkjmj8jWD2VEZJ42vzoVw/edit?usp=sharing>`_
 
   - Avoiding measurement errors
   - Understanding limitations in test equipment
