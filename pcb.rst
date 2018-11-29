@@ -160,6 +160,10 @@ Project
   - Understanding limitations in test equipment
   - Debugging strategies
 
+Please fill out `our feedback form
+<https://docs.google.com/forms/d/e/1FAIpQLSe1XCNDQnJGYlu_BgNwkF0vfaC-6GdL6k6sNN-7KN5WmfgK0Q/viewform?usp=sf_link>`
+so we can improve future offerings of this class.
+
 
 Course Format
 =============
