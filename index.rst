@@ -9,11 +9,13 @@ different versions. Only one version is offered each semester.
 =============================================
 Introductory electronics for beginners and hobbyists
 
-Last Offered: **Fall 2017**
+Previously Offered: Fall 2017, Spring 2017
 
 `Hands-On PCB Engineering <pcb.html>`_
 ======================================
 Real-world printed circuit board (PCB) design and layout for new and
 intermediate board designers
 
-Next Offered: **Fall 2018**
+Next Offered: **Spring 2019**
+
+Previously Offered: Fall 2018
