@@ -2,12 +2,11 @@
 Hands-On PCB Engineering
 ========================
 :Institution: University of California, Berkeley
-:Semester: `Fall 2018 <https://decal.berkeley.edu/courses/4529>`_
+:Semester: `Spring 2019 <https://decal.berkeley.edu/courses/4744>`_
 :Course Number: EE 198 (1 Unit)
 :Time/Location: Wednesday 8-10 PM, 140 Cory Hall
 :Instructors: Kevin Zheng and Olivia Hsu
 :Website: http://ieee.berkeley.edu/hope/pcb.html
-:Lab Checkoff: http://tinyurl.com/hopecheckoff
 
 .. contents::
 
@@ -37,7 +36,7 @@ decoupling, EMC/EMI, thermals, isolation, and high-speed.
 
 Timeline
 ========
-Our first class for Fall 2018 is on **Wednesday, August 29th**. *This schedule
+Our first class for Spring 2019 is **Wednesday, January 30th**. *This schedule
 is tentative and may change at instructor discretion.*
 
 For alternative or in-depth treatment of topics discussed in class, see
@@ -116,7 +115,7 @@ Project
   - Managing Bill-Of-Materials (BOM)
   - Design For Test (DFT)
   - Schematic design review
-  - **Draft BOM and schematics due Oct. 23rd, 11:59 PM**
+  - **Draft BOM and schematics due TBA**
 
 - **Week 9:** `Designing Your Own Layout <https://docs.google.com/presentation/d/1thvhuq1MOiqblA2-qIQquESdVCvOETkQoEtBpz3mFmQ/edit?usp=sharing>`_
 
@@ -126,7 +125,7 @@ Project
   - Layout design review
   - Buying parts
   - Generating production files
-  - **Final BOM and Gerbers due Nov. 1st, 11:59 PM**
+  - **Final BOM and Gerbers due TBA**
   - `Project Submission <project.html>`_
 
 - **Week 10:** `Assembly <https://docs.google.com/presentation/d/1jV1MScLm9tKhi292k43Lg3h-zFpUQxMkxrVTYr1lOa0/edit#slide=id.g45d43c0b18_1_31>`_
@@ -160,18 +159,12 @@ Project
   - Understanding limitations in test equipment
   - Debugging strategies
 
-.. important::
-
-  Please fill out `our feedback form
-  <https://docs.google.com/forms/d/e/1FAIpQLSe1XCNDQnJGYlu_BgNwkF0vfaC-6GdL6k6sNN-7KN5WmfgK0Q/viewform?usp=sf_link>`_
-  so we can improve future offerings of this class.
-
 
 Course Format
 =============
 This course spans 13 weeks. Class meets for two hours once a week. Each class
 begins with a short lecture followed by a lab activity or practical
-assignment. Labs and assignments build on those from previous weeks. Students
+assignment. Labs and assignments can be completed in pairs and build on those from previous weeks. Students
 are expected to spend an hour a week outside of class reviewing material,
 preparing for class meetings, and completing assignments.
 
@@ -195,9 +188,8 @@ contact_ the instructors.
 
 Enrollment
 ----------
-CCNs are given out during the first week of class. Priority will be given to
-students who fill out the `interest form
-<https://docs.google.com/forms/d/e/1FAIpQLScJ8gtqfZHcSPD28C5hmdw5zGJKj7a4ZlUaBT3yXB8G9p7I-Q/viewform?usp=sf_link>`_.
+CCNs are given out during the first week of class. Enrollment will be finalized during the third week of class.
+Priority will be given to students who consistently attend class.
 
 Grading
 -------
@@ -215,7 +207,7 @@ students should make a best effort to attend class.
 
 You may miss up to two labs unexcused; no instructor approval is required. If
 you miss a class, you must make up the missed lab or assignment before the
-next lecture.
+next lecture. Please also read over the lecture slides from the class you missed.
 
 Additional unexcused absences may result in a NP.
 
@@ -278,6 +270,6 @@ industry sponsors:
 
 ----
 
-Copyright ⓒ 2018 Kevin Zheng. This course is licensed under a `Creative
+Copyright ⓒ 2018, 2019 Kevin Zheng. This course is licensed under a `Creative
 Commons Attribution-ShareAlike 4.0 International License
 <http://creativecommons.org/licenses/by-sa/4.0/>`_.
