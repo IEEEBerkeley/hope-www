@@ -1,6 +1,9 @@
 ============
 EE 198: HOPE
 ============
+.. meta::
+  :viewport: width=device-width, initial-scale=1
+
 HOPE is a `DeCal <https://decal.berkeley.edu/>`_ taught by the IEEE student
 branch at the University of California, Berkeley. HOPE is offered in two
 different versions. Only one version is offered each semester.

@@ -8,6 +8,9 @@ Hands-On PCB Engineering
 :Instructors: Kevin Zheng and Olivia Hsu
 :Website: http://ieee.berkeley.edu/hope/pcb.html
 
+.. meta::
+  :viewport: width=device-width, initial-scale=1
+
 .. contents::
 
 Overview
