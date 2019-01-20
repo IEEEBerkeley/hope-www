@@ -1,10 +1,11 @@
-========================
-Hands-On PCB Engineering
-========================
+================================
+EE 198: Hands-On PCB Engineering
+================================
 :Institution: University of California, Berkeley
 :Semester: `Spring 2019 <https://decal.berkeley.edu/courses/4744>`_
-:Course Number: EE 198 (1 Unit)
-:Time/Location: Wednesday 8-10 PM, 140 Cory Hall
+:Units: 1
+:Time: Wednesday 8-10 PM
+:Location: 140 Cory Hall
 :Instructors: Kevin Zheng and Olivia Hsu
 :Website: http://ieee.berkeley.edu/hope/pcb.html
 
