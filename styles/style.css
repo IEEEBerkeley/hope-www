@@ -58,8 +58,13 @@ div#contents li a:hover {
 }
 
 div#contents {
-    float: right;
     margin: 1em 0 2em 2em;
+}
+
+@media (min-width: 500px) {
+  div#contents {
+    float: right;
+  }
 }
 
 /* Styling for side alerts */
