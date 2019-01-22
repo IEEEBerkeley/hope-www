@@ -242,6 +242,10 @@ Supplemental Reading
   - HOPE's `PCB Checklist <checklist.html>`_
   - Dunn 2013. `PCB design course & checklist <https://www.edn.com/design/pc-board/4422579/PCB-design-course---checklist>`_. *EDN*.
 
+- Week 12
+
+  - Zumbahlen 2012. `Staying Well Grounded <https://www.analog.com/en/analog-dialogue/articles/staying-well-grounded.html>`_. *Analog Dialogue Technical Journal.*
+
 
 FAQ
 ===
