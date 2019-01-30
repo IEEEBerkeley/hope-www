@@ -14,6 +14,11 @@ EE 198: Hands-On PCB Engineering
 
 .. contents::
 
+.. important::
+
+  `Download and install KiCad 5 <http://kicad-pcb.org/download/>`_ before
+  coming to our first class!
+
 Overview
 ========
 This course introduces printed circuit board (PCB) design and layout practices
@@ -48,71 +53,70 @@ For alternative or in-depth treatment of topics discussed in class, see
 
 Crash Course
 ------------
-- **Week 1:** `Intro <https://docs.google.com/presentation/d/1ASJPINnZD4yf0E0k_IJHtEYiVdZqlXHoTTlJ_wvKl40/edit?usp=sharing>`_
+- **Week 1 (1/30):** `Introduction <https://docs.google.com/presentation/d/1ASJPINnZD4yf0E0k_IJHtEYiVdZqlXHoTTlJ_wvKl40/edit?usp=sharing>`_
 
-  - The role of the PCB in system design
-  - PCB anatomy
-  - PCB design workflows
-  - Survey of EDA tools, vendors, and resources for PCB design
+  - Basics of PCBs and hardware system design
+  - Logistics and course timeline
+  - Electronic computer-aided design (ECAD) for PCBs
+  - KiCAD design flow
   - `Introduction to KiCad Lab <labs/kicad-intro/kicad-intro.html>`_
+  - **Homework:** Finish intro lab
 
-- **Week 2:** `Selecting and Using Parts <https://drive.google.com/open?id=1UwjUa_PgatswsSNDikb3DO8pBhv38KhNhP3nIsuHdNY>`_
+- **Week 2 (2/6):** `Selecting and Using Parts <https://drive.google.com/open?id=1UwjUa_PgatswsSNDikb3DO8pBhv38KhNhP3nIsuHdNY>`_
 
-  - Survey of IC, module, and passive product families
+  - Case study: DC-DC conversion
+  - Circuit devices
+  - Using application notes
   - Preview of assembly technology and packaging
-  - Evaluating parts based on suitability and cost
-  - Selecting peripherals based on datasheet recommendations
   - Writing a Bill Of Materials (BOM)
+  - Survey of electronic suppliers
   - `USB Charger Lab <labs/charger/schematic.html>`_
 
-- **Week 3:** `Schematic Design Crash-Course <https://docs.google.com/presentation/d/1GE4RDmVtJWSdr3qWNDuQOxw-n88c0tjyMpnVuX1M6Lk/edit?usp=sharing>`_
+- **Week 3 (2/13):** `Schematic Design Crash-Course <https://docs.google.com/presentation/d/1GE4RDmVtJWSdr3qWNDuQOxw-n88c0tjyMpnVuX1M6Lk/edit?usp=sharing>`_
 
   - Drawing schematics with best practices to communicate design intent
   - Creating symbols by reading component datasheets
   - Importing and checking symbols from other sources
-  - Reviewing schematic designs with peers
-  - Checking schematics with ERC
+  - Reviewing schematic designs with peers; checking schematics with ERC
   - `USB Charger Lab <labs/charger/schematic.html>`_
+  - **Homework:** Finish USB charger schematic
 
-- **Week 4:** `Layout Design Crash-Course <https://docs.google.com/presentation/d/14tELDl2pM7SW283r4j0ss56-cByL4AKiBaCvH36ElMI/edit?usp=sharing>`_
+- **Week 4 (2/20):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/14tELDl2pM7SW283r4j0ss56-cByL4AKiBaCvH36ElMI/edit?usp=sharing>`_
 
-  - Design rules and designing for manufacturability (DFM)
-  - Stackup and organizing layers
+  - Design rules, stackup, and design for manufacturability (DFM)
   - Electrical minimums (width, clearance)
   - Making footprints
   - Placing parts and routing nets
   - Layout best practice
-  - Checking mechanical assemblies
-  - Running DRC
-  - Generating fabrication outputs
+  - Checking your work, generating fabrication outputs
   - `USB Charger Layout <labs/charger/layout.html>`_
+  - **Homework:** Finish USB charger layout
 
-- **Week 5:** `Layout Considerations <https://drive.google.com/open?id=1bh5BnUw3GGC3n5HzebGmxYvm3rWWThicUv-IrDPH658>`_
+- **Week 5 (2/27):** `Microcontroller Firmware <https://docs.google.com/presentation/d/1gAiM9IsCU4zszUrDoP3xG2uiVYdznDj-7lJsu4rkGsI/edit?usp=sharing>`_ And Designs
 
+  - Microcontroller features and specifications
+  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
+  - Setting up toolchains, developing firmware
+  - Supporting microcontrollers on PCBs
+  - Programmers and interfaces
+  - Microcontroller datasheets
+  - Digital interfaces and buses (SPI, I2C)
+  - Microcontroller design lab
+  - **Homework:** Start microcontroller board layout
+
+- **Week 6 (3/6):** `Layout Considerations <https://drive.google.com/open?id=1bh5BnUw3GGC3n5HzebGmxYvm3rWWThicUv-IrDPH658>`_
+
+  - Finish microcontroller board
   - Trace resistance, inductance, capacitance
   - Decoupling, current return path
   - Stackup design and planes
   - EMC/EMI
   - Thermal minimums
-  - `USB Charger Layout <labs/charger/layout.html>`_
-
-- **Week 6:** `Microcontroller Firmware <https://docs.google.com/presentation/d/1gAiM9IsCU4zszUrDoP3xG2uiVYdznDj-7lJsu4rkGsI/edit?usp=sharing>`_
-
-  - Microcontroller features and specifications
-  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
-  - Setting up toolchains, developing firmware
-  - `Microcontroller Firmware Lab <labs/firmware.html>`_
-
-- **Week 7: Microcontroller Designs**
-
-  - Supporting microcontrollers on PCBs
-  - Programmers and interfaces
-  - Microcontroller datasheets
-  - Submit your `project proposal <https://goo.gl/forms/L8E0ZPaHPfKsObbN2>`_
+  - **Homework:** Submit your `project proposal <https://goo.gl/forms/L8E0ZPaHPfKsObbN2>`_
 
 Project
 -------
-- **Week 8: Designing Your Own System** 
+- **Week 7 (3/13): Designing Your Own System**
 
   - Design patterns and blocks for common applications
   - Generating specifications from high-level goals
@@ -121,7 +125,7 @@ Project
   - Schematic design review
   - **Draft BOM and schematics due TBA**
 
-- **Week 9:** `Designing Your Own Layout <https://docs.google.com/presentation/d/1thvhuq1MOiqblA2-qIQquESdVCvOETkQoEtBpz3mFmQ/edit?usp=sharing>`_
+- **Week 8 (3/20):** `Designing Your Own Layout <https://docs.google.com/presentation/d/1thvhuq1MOiqblA2-qIQquESdVCvOETkQoEtBpz3mFmQ/edit?usp=sharing>`_
 
   - Assembly methods and techniques
   - Finishes (HASL, ENIG)
@@ -130,34 +134,25 @@ Project
   - Buying parts
   - Generating production files
   - **Final BOM and Gerbers due TBA**
+
+- **Week 9 (4/3): Finish Project** 
+
   - `Project Submission <project.html>`_
 
-- **Week 10:** `Assembly <https://docs.google.com/presentation/d/1jV1MScLm9tKhi292k43Lg3h-zFpUQxMkxrVTYr1lOa0/edit#slide=id.g45d43c0b18_1_31>`_
+- **Week 10 (4/10):** `Assembly <https://docs.google.com/presentation/d/1jV1MScLm9tKhi292k43Lg3h-zFpUQxMkxrVTYr1lOa0/edit#slide=id.g45d43c0b18_1_31>`_
 
   - Soldering, hot air, and reflow techniques
   - Preheat
   - Hand place, vaccums, pick-and-place
-  - Phone charger (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
+  - Phone charger
 
-- **Week 11: Sensors and Interfaces**
+- **Week 11 (4/17): More Assembly** 
 
-  - Current/voltage sense
-  - Temperature
-  - Specifications for amplifiers and ADCs
-  - Digital interfaces and buses (SPI, I2C)
-  - Power protection (TVS, PTC)
+    .. (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
 
-- **Week 12: Power and High Speed**
+- **Week 12 (4/24): Project Assembly**
 
-  - Picking passive components
-  - Isolation
-  - Mechanical and thermal considerations
-  - Test points
-  - Designing for test (DFT)
-  - PCB antennas
-  - Transmission lines, grounding
-
-- **Week 13:** `Test <https://docs.google.com/presentation/d/1AgCBiqZ_lEFT4XU_19aTyCwkjmj8jWD2VEZJ42vzoVw/edit?usp=sharing>`_
+- **Week 13 (5/1):** `Project Test <https://docs.google.com/presentation/d/1AgCBiqZ_lEFT4XU_19aTyCwkjmj8jWD2VEZJ42vzoVw/edit?usp=sharing>`_
 
   - Avoiding measurement errors
   - Understanding limitations in test equipment
@@ -184,8 +179,6 @@ Students should bring to class a laptop computer or similar device capable of
 running the following software:
 
 - `KiCad 5 <http://kicad-pcb.org/download/>`_
-- `MSP430-GCC <http://www.ti.com/tool/msp430-gcc-opensource>`_ from TI
-- `MSPDebug <https://dlbeer.co.nz/mspdebug/>`_
 
 If you have difficulty obtaining the required course materials, please
 contact_ the instructors.
@@ -227,24 +220,15 @@ Resources
  
 Supplemental Reading
 --------------------
-- Week 1
+Roughly in the order that is presented in class:
 
-  - Wahby 2013. `PCB design basics <https://www.edn.com/design/pc-board/4424239/2/PCB-design-basics>`_. *EDN*.
-
-- Week 2, 3
-
-  - Wahby 2014. `PCB Design Basics: Example design flow <https://www.edn.com/design/pc-board/4426878/PCB-Design-Basics--Example-design-flow>`_. *EDN*.
-  - Voltage Protection:
-    - Pickering 2016. `Reverse-Polarity Protection in Automotive Design <https://www.electronicdesign.com/power/reverse-polarity-protection-automotive-design>`_. 
-
-- Week 6
-
-  - HOPE's `PCB Checklist <checklist.html>`_
-  - Dunn 2013. `PCB design course & checklist <https://www.edn.com/design/pc-board/4422579/PCB-design-course---checklist>`_. *EDN*.
-
-- Week 12
-
-  - Zumbahlen 2012. `Staying Well Grounded <https://www.analog.com/en/analog-dialogue/articles/staying-well-grounded.html>`_. *Analog Dialogue Technical Journal.*
+- Wahby 2013. `PCB design basics <https://www.edn.com/design/pc-board/4424239/2/PCB-design-basics>`_. *EDN*.
+- Wahby 2014. `PCB Design Basics: Example design flow <https://www.edn.com/design/pc-board/4426878/PCB-Design-Basics--Example-design-flow>`_. *EDN*.
+- Voltage Protection:
+  - Pickering 2016. `Reverse-Polarity Protection in Automotive Design <https://www.electronicdesign.com/power/reverse-polarity-protection-automotive-design>`_. 
+- HOPE's `PCB Checklist <checklist.html>`_
+- Dunn 2013. `PCB design course & checklist <https://www.edn.com/design/pc-board/4422579/PCB-design-course---checklist>`_. *EDN*.
+- Zumbahlen 2012. `Staying Well Grounded <https://www.analog.com/en/analog-dialogue/articles/staying-well-grounded.html>`_. *Analog Dialogue Technical Journal.*
 
 
 FAQ
