@@ -60,7 +60,8 @@ Crash Course
   - Electronic computer-aided design (ECAD) for PCBs
   - KiCAD design flow
   - `Introduction to KiCad Lab <labs/kicad-intro/kicad-intro.html>`_
-  - **Homework:** Finish intro lab
+
+  **Homework:** Finish intro lab
 
 - **Week 2 (2/6):** `Selecting and Using Parts <https://drive.google.com/open?id=1UwjUa_PgatswsSNDikb3DO8pBhv38KhNhP3nIsuHdNY>`_
 
@@ -79,7 +80,8 @@ Crash Course
   - Importing and checking symbols from other sources
   - Reviewing schematic designs with peers; checking schematics with ERC
   - `USB Charger Lab <labs/charger/schematic.html>`_
-  - **Homework:** Finish USB charger schematic
+
+  **Homework:** Finish USB charger schematic
 
 - **Week 4 (2/20):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/14tELDl2pM7SW283r4j0ss56-cByL4AKiBaCvH36ElMI/edit?usp=sharing>`_
 
@@ -90,7 +92,8 @@ Crash Course
   - Layout best practice
   - Checking your work, generating fabrication outputs
   - `USB Charger Layout <labs/charger/layout.html>`_
-  - **Homework:** Finish USB charger layout
+
+  **Homework:** Finish USB charger layout
 
 - **Week 5 (2/27):** `Microcontroller Firmware <https://docs.google.com/presentation/d/1gAiM9IsCU4zszUrDoP3xG2uiVYdznDj-7lJsu4rkGsI/edit?usp=sharing>`_ And Designs
 
@@ -102,7 +105,8 @@ Crash Course
   - Microcontroller datasheets
   - Digital interfaces and buses (SPI, I2C)
   - Microcontroller design lab
-  - **Homework:** Start microcontroller board layout
+
+  **Homework:** Start microcontroller board layout
 
 - **Week 6 (3/6):** `Layout Considerations <https://drive.google.com/open?id=1bh5BnUw3GGC3n5HzebGmxYvm3rWWThicUv-IrDPH658>`_
 
@@ -112,7 +116,8 @@ Crash Course
   - Stackup design and planes
   - EMC/EMI
   - Thermal minimums
-  - **Homework:** Submit your `project proposal <https://goo.gl/forms/L8E0ZPaHPfKsObbN2>`_
+
+  **Homework:** Submit your `project proposal <https://goo.gl/forms/L8E0ZPaHPfKsObbN2>`_
 
 Project
 -------
