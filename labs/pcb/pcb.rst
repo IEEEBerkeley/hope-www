@@ -27,9 +27,9 @@ Schematic Capture
 
    .. image:: led-sensor.png
 
-#. Press 'a' and search for 'LMC6482'. If it does not exist, try the
-   'LMC6082'. Open the drop-down and select 'Unit A'. Place the unit on the
-   schematic. Repeat with 'Unit B'. Press 'ESC' to exit insert mode.
+#. Press 'a' and search for 'LMC6482'. Open the drop-down and select 'Unit A'.
+   Place the unit on the schematic. Repeat with 'Unit B' and 'Unit C' (placing
+   only one of each unit). Press 'ESC' to exit insert mode.
 
 #. Flip Unit A horizontally. Right click Unit A of the op amp and Orient
    Component → Mirror --.
@@ -48,6 +48,9 @@ Schematic Capture
 #. Place 5 grounds ('GND') as shown.
 
 #. Place a 1×3 connector ('CONN_01x03') as shown.
+
+#. Place power flags ('PWR_FLAG') to indiciate where external power sources
+   connect as shown.
 
 #. Now we need to hook everything up with wires. Move your mouse to where you
    want to start a wire, press 'w', click around to snap wire, and click on
