@@ -26,7 +26,7 @@ Our first class for Fall 2017 is on **Wednesday, August 30th**.
 ==== =================================
 Week Topic
 ==== =================================
-1    `Introduction <https://docs.google.com/presentation/d/1V1GUiS81OiZVnL8c98kv4PT42Tgwh_WP_Cdp0BddmdU/edit?usp=sharing>`_
+1    `Introduction <https://docs.google.com/presentation/d/1z69Qty1y5xXLZ0Aj5myJGrSgowtjMf__ZhqZYirxvpg/edit?usp=sharing>`_
 
      - *Preparation:* Review syllabus
      - Introduction to electrical engineering, Moore's Law, and current
