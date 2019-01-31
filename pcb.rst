@@ -53,7 +53,7 @@ For alternative or in-depth treatment of topics discussed in class, see
 
 Crash Course
 ------------
-- **Week 1 (1/30):** `Introduction <https://docs.google.com/presentation/d/1ASJPINnZD4yf0E0k_IJHtEYiVdZqlXHoTTlJ_wvKl40/edit?usp=sharing>`_
+- **Week 1 (1/30):** `Introduction <https://docs.google.com/presentation/d/1z69Qty1y5xXLZ0Aj5myJGrSgowtjMf__ZhqZYirxvpg/edit?usp=sharing>`_
 
   - Basics of PCBs and hardware system design
   - Logistics and course timeline
