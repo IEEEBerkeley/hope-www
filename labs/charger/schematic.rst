@@ -18,9 +18,9 @@ it?
 
 The Big Picture
 ===============
-Your charger is a USB "upstream device" that supplies power to a "downstream
-device" being charged. In order for it to be functional and reliable, your
-charger needs to:
+Your charger acts as a USB *upstream device* that supplies power to a
+*downstream device* being charged. In order for it to be functional and
+reliable, your charger needs to:
 
 - Provide physical power connectors. The output needs to be a USB-A female
   receptacle, and assume someone else is designing the input plug for your
@@ -42,10 +42,10 @@ charger needs to:
 - Cost less than $10. Otherwise, you could have just bought one online.
 
 
-What Specifications?
-====================
+Specifications
+==============
 If you were starting a design on your own, you'd first have to make some
-high-level design choices. In this lab, we are giving you your high-level
+high-level design choices. In this lab, we are providing high-level
 specifications due to time constraints:
 
 - Input voltage range covering 9-18V DC
@@ -56,6 +56,8 @@ specifications due to time constraints:
 
 - Some form of protection circuitry as mentioned in `The Big Picture`_. More
   on this later in the lab. 
+
+- Form factor small enough to fit in an automotive 12V outlet
 
 - Minimum cost
 
@@ -75,22 +77,20 @@ Pin  Name  What it's for
 
 Read Section 4.4 "Dedicated Charging Port" in the `USB Battery Charging
 Specification, Revision 1.2
-<http://composter.com.ua/documents/BC1.2_FINAL.pdf>`_ and answer the following
+<http://composter.com.ua/documents/BC1.2_FINAL.pdf>`_. Make sure to pay
+attention to the third paragraph in part 4.4.1 "Required Operating Ranges."
+Answer the following questions:
 
-Make sure to pay attention to the third paragraph in part 4.4.1 "Required Operating Ranges."
+#. What is the allowable range of output (VBUS) voltages from your charger?
+#. In the third paragraph of part 4.4.1, which current line must the load curve
+   cross? 
+#. What is the value of :math:`I_{DEV_CHG}`? 
 
-questions:
+   - Therefore, how much current must your charger be able to supply without
+     shutting down if your charger must support more than 2V?
 
-- What is the allowable range of output (VBUS) voltages from your charger?
-- In the third paragraph of part 4.4.1, which current line must the load curve
-  cross? 
-- What is the value of :math:`I_{DEV_CHG}`? 
-
-  - Therefore, how much current must your charger be able to supply without
-    shutting down if your charger must support more than 2V?
-
-- How should your charger connect the D+ and D- pins to indicate that it is a
-  charging port?
+#. How should your charger connect the D+ and D- pins to indicate that it is a
+   charging port?
 
 Choosing Parts
 ==============
@@ -126,6 +126,8 @@ Connectors
   - Remember to think about what our inputs are. How many pins will we need? 
 
 - Select an output **USB-A receptacle.**
+
+.. hint::
 
   #.  Let's take a look at the steps required to narrow down your search when
       starting from scratch. First go to `Digi-Key's website
@@ -203,7 +205,7 @@ that your time isn't free!
 
 - High-side **PMOS** with gate tied to ground:
 
-  .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F3_0.gif
+  .. image:: pmos.png
 
   Using a PMOS instead of a diode incurs much less loss. However, the PMOS may
   be less tolerant to high voltage spikes and may require additional circuitry
@@ -233,6 +235,7 @@ that your time isn't free!
 - High-side **NMOS** with gate driver:
 
   .. image:: https://www.electronicdesign.com/sites/electronicdesign.com/files/uploads/2015/02/0216_TI_RevPolarity_F5.gif
+     :height: 300px
 
   For the same-size device, NMOS devices have half the on-resistance of PMOS
   devices! That means you can save another 50% by using an NMOS device!
@@ -280,6 +283,10 @@ to power your charger. We discussed the following options:
 
 Which option did you pick? What parts did you choose and why?
 
+.. hint::
+
+  Did you pick an LDO? It probably won't work. Why?
+
 Passives
 --------
 Like we talked about in lecture, many ICs will have accompanying passives
@@ -324,7 +331,6 @@ device support without tripping? What part did you choose, and why?
   If you have time, you may proceed on your own. Otherwise, we'll resume next
   week with more guidance.
 
-
 Schematic Drawing
 =================
 Now that you've picked your parts, you're ready to start drawing the
@@ -357,13 +363,7 @@ want to use. For each symbol that is missing, you can do one of three options de
 For today's lab, you should use option #1 for your regulator IC, option #2 for
 the USB-A receptacle, and option #3 for your discrete semiconductors. 
 
-1. Create a symbol yourself from the datasheet
-
-   - There are many `online
-     resources <http://kicad.txplore.com/index-p=96.html>`_ that explain the
-     steps to create a custom schematic symbol in KiCad. 
-   - Or you can follow the instructions below to create a schematic symbol
-     yourself:
+1. Create a symbol yourself from the datasheet:
 
      1. Click the 'Symbol Library Editor' application (2nd on the left from the
         KiCad main page) or the 'Create, Delete, and Edit Symbols' application from the
@@ -415,9 +415,6 @@ the USB-A receptacle, and option #3 for your discrete semiconductors.
 
         **Power output** pins generate soures of power. 
         
-        Note: we will not be using the tri-state, open collector, and open
-        emitter electrical connection types in HOPE. 
-     
      8. Once finished, select the 'Save Current Symbol' icon or press the
         'Save All Libraries' icon.
         
@@ -457,9 +454,10 @@ for constructive criticism.
 
 Schematic Checking
 ------------------
-Run ERC and make sure there are no ERC errors. (Optional) Do a design review with another group. 
+Run ERC and make sure there are no ERC errors. Do a design review with another
+group. 
 
-**Design Reviews** are when you explain/present your design to a group of
+*Design reviews* are when you explain/present your design to a group of
 peers/coworkers with similar or more technical knowledge to verify your design.
 It is generally recommended that you do a schematic design review before layout
 and a final design review before manufacturing. When presenting your design, it
