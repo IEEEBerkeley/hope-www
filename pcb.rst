@@ -14,11 +14,6 @@ EE 198: Hands-On PCB Engineering
 
 .. contents::
 
-.. important::
-
-  `Download and install KiCad 5 <http://kicad-pcb.org/download/>`_ before
-  coming to our first class!
-
 Overview
 ========
 This course introduces printed circuit board (PCB) design and layout practices
