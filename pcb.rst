@@ -58,7 +58,7 @@ Crash Course
 
   **Homework:** Finish intro lab
 
-- **Week 2 (2/6):** `Selecting and Using Parts <https://drive.google.com/open?id=1UwjUa_PgatswsSNDikb3DO8pBhv38KhNhP3nIsuHdNY>`_
+- **Week 2 (2/6):** `Selecting and Using Parts <https://docs.google.com/presentation/d/1gqILuToAdnMANDv2snQ_bOsREtKKvCXkCQMaTXiBsJA/>`_
 
   - Case study: DC-DC conversion
   - Circuit devices
