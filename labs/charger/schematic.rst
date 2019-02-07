@@ -29,8 +29,8 @@ charger needs to:
 - Convert the automobile's 12V DC supply to a 5V DC supply. The output load is
   unknown and may change over time.
 
-- Indicate to the downstream device that it is "fast charging" capable. If you
-  don't, your device will charge slowly.
+- Indicate to the downstream device that it is a "dedicated charging port
+  (DCP)". If you don't, your device will charge slowly.
 
 - Protect itself and the downstream device against high voltage transients and
   voltage reverse polarity. The former can occur while starting the engine and
