@@ -444,8 +444,8 @@ the USB-A receptacle, and option #3 for your discrete semiconductors.
 
 Schematic Conventions
 ---------------------
-Your fellow engineers use your schematic to try to understand not only how your
-design works, but also your design intent. Follow the schematic conventions
+**Your fellow engineers use your schematic to try to understand not only how your
+design works, but also your design intent.** Follow the schematic conventions
 discussed in lecture.  Show your schematic to another group in class. 
 
 Can they follow what's going on in your schematic? Ask them
@@ -454,8 +454,8 @@ for constructive criticism.
 
 Schematic Checking
 ------------------
-Run ERC and make sure there are no ERC errors. Do a design review with another
-group. 
+Run ERC and make sure there are no ERC errors. Have a design review with
+another group. 
 
 *Design reviews* are when you explain/present your design to a group of
 peers/coworkers with similar or more technical knowledge to verify your design.
@@ -472,7 +472,8 @@ Fill out the fields in the title block.
 
 Checkoff
 --------
-Show your phone charger schematic to an instructor for checkoff. 
+Show your phone charger schematic to an instructor. Be prepared to answer
+questions about your design review.
 
 .. [#rpp] Paul Pickering, `Reverse-Polarity Protection in Automotive Design <https://www.electronicdesign.com/power/reverse-polarity-protection-automotive-design>`_, *EDN*, 2016.
 .. [#iso1] `ISO 16750-2 Standard <http://www.compel.ru/wordpress/wp-content/uploads/2017/05/ISO-16750-22010E-.pdf>`_, *ISO*, 2010.
