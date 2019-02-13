@@ -446,25 +446,25 @@ Schematic Conventions
 ---------------------
 **Your fellow engineers use your schematic to try to understand not only how your
 design works, but also your design intent.** Follow the schematic conventions
-discussed in lecture.  Show your schematic to another group in class. 
+discussed in lecture.  
 
-Can they follow what's going on in your schematic? Ask them
-for constructive criticism.
-
+Ask yourself: If a stranger were to read your schematic, would they be able to follow what's going on?
 
 Schematic Checking
 ------------------
-Run ERC and make sure there are no ERC errors. Have a design review with
-another group. 
+Run ERC and make sure there are no ERC errors. 
+
+Once ERC passes, have a design review with another group. Ask for constructive criticism from the other group.
 
 *Design reviews* are when you explain/present your design to a group of
 peers/coworkers with similar or more technical knowledge to verify your design.
-It is generally recommended that you do a schematic design review before layout
+It is recommended that you do a schematic design review before layout
 and a final design review before manufacturing. When presenting your design, it
-is generally important to give your BOM and schematic files or layout files to
-the review committee beforehand. If you are on the review committee, it is
-important that you familiarize yourself with the other person's design
-beforehand and ask any questions you may have during the design review. 
+is important to give your BOM and schematic files or layout files to
+the review committee beforehand so they have ample time to review your deisgn. 
+If you are on the review committee, it is important that you familiarize yourself 
+with the other person's design beforehand and ask any questions 
+you may have during the design review. 
 
 Final Touches
 -------------
