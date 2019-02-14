@@ -71,7 +71,7 @@ Crash Course
   - Survey of electronic suppliers
   - `USB Charger Lab <labs/charger/schematic.html>`_
 
-- **Week 3 (2/13):** `Schematic Design Crash-Course <https://docs.google.com/presentation/d/1GE4RDmVtJWSdr3qWNDuQOxw-n88c0tjyMpnVuX1M6Lk/edit?usp=sharing>`_
+- **Week 3 (2/13):** `Schematic Design Crash-Course <https://docs.google.com/presentation/d/1IAnVMza7iIhRW7UuD3g8MN-3-5JXEDYLzy4vGgrAQDo/edit?usp=sharing>`_
 
   - Drawing schematics with best practices to communicate design intent
   - Creating symbols by reading component datasheets
