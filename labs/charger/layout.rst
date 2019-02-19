@@ -86,11 +86,19 @@ Layout
    your fills.
 
 
-Design Review
-=============
+Final Steps
+===========
 #. Go through the `HOPE PCB Checklist <../../checklist.html>`_ on your own
    board.
 
 #. Run DRC. Correct issues until your design is DRC clean.
 
 #. Review your layout with another group.
+
+#. Create output files (Gerbers and Drill Files) for your design using the method from the Week 1 lab. 
+
+#. Zip your output files together and submit them to the Bay Area Circuits `InstantDFM <http://instantdfm.bayareacircuits.com/>`_
+   
+   #. Standard board thickness is 0.062 inches.
+
+   #. Continue doing this until your board passes InstantDFM.
