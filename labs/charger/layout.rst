@@ -102,3 +102,26 @@ Final Steps
    #. Standard board thickness is 0.062 inches.
 
    #. Continue doing this until your board passes InstantDFM.
+
+
+Glossary
+========
+net
+  Schematic representation of a circuit node
+
+net class
+  Group of nets with similar characteristics or functions
+
+power net
+  Net dedicated to carrying power
+
+via
+  A hole drilled into the board, then electroplated, to enable connections
+  between layers in a PCB
+
+thermal vias
+  A via used primarily for its thermal conduction properties to carry away
+  excess heat from a circuit device
+
+filled zone
+  Same as copper pour
