@@ -10,17 +10,20 @@ two-week lab.
 Board Setup
 ===========
 When designing your own boards, your choice of stackup and design rules
-depends on the features you need and your sensitivity to cost. For this
-practice charger board and on your project, your board will be aggregated on a
-single board run with the rest of the class; hence, you should design your
-board using the class stackup and design rules.
+depends on the features you need and your sensitivity to cost. However, on
+your project, your board will be aggregated on a single board run with the
+rest of the class; hence, you should design this practice board using the
+class stackup and design rules.
 
-1. Setup your board (stackup and design rules) using the "Manufacturing
-   Specifications" on `Bay Area Circuit's 2-layer process
-   <https://store.bayareacircuits.com/2-layer-instant-quote/>`_ and the design
-   rules listed under `Standard Capabilities
-   <https://bayareacircuits.com/capabilities/>`_. Where the design rules
-   conflict, choose the larger capability.
+#. Setup your board (stackup and design rules) using the design rules listed
+   under `Standard Capabilities <https://bayareacircuits.com/capabilities/>`_.
+
+   .. hint::
+
+      Bay Area Circuits gives the minimum trace width and spacing as
+      'Trace/Space', respectively. The via *drill* diameter is given as
+      'Smallest Mechanical Drill Diameter', and to get the total via diameter,
+      add to the drill diameter two times the 'Annular Ring' size.
 
 #. Compute the minimum trace width required to route the peak current in your
    charger through 1 oz./sq ft copper. Consider using KiCad's "PCB
@@ -45,10 +48,13 @@ Footprints
 1. Find footprints for the parts you picked in KiCad's footprint library or
    online. If you cannot find a footprint, create it yourself.
 
-   #. Hint: You will probably need to make the USB footprint yourself. Check
-      the datasheet to make sure you are creating the footprint correctly.
-   #. Double hint: If you're still stuck, the `manual is here
-      <http://docs.kicad-pcb.org/stable/en/pcbnew.html#_footprint_editor_managing_libraries>`_.
+   .. hint::
+   
+      You will probably need to make the USB footprint yourself. Check the
+      datasheet to make sure you are creating the footprint correctly.  `Here
+      are instructions for creating your footprint
+      <https://forum.kicad.info/t/tutorial-how-to-make-a-footprint-from-scratch/11092>`_.
+      Start from *Example footprint Molex Picoblade*.
  
 #. Check all your footprints, except for standard passives, against the
    manufacturer data sheet.
