@@ -81,7 +81,7 @@ Crash Course
 
   **Homework:** Finish USB charger schematic
 
-- **Week 4 (2/20):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/14tELDl2pM7SW283r4j0ss56-cByL4AKiBaCvH36ElMI/edit?usp=sharing>`_
+- **Week 4 (2/20):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/1IRGGG9W11pcZrjaXWT-ZNtR8h8uL662oAMACzpMP1Io/edit?usp=sharing>`_
 
   - Design rules, stackup, and design for manufacturability (DFM)
   - Electrical minimums (width, clearance)
