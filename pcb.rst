@@ -115,7 +115,7 @@ Crash Course
   - EMC/EMI
   - Thermal minimums
 
-  **Homework:** Submit your `project proposal <https://goo.gl/forms/L8E0ZPaHPfKsObbN2>`_
+  **Homework:** Submit your project proposal
 
 Project
 -------
