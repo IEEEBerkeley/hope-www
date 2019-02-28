@@ -93,7 +93,18 @@ Crash Course
 
   **Homework:** Finish USB charger layout
 
-- **Week 5 (2/27):** `Microcontroller Firmware <https://docs.google.com/presentation/d/1gAiM9IsCU4zszUrDoP3xG2uiVYdznDj-7lJsu4rkGsI/edit?usp=sharing>`_ And Designs
+- **Week 5 (2/27):** `Layout Considerations <https://docs.google.com/presentation/d/1oCVrj3e95I76qMfNnjic8B7apNLYl25NWG3ZRFEakGg/edit?usp=sharing>`_
+
+  - Finish microcontroller board
+  - Trace resistance, inductance, capacitance
+  - Decoupling, current return path
+  - Stackup design and planes
+  - EMC/EMI
+  - Thermal minimums
+
+  **Homework:** Submit your `project proposal <https://goo.gl/forms/6127OCKiCTjQvUt22>`_
+
+- **Week 6 (3/6):** `Microcontroller Firmware <https://docs.google.com/presentation/d/1gAiM9IsCU4zszUrDoP3xG2uiVYdznDj-7lJsu4rkGsI/edit?usp=sharing>`_ And Designs
 
   - Microcontroller features and specifications
   - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
@@ -104,18 +115,7 @@ Crash Course
   - Digital interfaces and buses (SPI, I2C)
   - Microcontroller design lab
 
-  **Homework:** Start microcontroller board layout
-
-- **Week 6 (3/6):** `Layout Considerations <https://drive.google.com/open?id=1bh5BnUw3GGC3n5HzebGmxYvm3rWWThicUv-IrDPH658>`_
-
-  - Finish microcontroller board
-  - Trace resistance, inductance, capacitance
-  - Decoupling, current return path
-  - Stackup design and planes
-  - EMC/EMI
-  - Thermal minimums
-
-  **Homework:** Submit your project proposal
+  **Homework:** Finish microcontroller board layout
 
 Project
 -------
@@ -126,7 +126,7 @@ Project
   - Managing Bill-Of-Materials (BOM)
   - Design For Test (DFT)
   - Schematic design review
-  - **Draft BOM and schematics due TBA**
+  - **Draft BOM and initial schematics due 3/19**
 
 - **Week 8 (3/20):** `Designing Your Own Layout <https://docs.google.com/presentation/d/1thvhuq1MOiqblA2-qIQquESdVCvOETkQoEtBpz3mFmQ/edit?usp=sharing>`_
 
@@ -136,11 +136,11 @@ Project
   - Layout design review
   - Buying parts
   - Generating production files
-  - **Final BOM and Gerbers due TBA**
 
-- **Week 9 (4/3): Finish Project** 
+- **Week 9 (4/3): Project Design Reviews** 
 
   - `Project Submission <project.html>`_
+  - **Final BOM and Gerbers due 4/4 at 6 PM**
 
 - **Week 10 (4/10):** `Assembly <https://docs.google.com/presentation/d/1jV1MScLm9tKhi292k43Lg3h-zFpUQxMkxrVTYr1lOa0/edit#slide=id.g45d43c0b18_1_31>`_
 
