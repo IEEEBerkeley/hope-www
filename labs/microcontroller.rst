@@ -22,7 +22,7 @@ To save you time and frustration, a prepared starter KiCAD project is avaliable 
 
       Use ERC, DRC, and common sense! This is not a trick question and is meant to get you to know how to look at other people's circuits. 
 
-#. 
+#. That's it for this section! This is going to be a short lab (hopefully).
 
 Adding Sensor Functionality
 ===========================
@@ -30,24 +30,32 @@ The board is pretty empty outside of just the microcontroller chip itself, its p
 
 For this lab, your job is to add an `6-DOF IMU <https://www.invensense.com/products/motion-tracking/6-axis/icm-20689>`_ and `microSD card slot <https://www.molex.com/molex/products/datasheet.jsp?part=active/1051620001_MEMORY_CARD_SOCKET.xml&channel=Products&Lang=en-US>`_ to the provided microcontroller circuit. The IMU can record information such as the rotation of our satellite, and an SD card can be used to save the information for later use. 
 
-SPI communication
+SPI Communication
 -----------------
-Both of these devices utilize the SPI serial communication protocol, which stands for Serial Peripheral Interface. 
+Both of these devices utilize the SPI serial communication protocol, which stands for Serial Peripheral Interface, and is quite possibly the easiest serial communication protocol to understand, and also one of the easiet to imeplement and use. This `Sparkfun SPI tutorial <https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all>`_ provides a good breakdown of how it works. However, all you really need to know for this lab is just what the pins are for, so a quick-n-dirty breakdown: 
+
+#. The master device (our MSP430 chip) and slave device (either the SD card reader or IMU) have the same share the SCK (clock), MOSI (Master Out Slave In), and MISO (Master In Slave Out) lines. 
+
+#. The master selects which slave it wants to talk to by pulling down/enabling the CS/SS (Chip or Slave Select) pin corresponding to the appropriate slave device. This allows multiple slave devices to share the same SCK, MOSI, and MISO pins.
+
+#. MOSI pin carries the data the master sends OUT to the slave, which takes it IN. MISO works in the opposite direction. These are the data carrier lines. Data is read in time with the SCK line. 
 
 .. sidebar:: IMUs and DOFs
 
     IMU stands for Inertial Measurement Unit. These devices contain accelerometers and gyroscopes (and in some cases magnetometers). They are the sensors that detect motion aka changes in inertia. DOF stands for Degrees of Freedom. In the case of IMUs, DOF refers to the number of independently measureable properties. A 3-DOF IMU can have joint measurements in 3-dimensions, or translational space. A 6-DOF IMU adds rotation measurement to the existing axes. 
 
-microSD Info
+microSD Help
 ------------
 
 When hooking up the microSD header, utilize this helpful image
 
 .. image:: SDcard.png
 
+Final Touches
+-------------
+Make the layout look nice! Fix silkscreens, cutout, etc. 
 
-
-Insense IMU Info
-----------------
-
+Checkoff
+--------
+Show completed schematic and layout to instructor. Be prepared to explain what you did. 
  
