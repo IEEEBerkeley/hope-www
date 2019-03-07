@@ -104,13 +104,11 @@ Crash Course
 
   **Homework:** Submit your `project proposal <https://goo.gl/forms/6127OCKiCTjQvUt22>`_
 
-- **Week 6 (3/6):** `Microcontroller Firmware <https://docs.google.com/presentation/d/1gAiM9IsCU4zszUrDoP3xG2uiVYdznDj-7lJsu4rkGsI/edit?usp=sharing>`_ And Designs
+- **Week 6 (3/6):** `Microcontroller <https://www.google.com>`_ And Designs
 
   - Microcontroller features and specifications
   - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
-  - Setting up toolchains, developing firmware
   - Supporting microcontrollers on PCBs
-  - Programmers and interfaces
   - Microcontroller datasheets
   - Digital interfaces and buses (SPI, I2C)
   - Microcontroller design lab

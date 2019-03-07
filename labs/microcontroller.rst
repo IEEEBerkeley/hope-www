@@ -22,14 +22,32 @@ To save you time and frustration, a prepared starter KiCAD project is avaliable 
 
       Use ERC, DRC, and common sense! This is not a trick question and is meant to get you to know how to look at other people's circuits. 
 
-#. I really don't know what else to put here lol
+#. 
 
 Adding Sensor Functionality
 ===========================
 The board is pretty empty outside of just the microcontroller chip itself, its periperial components, and some general purpose connections. We want to use the microcontroller to do cool things, like record information about the state of our satellite. 
 
-For this lab, your job is to add an IMU (see `here <https://www.invensense.com/products/motion-tracking/6-axis/icm-20689/>`_ and microSD card slot (any generic version should be fine) to the provided microcontroller circuit. 
+For this lab, your job is to add an `6-DOF IMU <https://www.invensense.com/products/motion-tracking/6-axis/icm-20689>`_ and `microSD card slot <https://www.molex.com/molex/products/datasheet.jsp?part=active/1051620001_MEMORY_CARD_SOCKET.xml&channel=Products&Lang=en-US>`_ to the provided microcontroller circuit. The IMU can record information such as the rotation of our satellite, and an SD card can be used to save the information for later use. 
+
+SPI communication
+-----------------
+Both of these devices utilize the SPI serial communication protocol, which stands for Serial Peripheral Interface. 
+
+.. sidebar:: IMUs and DOFs
+
+    IMU stands for Inertial Measurement Unit. These devices contain accelerometers and gyroscopes (and in some cases magnetometers). They are the sensors that detect motion aka changes in inertia. DOF stands for Degrees of Freedom. In the case of IMUs, DOF refers to the number of independently measureable properties. A 3-DOF IMU can have joint measurements in 3-dimensions, or translational space. A 6-DOF IMU adds rotation measurement to the existing axes. 
+
+microSD Info
+------------
+
+When hooking up the microSD header, utilize this helpful image
+
+.. image:: SDcard.png
 
 
+
+Insense IMU Info
+----------------
 
  
