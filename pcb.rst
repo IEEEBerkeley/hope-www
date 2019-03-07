@@ -104,14 +104,15 @@ Crash Course
 
   **Homework:** Submit your `project proposal <https://goo.gl/forms/6127OCKiCTjQvUt22>`_
 
-- **Week 6 (3/6):** `Microcontroller <https://docs.google.com/presentation/d/1p-V44MY9rMjXJe8xz0R6GgY>`_ And Designs
+- **Week 6 (3/6):** `Microcontroller Designs <https://docs.google.com/presentation/d/1p-V44MY9rMjXJe8xz0R6GgYSgBzAxbwavgltXGzqadI/edit?usp=sharing>`_
+
 
   - Microcontroller features and specifications
   - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
   - Supporting microcontrollers on PCBs
   - Microcontroller datasheets
   - Digital interfaces and buses (SPI, I2C)
-  - Microcontroller design lab
+  - `Microcontroller design lab <labs/microcontroller.html>`_
 
   **Homework:** Finish microcontroller board layout
 
