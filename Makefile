@@ -12,6 +12,7 @@ PAGES = index.html \
 		labs/kicad-intro/kicad-intro.html \
 		labs/light-comms/light-comms.html \
 		labs/measurements.html \
+		labs/microcontroller.html \
 		labs/microcontroller/microcontroller_lab.html \
 		labs/pcb/pcb.html \
 		labs/simulation/ltspice_lab.html \

@@ -111,7 +111,7 @@ Crash Course
   - Supporting microcontrollers on PCBs
   - Microcontroller datasheets
   - Digital interfaces and buses (SPI, I2C)
-  - Microcontroller design lab
+  - `Microcontroller design lab <labs/microcontroller.html>`_
 
   **Homework:** Finish microcontroller board layout
 
