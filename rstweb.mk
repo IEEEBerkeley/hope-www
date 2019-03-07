@@ -11,7 +11,7 @@ publish: html
 .SUFFIXES: .html .ipynb .pdf .rst .tex
 
 .rst.html:
-	rst2html --link-style --stylesheet-path html4css1.css,style.css \
+	rst2html.py --link-style --stylesheet-path html4css1.css,style.css \
 		--stylesheet-dirs=styles $< $@
 
 .rst.tex:
