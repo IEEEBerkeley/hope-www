@@ -118,13 +118,11 @@ Crash Course
 
 Project
 -------
-- **Week 7 (3/13): Designing Your Own System**
+- **Week 7 (3/13):** `Designing Your Own System <https://docs.google.com/presentation/d/1hmEESlJfISLLmpDH5OmdREQbAi4NIz32e8UgA_TMQ-Q/edit?usp=sharing>`_
 
-  - Design patterns and blocks for common applications
-  - Generating specifications from high-level goals
-  - Managing Bill-Of-Materials (BOM)
-  - Design For Test (DFT)
-  - Schematic design review
+  - Design example
+  - Design for test (DFT)
+  - Managing Bill of Materials (BOM)
   - **Draft BOM and initial schematics due 3/19**
 
 - **Week 8 (3/20):** `Designing Your Own Layout <https://docs.google.com/presentation/d/1thvhuq1MOiqblA2-qIQquESdVCvOETkQoEtBpz3mFmQ/edit?usp=sharing>`_
