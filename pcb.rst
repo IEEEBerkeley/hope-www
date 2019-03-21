@@ -125,14 +125,9 @@ Project
   - Managing Bill of Materials (BOM)
   - **Draft BOM and initial schematics due 3/19**
 
-- **Week 8 (3/20):** `Designing Your Own Layout <https://docs.google.com/presentation/d/1thvhuq1MOiqblA2-qIQquESdVCvOETkQoEtBpz3mFmQ/edit?usp=sharing>`_
+- **Week 8 (3/20):** `Fabrication, Assembly, DFX <lectures/Lecture9.pptx>`_
 
-  - Assembly methods and techniques
-  - Finishes (HASL, ENIG)
-  - Design For Manufacturability (DFM)
-  - Layout design review
-  - Buying parts
-  - Generating production files
+  *Guest lecture by Brady Salz from Astranis.*
 
 - **Week 9 (4/3): Project Design Reviews** 
 
