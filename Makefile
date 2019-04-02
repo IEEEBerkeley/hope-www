@@ -4,6 +4,7 @@ PAGES = index.html \
 		new.html \
 		pcb.html \
 		project.html \
+        prj-des-rev.html \
 		labs/charger/layout.html \
 		labs/charger/schematic.html \
 		labs/digital-logic.html \
