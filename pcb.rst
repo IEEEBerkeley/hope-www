@@ -136,7 +136,7 @@ Project
   - `Project Submission <project.html>`_
   - **Final BOM and Gerbers due Sun 4/7 at 5 PM**
 
-- **Week 10 (4/10):** `Assembly <https://docs.google.com/presentation/d/1jV1MScLm9tKhi292k43Lg3h-zFpUQxMkxrVTYr1lOa0/edit#slide=id.g45d43c0b18_1_31>`_
+- **Week 10 (4/10):** `Assembly <https://docs.google.com/presentation/d/1V7lrlwEXy8lqWibsPLGXxYFdvEByJsk6LKzKl2Z_wYY/edit?usp=sharing>`_
 
   - Soldering, hot air, and reflow techniques
   - Preheat
