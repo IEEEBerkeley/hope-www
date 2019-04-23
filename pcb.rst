@@ -147,13 +147,14 @@ Project
 
     .. (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
 
-- **Week 12 (4/24): Project Assembly**
+- **Week 12 (4/24):** `Bringup and Test <https://docs.google.com/presentation/d/1kGx3dwWIqr9VdXcaf9Vrz-EfuOt4FRQdt4PTNIM8gbw/edit?usp=sharing>`_
 
-- **Week 13 (5/1):** `Project Test <https://docs.google.com/presentation/d/1AgCBiqZ_lEFT4XU_19aTyCwkjmj8jWD2VEZJ42vzoVw/edit?usp=sharing>`_
+  - Bringup strategies
+  - Testing boards
+  - Avoiding measurement errors and understanding limitations in test equipment
+  - Project assembly
 
-  - Avoiding measurement errors
-  - Understanding limitations in test equipment
-  - Debugging strategies
+- **Week 13 (5/1): Project Presentations**
 
 
 Course Format
