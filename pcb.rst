@@ -145,7 +145,7 @@ Project
 
 - **Week 11 (4/17): More Assembly** 
 
-    .. (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
+  - (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
 
 - **Week 12 (4/24):** `Bringup and Test <https://docs.google.com/presentation/d/1kGx3dwWIqr9VdXcaf9Vrz-EfuOt4FRQdt4PTNIM8gbw/edit?usp=sharing>`_
 
