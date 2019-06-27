@@ -2,11 +2,11 @@
 EE 198: Hands-On PCB Engineering
 ================================
 :Institution: University of California, Berkeley
-:Semester: `Spring 2019 <https://decal.berkeley.edu/courses/4744>`_
+:Semester: `Fall 2019 <https://decal.berkeley.edu/courses/>`_
 :Units: 1
 :Time: Wednesday 8-10 PM
 :Location: 140 Cory Hall
-:Instructors: Kevin Zheng and Olivia Hsu
+:Instructors: Leon Wu and Kevin Zheng
 :Website: http://ieee.berkeley.edu/hope/pcb.html
 
 .. meta::
@@ -14,8 +14,8 @@ EE 198: Hands-On PCB Engineering
 
 .. contents::
 
-If you are currently enrolled in the class, request `lab checkoffs here
-<http://tinyurl.com/hopecheckoffsp19>`_!
+.. If you are currently enrolled in the class, request `lab checkoffs here
+.. <http://tinyurl.com/hopecheckoffsp19>`_!
 
 Overview
 ========
@@ -25,11 +25,6 @@ who are interested in learning or improving their PCB design and fabrication
 skills, and particularly those who are part of or intend to join engineering
 student organizations with working knowledge in PCB design.
 
-.. sidebar:: Looking for Hands-On Practical Electronics?
-
-  Hands-On Practical Electronics is not being offered this semester. However,
-  course materials from previous semesters are still available.
-
 Prerequisites
 -------------
 EE 16A or similar working knowledge in circuits
@@ -38,12 +33,12 @@ Objective
 ---------
 Students learn effective system, schematic, and layout design through hands-on
 applications and exposure to advanced concerns including DFT, DFM, grounding,
-decoupling, EMC/EMI, thermals, isolation, and high-speed.
+decoupling, EMC/EMI, thermals, isolation.
 
 
 Timeline
 ========
-Our first class for Spring 2019 is **Wednesday, January 30th**. *This schedule
+Our first class for Fall 2019 is **Wednesday, September 4th**. *This schedule
 is tentative and may change at instructor discretion.*
 
 For alternative or in-depth treatment of topics discussed in class, see
@@ -51,7 +46,7 @@ For alternative or in-depth treatment of topics discussed in class, see
 
 Crash Course
 ------------
-- **Week 1 (1/30):** `Introduction <https://docs.google.com/presentation/d/1z69Qty1y5xXLZ0Aj5myJGrSgowtjMf__ZhqZYirxvpg/edit?usp=sharing>`_
+- **Week 1 (9/4):** `Introduction <https://docs.google.com/presentation/d/1z69Qty1y5xXLZ0Aj5myJGrSgowtjMf__ZhqZYirxvpg/edit?usp=sharing>`_
 
   - Basics of PCBs and hardware system design
   - Logistics and course timeline
@@ -61,7 +56,7 @@ Crash Course
 
   **Homework:** Finish intro lab
 
-- **Week 2 (2/6):** `Selecting and Using Parts <https://docs.google.com/presentation/d/1gqILuToAdnMANDv2snQ_bOsREtKKvCXkCQMaTXiBsJA/edit?usp=sharin>`_
+- **Week 2 (9/11):** `Selecting and Using Parts <https://docs.google.com/presentation/d/1gqILuToAdnMANDv2snQ_bOsREtKKvCXkCQMaTXiBsJA/edit?usp=sharin>`_
 
   - Case study: DC-DC conversion
   - Circuit devices
@@ -71,7 +66,7 @@ Crash Course
   - Survey of electronic suppliers
   - `USB Charger Lab <labs/charger/schematic.html>`_
 
-- **Week 3 (2/13):** `Schematic Design Crash-Course <https://docs.google.com/presentation/d/1IAnVMza7iIhRW7UuD3g8MN-3-5JXEDYLzy4vGgrAQDo/edit?usp=sharing>`_
+- **Week 3 (9/18):** `Schematic Design Crash-Course <https://docs.google.com/presentation/d/1IAnVMza7iIhRW7UuD3g8MN-3-5JXEDYLzy4vGgrAQDo/edit?usp=sharing>`_
 
   - Drawing schematics with best practices to communicate design intent
   - Creating symbols by reading component datasheets
@@ -81,7 +76,7 @@ Crash Course
 
   **Homework:** Finish USB charger schematic
 
-- **Week 4 (2/20):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/1IRGGG9W11pcZrjaXWT-ZNtR8h8uL662oAMACzpMP1Io/edit?usp=sharing>`_
+- **Week 4 (9/25):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/1IRGGG9W11pcZrjaXWT-ZNtR8h8uL662oAMACzpMP1Io/edit?usp=sharing>`_
 
   - Design rules, stackup, and design for manufacturability (DFM)
   - Electrical minimums (width, clearance)
@@ -93,7 +88,7 @@ Crash Course
 
   **Homework:** Finish USB charger layout
 
-- **Week 5 (2/27):** `Layout Considerations <https://docs.google.com/presentation/d/1oCVrj3e95I76qMfNnjic8B7apNLYl25NWG3ZRFEakGg/edit?usp=sharing>`_
+- **Week 5 (10/2):** `Layout Considerations <https://docs.google.com/presentation/d/1oCVrj3e95I76qMfNnjic8B7apNLYl25NWG3ZRFEakGg/edit?usp=sharing>`_
 
   - Finish microcontroller board
   - Trace resistance, inductance, capacitance
@@ -104,7 +99,7 @@ Crash Course
 
   **Homework:** Submit your `project proposal <https://goo.gl/forms/6127OCKiCTjQvUt22>`_
 
-- **Week 6 (3/6):** `Microcontroller Designs <https://docs.google.com/presentation/d/1p-V44MY9rMjXJe8xz0R6GgYSgBzAxbwavgltXGzqadI/edit?usp=sharing>`_
+- **Week 6 (10/9):** `Microcontroller Designs <https://docs.google.com/presentation/d/1p-V44MY9rMjXJe8xz0R6GgYSgBzAxbwavgltXGzqadI/edit?usp=sharing>`_
 
 
   - Microcontroller features and specifications
@@ -118,56 +113,51 @@ Crash Course
 
 Project
 -------
-- **Week 7 (3/13):** `Designing Your Own System <https://docs.google.com/presentation/d/1hmEESlJfISLLmpDH5OmdREQbAi4NIz32e8UgA_TMQ-Q/edit?usp=sharing>`_
+- **Week 7 (10/16):** `Designing Your Own System <https://docs.google.com/presentation/d/1hmEESlJfISLLmpDH5OmdREQbAi4NIz32e8UgA_TMQ-Q/edit?usp=sharing>`_
 
   - Design example
   - Design for test (DFT)
   - Managing Bill of Materials (BOM)
-  - **Draft BOM and initial schematics due 3/19**
 
-- **Week 8 (3/20):** `Fabrication, Assembly, DFX <lectures/Lecture9.pptx>`_
+- **Week 8 (10/23):** `Fabrication, Assembly, DFX <lectures/Lecture9.pptx>`_
 
-  *Guest lecture by Brady Salz from Astranis.*
+- **Week 9 (10/30): Project Design Reviews** 
 
-- **Week 9 (4/3): Project Design Reviews** 
-
-  - **Design Review Files due Wed 4/3 at 8:20 PM**
   - `Project Design Review <prj-des-rev.html>`_
   - `Project Submission <project.html>`_
-  - **Final BOM and Gerbers due Sun 4/7 at 5 PM**
 
-- **Week 10 (4/10):** `Assembly <https://docs.google.com/presentation/d/1V7lrlwEXy8lqWibsPLGXxYFdvEByJsk6LKzKl2Z_wYY/edit?usp=sharing>`_
+- **Week 10 (11/6):** `Assembly <https://docs.google.com/presentation/d/1V7lrlwEXy8lqWibsPLGXxYFdvEByJsk6LKzKl2Z_wYY/edit?usp=sharing>`_
 
   - Soldering, hot air, and reflow techniques
   - Preheat
   - Hand place, vaccums, pick-and-place
   - Phone charger
 
-- **Week 11 (4/17): More Assembly** 
+- **Week 11 (11/13): More Assembly** 
 
   - (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
 
-- **Week 12 (4/24):** `Bringup and Test <https://docs.google.com/presentation/d/1kGx3dwWIqr9VdXcaf9Vrz-EfuOt4FRQdt4PTNIM8gbw/edit?usp=sharing>`_
+- **Week 12 (11/20):** `Bringup and Test <https://docs.google.com/presentation/d/1kGx3dwWIqr9VdXcaf9Vrz-EfuOt4FRQdt4PTNIM8gbw/edit?usp=sharing>`_
 
   - Bringup strategies
   - Testing boards
   - Avoiding measurement errors and understanding limitations in test equipment
   - Project assembly
 
-- **Week 13 (5/1): Project Presentations**
+- **Week 13 (11/4): Project Presentations**
 
 
 Course Format
 =============
 This course spans 13 weeks. Class meets for two hours once a week. Each class
-begins with a short lecture followed by a lab activity or practical
-assignment. Labs and assignments can be completed in pairs and build on those from previous weeks. Students
+begins with a short lecture followed by a practical assignment (lab activity). 
+Labs and assignments can be completed in pairs and build on those from previous weeks. Students
 are expected to spend an hour a week outside of class reviewing material,
 preparing for class meetings, and completing assignments.
 
 Students are required to complete a final project: a complete PCB design and
 assembly. Students may choose to design a PCB for an engineering student
-organization or another design of their choice, with instructor approval.
+organization, class project, or another design of their choice, with instructor approval.
 Final projects are expected to take up to six hours of additional time outside
 of class.
 
@@ -192,17 +182,22 @@ Your grade is primarily based on completion of labs and assignments. The final
 project is graded on effort and a demonstration of concepts taught in the
 course. Students need 70% to pass.
 
-- Labs and assignments: 70%
+- Labs/Assignments: 50%
+- Participation: 20%
 - Project: 30%
+
+Labs are graded based on completing a successful checkoff. We encourage you to review your designs with peers 
+because each student will have only 2 attempts at a checkoff for each lab. 
 
 Attendance
 ----------
 Since grading is primarily based on completion of labs during class,
 students should make a best effort to attend class.
 
-You may miss up to two labs unexcused; no instructor approval is required. If
-you miss a class, you must make up the missed lab or assignment before the
-next lecture. Please also read over the lecture slides from the class you missed.
+Absences must be excused to prevent it from affecting your grade. One unexcused absence will be permitted. 
+.. If you miss a class (with notification), you *must make up the missed lab or assignment by the
+.. next lecture for the absence to be considered excused. Please also read over the lecture slides 
+.. from the class you missed.
 
 Additional unexcused absences may result in a NP.
 
@@ -260,6 +255,6 @@ industry sponsors:
 
 ----
 
-Copyright ⓒ 2018, 2019 Kevin Zheng. This course is licensed under a `Creative
-Commons Attribution-ShareAlike 4.0 International License
-<http://creativecommons.org/licenses/by-sa/4.0/>`_.
+.. Copyright ⓒ 2018, 2019 Kevin Zheng. This course is licensed under a `Creative
+.. Commons Attribution-ShareAlike 4.0 International License
+.. <http://creativecommons.org/licenses/by-sa/4.0/>`_.
