@@ -19,6 +19,6 @@ Previously Offered: Fall 2017, Spring 2017
 Real-world printed circuit board (PCB) design and layout for new and
 intermediate board designers
 
-Next Offered: **Spring 2019**
+Next Offered: **Fall 2019**
 
-Previously Offered: Fall 2018
+Previously Offered: Fall 2018, Spring 2019
