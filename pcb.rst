@@ -195,6 +195,7 @@ Since grading is primarily based on completion of labs during class,
 students should make a best effort to attend class.
 
 Absences must be excused to prevent it from affecting your grade. One unexcused absence will be permitted. 
+
 .. If you miss a class (with notification), you *must make up the missed lab or assignment by the
 .. next lecture for the absence to be considered excused. Please also read over the lecture slides 
 .. from the class you missed.
