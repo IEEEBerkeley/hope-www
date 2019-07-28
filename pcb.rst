@@ -2,7 +2,7 @@
 EE 198: Hands-On PCB Engineering
 ================================
 :Institution: University of California, Berkeley
-:Semester: `Fall 2019 <https://decal.berkeley.edu/courses/>`_
+:Semester: `Fall 2019 <https://decal.berkeley.edu/courses/4918>`_
 :Units: 1
 :Time: Wednesday 8-10 PM
 :Location: 140 Cory Hall
