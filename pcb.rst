@@ -28,6 +28,7 @@ student organizations with working knowledge in PCB design.
 Prerequisites
 -------------
 EE 16A or similar working knowledge in circuits
+We strongly suggest coming to class with a computer mouse and KiCAD installed. 
 
 Objective
 ---------
@@ -39,7 +40,7 @@ decoupling, EMC/EMI, thermals, isolation.
 Timeline
 ========
 Our first class for Fall 2019 is **Wednesday, September 4th**. *This schedule
-is tentative and may change at instructor discretion.*
+is tentative and may change at instructor discretion.* 
 
 For alternative or in-depth treatment of topics discussed in class, see
 `Supplemental Reading`_.
