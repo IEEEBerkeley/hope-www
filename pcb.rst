@@ -145,7 +145,7 @@ Project
   - Avoiding measurement errors and understanding limitations in test equipment
   - Project assembly
 
-- **Week 13 (11/4): Project Presentations**
+- **Week 13 (12/4): Project Presentations**
 
 
 Course Format
