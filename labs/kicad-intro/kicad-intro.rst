@@ -31,13 +31,6 @@ Getting Started
 Schematic Capture
 =================
 
-.. sidebar:: Shortcuts VS UI Menus
-
-    Feel free to use the interface menus to learn about what functionalities are
-    at your disposal, or even to do this entire first lab. However, we recommend
-    learning how to use the keyboard shortcuts, as doing so will speed up your
-    work in future projects considerably. Also, you'll look much cooler. 
-
 #. Open the 'Schematic layout editor' aka the 'Eeschema' app (1st from the left).
 
 #. We want to add components to build this:
@@ -64,6 +57,13 @@ Schematic Capture
    To rotate before placing, press 'r' before placing the component.
 
 #. Place a capacitor ('C') as shown.
+
+.. sidebar:: Shortcuts VS UI Menus
+
+    Feel free to use the interface menus to learn about what functionalities are
+    at your disposal, or even to do this entire first lab. However, we recommend
+    learning how to use the keyboard shortcuts, as doing so will speed up your
+    work in future projects considerably. Also, you'll look much cooler. 
 
 #. Place a LED part symbol ('LED') as shown.
 

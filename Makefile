@@ -16,7 +16,6 @@ PAGES = index.html \
 		labs/microcontroller.html \
 		labs/microcontroller/microcontroller_lab.html \
 		labs/pcb/pcb.html \
-		labs/simulation/ltspice_lab.html \
 		labs/light-sensor.html
 
 EXTRA = blinker.png led-sensor.png led-sensor-footprints.png led-sensor-pcb.png led-tx.png lightmeter_demo.png ledblink_demo.jpg blink_code.png sensor_test.png \
