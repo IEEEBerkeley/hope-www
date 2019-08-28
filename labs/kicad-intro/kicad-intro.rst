@@ -59,7 +59,7 @@ Schematic Capture
    shown in the schematic.
    To rotate before placing, press 'r' before placing the component.
 
-#. Place a capacitor ('C') as shown.
+#. Place two capacitors ('C') as shown.
 
 .. sidebar:: Shortcuts VS UI Menus
 
@@ -72,15 +72,17 @@ Schematic Capture
 
 #. Place a potentiometer part symbol ('POT') as shown.
 
-#. Place 4 voltage sources labels ('+3.3V') as shown.
+#. Place 5 voltage sources labels ('+3.3V') as shown.
 
    For this step it may be easier to duplicate a component instead of adding
    multiple of the same component. To do this, hover your cursor over the
    component you want copied and press 'c'.
 
-#. Place 6 ground power labels ('GND') as shown.
+#. Place 4 ground power labels ('GND') as shown.
 
 #. Place a 1×3 connector part symbol ('CONN_01x03') as shown.
+
+#. Place power flags ('PWR_FLAG') as shown.
 
 #. Now we need to hook everything up with wires. Move your mouse to where you
    want to start a wire, press 'w', click around to snap wire, and click on
@@ -126,10 +128,16 @@ Or at least, how they will look on our PCB. These representations are called
 
 PCB Layout
 ==========
-#. Open the 'PCB Layout editor' aka the 'Pcbnew' app (3rd from the left).
+#. Inside the schematic layout editor, go to Tools → Update PCB From Schematic.
+   This should open up the Pcbnew window and a popup window. Press Update.
+
+   .. image:: update-pcb.png
 
 #. Make sure you're using the Modern Toolset. Preferences → Modern Toolset
    (Accelerated).
+
+#. Before you continue, make sure you are set up to use inches. Press the "in" 
+   button in the left sidebar.
 
 #. Set up the design rules for our board. Design rules are physical
    constraints that the designer must follow in order for the board to be
@@ -158,11 +166,6 @@ PCB Layout
 #. Set your grid size to something reasonable. When working with others'
    designs, using the same grid size as they do will help make sure your
    components and tracks line up with theirs.
-
-#. Tools → Update PCB from Schematics → Perform PCB Update → Close. If
-   this option isn't in your menu, return to the schematic editor and click
-   Tools → Generate Netlist File → Generate → Save → Replace. Return
-   to the PCBnew and click Tools → Netlist → Read Current Netlist → Yes.
 
 #. In the end we want something that looks like this:
 
