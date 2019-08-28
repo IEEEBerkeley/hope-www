@@ -6,8 +6,9 @@ KiCad Introduction Lab
 Week 1
 ------
 
-:authors: Kevin Zheng, Hall Chen, Olivia Hsu
-:date: 2018-08-29
+:authors: Kevin Zheng, Leon Wu, Jeffrey Ni
+:originally by: Kevin Zheng, Hall Chen, Olivia Hsu
+:date: 2019-09-04
 
 In this lab, we will build a printed circuit board (PCB) for the LED light
 sensor talked about during lecture. Don't feel like you need to understand
@@ -32,6 +33,8 @@ Schematic Capture
 =================
 
 #. Open the 'Schematic layout editor' aka the 'Eeschema' app (1st from the left).
+
+   .. image:: bar-schem.png
 
 #. We want to add components to build this:
 
@@ -60,8 +63,8 @@ Schematic Capture
 
 .. sidebar:: Shortcuts VS UI Menus
 
-    Feel free to use the interface menus to learn about what functionalities are
-    at your disposal, or even to do this entire first lab. However, we recommend
+    Feel free to use the interface menus to learn more about KiCAD's functions,
+    or even to do this entire first lab. However, we recommend
     learning how to use the keyboard shortcuts, as doing so will speed up your
     work in future projects considerably. Also, you'll look much cooler. 
 
