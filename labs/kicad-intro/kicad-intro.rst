@@ -10,7 +10,9 @@ Week 1
 :date: 2018-08-29
 
 In this lab, we will build a printed circuit board (PCB) for the LED light
-sensor talked about during lecture.
+sensor talked about during lecture. Don't feel like you need to understand
+everything; this lab is meant to be a very guided walkthrough of the
+required motions.
 
 .. contents::
 .. sectnum::
@@ -18,7 +20,7 @@ sensor talked about during lecture.
 
 Getting Started
 ===============
-#. `Download and install KiCad <http://kicad-pcb.org/download/>`_.
+.. #. `Download and install KiCad <http://kicad-pcb.org/download/>`_.
 
 #. Start KiCad.
 
@@ -28,37 +30,54 @@ Getting Started
 
 Schematic Capture
 =================
+
+.. sidebar:: Shortcuts VS UI Menus
+
+    Feel free to use the interface menus to learn about what functionalities are
+    at your disposal, or even to do this entire first lab. However, we recommend
+    learning how to use the keyboard shortcuts, as doing so will speed up your
+    work in future projects considerably. Also, you'll look much cooler. 
+
 #. Open the 'Schematic layout editor' aka the 'Eeschema' app (1st from the left).
 
 #. We want to add components to build this:
 
    .. image:: led-sensor.png
 
-#. Press 'a' and search for 'LMC6482'.  Open the drop-down and select 'Unit
-   A'. Place the unit on the schematic. Repeat with 'Unit B' and 'Unit C'.
+#. Press 'a' to bring up the parts Symbol library (or click the little op-amp
+   in your right side-bar, then click anywhere in the schematic).
+   In the filter bar, type 'LMC6482' to find the component.
+   Open the drop-down and select 'Unit A'. Place the unit on the schematic.
+   Repeat with 'Unit B' and 'Unit C'.
    Place 'Unit C' only once. Press 'ESC' to exit insert mode.
 
 #. Flip Unit A vertically. Right click Unit A of the op amp and Orientation
    → Mirror across X axis.
 
-#. Press 'a' and search for 'R'. Place 3 resistors as shown in the schematic.
+    .. hint:: Shortcut-Zhortcut
+
+        Go to Help -> List Hotkeys... or press Ctrl+F1 (Win) to open up KiCad's
+        built-in keyboard shortcuts cheat sheet!
+
+#. Open the part symbol browser search for 'R'. Place 3 resistors as
+   shown in the schematic.
    To rotate before placing, press 'r' before placing the component.
 
 #. Place a capacitor ('C') as shown.
 
-#. Place a LED ('LED') as shown.
+#. Place a LED part symbol ('LED') as shown.
 
-#. Place a potentiometer ('POT') as shown.
+#. Place a potentiometer part symbol ('POT') as shown.
 
-#. Place 4 voltage sources ('+3.3V') as shown.
+#. Place 4 voltage sources labels ('+3.3V') as shown.
 
    For this step it may be easier to duplicate a component instead of adding
    multiple of the same component. To do this, hover your cursor over the
    component you want copied and press 'c'.
 
-#. Place 6 grounds ('GND') as shown.
+#. Place 6 ground power labels ('GND') as shown.
 
-#. Place a 1×3 connector ('CONN_01x03') as shown.
+#. Place a 1×3 connector part symbol ('CONN_01x03') as shown.
 
 #. Now we need to hook everything up with wires. Move your mouse to where you
    want to start a wire, press 'w', click around to snap wire, and click on
@@ -68,10 +87,10 @@ Schematic Capture
      (floating), double click where you want the wire to end.
 
    - To add labels (the 'Vout' label shown above), press 'l' and type in the
-     name of your label. 
+     name of your label.
 
    - Labels connect two or more nodes together without actually drawing the wire
-     on screen
+     on screen. They're basically magic wire tunnels linked by name.
 
 #. Assign component values to components. For each resistor and capacitor,
    mouse over and press 'v'. In the 'Text' field, type the appropriate value.
@@ -82,8 +101,13 @@ Schematic Capture
 
 Footprint Assignment
 --------------------
-We need to tell KiCad what our parts look like physically on the board. In
-other words, we need to assign footprints to each symbol.
+What should have been completed so far is the circuit **schematic**.
+That is, we have transcribed our circuit's components and their connections
+into a format that KiCad, and hopefully others, can understand. We now
+need to tell KiCad what our parts look like physically on the board. First,
+we need to assign what each component actually looks like in the real world.
+Or at least, how they will look on our PCB. These representations are called
+**footprints**. 
 
 #. Tools → Assign Footprints. For each unassigned footprint, find the
    component below and assign it. These footprints correspond to the shapes of
@@ -91,6 +115,8 @@ other words, we need to assign footprints to each symbol.
    
    For purposes of this exercise, you don't have to use the ones indicated
    here. However, the footprints you assign for each symbol must be valid.
+   For example, you can't select an LED footprint that has 3 pins for the
+   utilized schematic symbol, which only has 2 pins.
 
    .. image:: led-sensor-footprints.png
 
@@ -158,7 +184,7 @@ PCB Layout
    pick and place machines when a board is being assembled at a fab house
 
 #. Move the op amp on the board. Move components by mousing over them and
-   typing 'm'. To rotate, type 'r'. Click to place back down.
+   pressing 'm'. To rotate, type 'r'. Click to place back down.
 
 #. Finish placing components on the board. Feel free to place them however
    you wish, but try to minimize the number of crossing white wires.
@@ -166,58 +192,71 @@ PCB Layout
 #. We will be adding a ground plane/ground pour to this board on both the top
    and bottom layers. A ground plane is generally a good idea because it makes
    routing easier and reduces ground noise. To do this:
-   
-   #. Click the 'Add filled zones' icon on the right-hand side toolbar. 
-   
-   #. Then click on screen where you want the first corner of your ground plane
-      to be. Make sure to give yourself enough room so that the plane will be able to
-      cover all of the components and so that the plane will be larger than the
-      overall board size.    
 
-   #. A settings window should pop up. Select 'F.Cu' for Layer and 'GND' for Net. 
-   
+   #. Click the 'Add filled zones' icon on the right-hand side toolbar. 
+
+   #. Then click on screen where you want the first corner of your ground plane
+      to be. Make sure to give yourself enough room so that the plane will be
+      able to cover all of the components and so that the plane will be larger
+      than the overall board size.
+
+   #. A settings window should pop up. Select 'F.Cu' for Layer and 'GND' for Net.
+
    #. Finish drawing the ground plane by clicking the other four corners of the
-      polygon. Double click on the last corner to close the polygon. 
+      polygon. Double click on the last corner to close the polygon.
 
    #. Repeat the above steps again to make a second ground plane but this time
-      on the 'B.Cu' layer. 
+      on the 'B.Cu' layer.
  
-#. Switch to the track tool by typing 'x'. You should route a physical track
+#. Routing: this is the real meat of PCB: drawing out the physical connections.
+   Switch to the track tool by typing 'x'. You should route a physical track
    for each white line you see connecting different pins. Wires of the same
    color (layer) may cross or overlap only if they're meant to be connected.
 
-#. You may realize one layer might not be enough to ensure no overlaps. Type
-   'Page Down' to switch to the bottom layer. 'Page Up' will return you to
-   the top layer.
+   #. You may realize one layer might not be enough to ensure no overlaps. Type
+      'Page Down' to switch to the bottom layer. 'Page Up' will return you to
+      the top layer. You can use Vias (Vertical Interconnect Access), an
+      electrical connection between multiple physical layers in a circuit board
+      to connect traces on different layers. Press 'v' while in trace routing
+      mode (i.e. you're in the middle of routing a trace and want to jump to
+      the other layer) or find the 'add via' button in the right tool panel to
+      add vias.
 
-#. Once all traces have been placed, we now need to place ground vias. Vias, or
-   vertical interconnect access, are an electrical connection between multiple
-   physical layers in a circuit board. Since most circuits share a common
-   ground, ground vias are needed for connecting the two ground planes. Add vias
-   by typing 'v' and clicking where you want the via located. Place a sufficient
-   number of ground vias spaced throughout the board.   
+   #. It is good practice to minimize via usage. Try to use as few as possible!
 
-#. To put your name on the board, we will be adding to the board silkscreen (or 
-   the identification layer). 
+   #. If you find it hard to draw out traces for all the connections, feel free
+      to move and reorient the components themselves. This is an iterative process!
+      Don't feel down if you have to restart completely. PCB layout is an NP hard
+      problem after all. With practice you will be able to arrive at more optimized
+      layouts sooner!
 
-   #. Usually PCB editors default to putting component names on the silkscreen for 
-      assembly but we can also put other symbols (like your name, a logo, a date, 
-      pin orientation information, etc.) on the board as well. 
-   
+#. Since most circuits share a common ground, ground vias are needed for
+   connecting the two ground planes. Place a sufficient number of ground vias
+   spaced throughout the board connecting the top ground plane pour(s) to the
+   one on the bottom. Don't worry too much about minimizing these!
+
+#. To put your name on the board, we will be adding to the board silkscreen (or
+   the identification layer).
+
+   #. Usually PCB editors default to putting component names on the silkscreen for
+      assembly but we can also put other symbols (like your name, a logo, a date,
+      pin orientation information, etc.) on the board as well.
+
    #. To do this select 'F. SilkS' from the 'Visibles' right pane. Select
       the text tool and click on your board. Type in your name, press 'OK', and
       place it on the board, rotating it if desired.
 
-#. Add edge cuts for the board. Select the 'Edge.Cuts' layer and draw a
-   rectangular outline that contains all the footprints and traces on your
-   board. Make sure that the board edge rectangle is also inside the ground
-   plane rectangle. You may choose to draw rounded corners, too.
+#. Add edge cuts for the board. This is the physical boundaries of your board.
+   Select the 'Edge.Cuts' layer and, using the trace tool, draw a rectangle
+   that contains all the footprints and traces on your board. Make sure that
+   the board edge rectangle is also inside the ground plane rectangle. You may
+   choose to draw rounded corners, too, or fancy shapes if you prefer.
 
 #. Once you are finished, perform a Design Rules Check. Tools → DRC → Start
    DRC. KiCad will warn you if there are any errors. Correct your design until
    there are no more DRC violations.
 
-#. Admire your handiwork. View → 3D Viewer.
+#. Admire your handiwork in 3D!. View → 3D Viewer.
 
 Generating Fabrication Outputs
 ==============================
