@@ -6,7 +6,7 @@ EE 198: Hands-On PCB Engineering
 :Units: 1
 :Time: Wednesday 8-10 PM
 :Location: 140 Cory Hall
-:Instructors: Leon Wu and Kevin Zheng
+:Instructors: Leon Wu, Kevin Zheng, Jeffrey Ni
 :Website: http://ieee.berkeley.edu/hope/pcb.html
 
 .. meta::
@@ -28,7 +28,7 @@ student organizations with working knowledge in PCB design.
 Prerequisites
 -------------
 EE 16A or similar working knowledge in circuits
-We strongly suggest coming to class with a computer mouse and KiCAD installed. 
+We strongly suggest coming to class **with a computer mouse** and KiCAD installed. 
 
 Objective
 ---------
@@ -46,8 +46,8 @@ For alternative or in-depth treatment of topics discussed in class, see
 `Supplemental Reading`_.
 
 Crash Course
-------------
-- **Week 1 (9/4):** `Introduction <https://docs.google.com/presentation/d/1z69Qty1y5xXLZ0Aj5myJGrSgowtjMf__ZhqZYirxvpg/edit?usp=sharing>`_
+-------------
+- **Week 1 (9/4):** `Introduction <https://docs.google.com/presentation/d/1nRpJgGI6Y7DVGxBtlnY7GDtgBJOsmoFTrcAbgedRhyo/edit?usp=sharing>`_
 
   - Basics of PCBs and hardware system design
   - Logistics and course timeline
@@ -57,93 +57,107 @@ Crash Course
 
   **Homework:** Finish intro lab
 
-- **Week 2 (9/11):** `Selecting and Using Parts <https://docs.google.com/presentation/d/1gqILuToAdnMANDv2snQ_bOsREtKKvCXkCQMaTXiBsJA/edit?usp=sharin>`_
+- **Week 2 (9/11):** `Schematics and Components, Pt.1 <pcb.html>`_
 
-  - Case study: DC-DC conversion
-  - Circuit devices
-  - Using application notes
-  - Preview of assembly technology and packaging
-  - Writing a Bill Of Materials (BOM)
-  - Survey of electronic suppliers
-  - `USB Charger Lab <labs/charger/schematic.html>`_
-
-- **Week 3 (9/18):** `Schematic Design Crash-Course <https://docs.google.com/presentation/d/1IAnVMza7iIhRW7UuD3g8MN-3-5JXEDYLzy4vGgrAQDo/edit?usp=sharing>`_
-
+  - Case study: DC-DC conversion Pt. 1
+  - Schematics for connectivity of components
   - Drawing schematics with best practices to communicate design intent
+  - Universal symbols and functional blocks
+  - Reviewing schematic designs with peers
+  - `USB Charger Lab <pcb.html>`_
+
+  .. - Case study: DC-DC conversion
+  .. - Circuit devices
+  .. - Using application notes
+  .. - Preview of assembly technology and packaging
+  .. - Writing a Bill Of Materials (BOM)
+  .. - Survey of electronic suppliers
+
+- **Week 3 (9/18):** `Schematics and Components, Pt.2 <pcb.html>`_
+
+  - Case study: DC-DC conversion Pt.2
+  - Realizing schematic symbols with real components
   - Creating symbols by reading component datasheets
+  - Choosing for design / BOM
   - Importing and checking symbols from other sources
-  - Reviewing schematic designs with peers; checking schematics with ERC
-  - `USB Charger Lab <labs/charger/schematic.html>`_
+  - Reviewing schematic designs with peers
+  - `USB Charger Lab <pcb.html>`_
 
-  **Homework:** Finish USB charger schematic
+  .. - Drawing schematics with best practices to communicate design intent
+  .. - Creating symbols by reading component datasheets
+  .. - Importing and checking symbols from other sources
+  .. - Reviewing schematic designs with peers; checking schematics with ERC
+  .. - `USB Charger Lab <labs/charger/schematic.html>`_
 
-- **Week 4 (9/25):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/1IRGGG9W11pcZrjaXWT-ZNtR8h8uL662oAMACzpMP1Io/edit?usp=sharing>`_
+  .. **Homework:** Finish USB charger schematic
 
-  - Design rules, stackup, and design for manufacturability (DFM)
-  - Electrical minimums (width, clearance)
-  - Making footprints
-  - Placing parts and routing nets
-  - Layout best practice
-  - Checking your work, generating fabrication outputs
-  - `USB Charger Layout <labs/charger/layout.html>`_
+- **Week 4 (9/25):** `Layout Design Crash-Course <pcb.html>`_
 
-  **Homework:** Finish USB charger layout
+  .. - Design rules, stackup, and design for manufacturability (DFM)
+  .. - Electrical minimums (width, clearance)
+  .. - Making footprints
+  .. - Placing parts and routing nets
+  .. - Layout best practice
+  .. - Checking your work, generating fabrication outputs
+  .. - `USB Charger Layout <pcb.html>`_
 
-- **Week 5 (10/2):** `Layout Considerations <https://docs.google.com/presentation/d/1oCVrj3e95I76qMfNnjic8B7apNLYl25NWG3ZRFEakGg/edit?usp=sharing>`_
+  .. **Homework:** Finish USB charger layout
 
-  - Finish USB charger board
-  - Trace resistance, inductance, capacitance
-  - Decoupling, current return path
-  - Stackup design and planes
-  - EMC/EMI
-  - Thermal minimums
+- **Week 5 (10/2):** `Layout Considerations <pcb.html>`_
 
-  **Homework:** Submit your `project proposal <https://goo.gl/forms/6127OCKiCTjQvUt22>`_
+  .. - Finish USB charger board
+  .. - Trace resistance, inductance, capacitance
+  .. - Decoupling, current return path
+  .. - Stackup design and planes
+  .. - EMC/EMI
+  .. - Thermal minimums
 
-- **Week 6 (10/9):** `Microcontroller Designs <https://docs.google.com/presentation/d/1p-V44MY9rMjXJe8xz0R6GgYSgBzAxbwavgltXGzqadI/edit?usp=sharing>`_
+  .. **Homework:** Submit your `project proposal <https://goo.gl/forms/6127OCKiCTjQvUt22>`_
+
+- **Week 6 (10/9):** `Microcontroller Designs <pcb.html>`_
 
 
-  - Microcontroller features and specifications
-  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
-  - Supporting microcontrollers on PCBs
-  - Microcontroller datasheets
-  - Digital interfaces and buses (SPI, I2C)
-  - `Microcontroller design lab <labs/microcontroller.html>`_
+  .. - Microcontroller features and specifications
+  .. - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
+  .. - Supporting microcontrollers on PCBs
+  .. - Microcontroller datasheets
+  .. - Digital interfaces and buses (SPI, I2C)
+  .. - `Microcontroller design lab <labs/microcontroller.html>`_
 
-  **Homework:** Finish microcontroller board layout
+  .. **Homework:** Finish microcontroller board layout
 
 Project
 -------
-- **Week 7 (10/16):** `Designing Your Own System <https://docs.google.com/presentation/d/1hmEESlJfISLLmpDH5OmdREQbAi4NIz32e8UgA_TMQ-Q/edit?usp=sharing>`_
+- **Week 7 (10/16):** `Designing Your Own System <pcb.html>`_
 
-  - Design example
-  - Design for test (DFT)
-  - Managing Bill of Materials (BOM)
+  .. - Design example
+  .. - Design for test (DFT)
+  .. - Managing Bill of Materials (BOM)
 
-- **Week 8 (10/23):** `Fabrication, Assembly, DFX <lectures/Lecture9.pptx>`_
+- **Week 8 (10/23):** `Fabrication, Assembly, DFX <pcb.html>`_
 
-- **Week 9 (10/30): Project Design Reviews** 
+- **Week 9 (10/30):  Project Design Reviews** 
 
-  - `Project Design Review <prj-des-rev.html>`_
-  - `Project Submission <project.html>`_
+  .. - `Project Design Review <prj-des-rev.html>`_
+  .. - `Project Submission <project.html>`_
 
-- **Week 10 (11/6):** `Assembly <https://docs.google.com/presentation/d/1V7lrlwEXy8lqWibsPLGXxYFdvEByJsk6LKzKl2Z_wYY/edit?usp=sharing>`_
+- **Week 10 (11/6):** `Assembly <pcb.html>`_
 
-  - Soldering, hot air, and reflow techniques
-  - Preheat
-  - Hand place, vaccums, pick-and-place
-  - Phone charger
+  .. - Soldering, hot air, and reflow techniques
+  .. - Preheat
+  .. - Hand place, vaccums, pick-and-place
+  .. - Phone charger
 
 - **Week 11 (11/13): More Assembly** 
 
-  - (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
+  .. - (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
 
-- **Week 12 (11/20):** `Bringup and Test <https://docs.google.com/presentation/d/1kGx3dwWIqr9VdXcaf9Vrz-EfuOt4FRQdt4PTNIM8gbw/edit?usp=sharing>`_
+- **Week 12 (11/20):** .. `Bringup and Test <pcb.html>`_
 
-  - Bringup strategies
-  - Testing boards
-  - Avoiding measurement errors and understanding limitations in test equipment
-  - Project assembly
+  .. - Bringup strategies
+  .. - Testing boards
+  .. - Avoiding measurement errors and understanding limitations in test equipment
+  .. - Project assembly
 
 - **Week 13 (11/4): Project Presentations**
 
@@ -188,7 +202,8 @@ course. Students need 70% to pass.
 - Project: 30%
 
 Labs are graded based on completing a successful checkoff. We encourage you to review your designs with peers 
-because each student will have only 2 attempts at a checkoff for each lab. 
+because each student will have only 2 attempts at a checkoff for each lab. More information about project
+grading will be released later in the course. 
 
 Attendance
 ----------
@@ -201,7 +216,7 @@ Absences must be excused to prevent it from affecting your grade. One unexcused 
 .. next lecture for the absence to be considered excused. Please also read over the lecture slides 
 .. from the class you missed.
 
-Additional unexcused absences may result in a NP.
+.. Additional unexcused absences may result in a NP.
 
 
 Resources

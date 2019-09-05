@@ -38,7 +38,7 @@ Schematic Capture
 
 #. We want to add components to build this:
 
-   .. image:: led-sensor.png
+   .. image:: led-sensor3.png
 
 #. Press 'a' to bring up the parts Symbol library (or click the little op-amp
    in your right side-bar, then click anywhere in the schematic).
@@ -100,15 +100,17 @@ Schematic Capture
 #. Now we need to hook everything up with wires. Move your mouse to where you
    want to start a wire, press 'w', click around to snap wire, and click on
    a pin to end the wire. Repeat until the schematic is fully captured.
+   
+   - Drag placed wires by hovering over them and pressing 'g'. Delete segments
+     by pressing 'del' or right click any wires for more options. 
 
    - To create a wire that does not connect to a component on one end
      (floating), double click where you want the wire to end.
 
    - To add labels (the 'Vout' label shown above), press 'l' and type in the
-     name of your label.
-
-   - Labels connect two or more nodes together without actually drawing the wire
-     on screen. They're basically magic wire tunnels linked by name.
+     name of your label. Labels connect two or more nodes together without
+     actually drawing the wire on screen. They're basically magic wire tunnels
+     linked by name.
 
 #. Assign component values to components. For each resistor and capacitor,
    mouse over and press 'v'. In the 'Text' field, type the appropriate value.
