@@ -203,14 +203,18 @@ PCB Layout
    The red lines in the layout are called tracks or traces. They are the same
    as wires in schematic.
 
+   Similarly, the red polygonal shapes are called fills, and represent large spans
+   of copper that are also a way to represent wires in the schematic (usually power
+   related wires). 
+
    The pink lines denote the silkscreen, which will be talked about later. 
    
    The gray boundaries denote component courtyards (F/B.CrtYd), or boundaries. If component
    courtyards overlap, a DRC error will occur since two components are trying to
    occupy the same place. 
 
-   The blue lines show component images (F/B.fab). This is used for automated
-   pick and place machines when a board is being assembled at a fab house.
+..    The blue lines show component images (F/B.fab). This is used for automated
+..    pick and place machines when a board is being assembled at a fab house.
 
 .. sidebar:: Changing Footprints
 

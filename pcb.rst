@@ -17,6 +17,11 @@ EE 198: Hands-On PCB Engineering
 .. If you are currently enrolled in the class, request `lab checkoffs here
 .. <http://tinyurl.com/hopecheckoffsp19>`_!
 
+Announcement
+============
+There is a course Piazza in the progress of being set up. 
+More information will be avaliable soon!
+
 Overview
 ========
 This course introduces printed circuit board (PCB) design and layout practices
