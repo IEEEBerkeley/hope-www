@@ -6,7 +6,8 @@ PAGES = index.html \
 		project.html \
         prj-des-rev.html \
 		labs/charger/layout.html \
-		labs/charger/schematic.html \
+		labs/charger/schematic1.html \
+		labs/charger/schematic2.html \
 		labs/digital-logic.html \
 		labs/firmware.html \
 		labs/building-gates.html \

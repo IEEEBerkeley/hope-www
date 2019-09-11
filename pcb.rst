@@ -62,12 +62,12 @@ Crash Course
 
   **Homework:** Finish intro lab
 
-- **Week 2 (9/11):** `Schematics and Components, Pt.1 <pcb.html>`_
+- **Week 2 (9/11):** `Schematics and Components, Pt.1 <labs/charger/schematic1.html>`_
 
-  - Case study: DC-DC conversion Pt. 1
+  - Case study: DC-DC conversion Pt.1 
   - Schematics for connectivity of components
-  - Drawing schematics with best practices to communicate design intent
   - Universal symbols and functional blocks
+  - Realizing schematic symbols with real components
   - Reviewing schematic designs with peers
   - `USB Charger Lab <pcb.html>`_
 
@@ -80,12 +80,13 @@ Crash Course
 
 - **Week 3 (9/18):** `Schematics and Components, Pt.2 <pcb.html>`_
 
-  - Case study: DC-DC conversion Pt.2
-  - Realizing schematic symbols with real components
+  - Case study: DC-DC conversion Pt.2 (in lab)
   - Creating symbols by reading component datasheets
-  - Choosing for design / BOM
+  - Assembly technologies
+  - Writing a Bill of Materials (BOM)
+  - Drawing schematics with best practices to communicate design intent
   - Importing and checking symbols from other sources
-  - Reviewing schematic designs with peers
+  - Reviewing schematic designs with peers; checking schematics with ERC
   - `USB Charger Lab <pcb.html>`_
 
   .. - Drawing schematics with best practices to communicate design intent
