@@ -158,6 +158,8 @@ Fill out the fields in the title block.
 
 Checkoff
 --------
+Submit a lab checkoff `here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
+
 Show your phone charger schematic to an instructor. Be prepared to answer
 questions about your design review.
 

@@ -14,13 +14,24 @@ EE 198: Hands-On PCB Engineering
 
 .. contents::
 
-.. If you are currently enrolled in the class, request `lab checkoffs here
-.. <http://tinyurl.com/hopecheckoffsp19>`_!
+If you are currently enrolled in the class, request `lab checkoffs here
+<https://ieee.berkeley.edu/cgi-bin/hope/submit>`_!
 
 Announcement
 ============
-There is a course Piazza in the progress of being set up. 
-More information will be avaliable soon!
+(9/10) Registered students should have been added to the class Piazza. 
+
+Kevin has developed a new checkoff system that will be used for the rest 
+of the class. If you have not yet officially registered for the class,
+please do (find course CCN in first lecture slide). If you cannot officially
+register but would like to be in the checkoff system, email us at
+ieee-hope@lists.berkeley.edu with your full name and your favorite number. 
+
+For students that do not have building access to Cory: one of the instructors
+will be waiting at the Cory first floor door (across from Sutardja Dai Hall)
+7:55-8:10pm. 
+
+Future announcements will be made on Piazza!
 
 Overview
 ========
@@ -62,14 +73,14 @@ Crash Course
 
   **Homework:** Finish intro lab
 
-- **Week 2 (9/11):** `Schematics and Components, Pt.1 <labs/charger/schematic1.html>`_
+- **Week 2 (9/11):** `Schematics and Components, Pt.1 <https://docs.google.com/presentation/d/1mPcDwflSCoW_kk-Q0KpqWAX0CXXVQ8BZW8dK3V9loh0/edit?usp=sharing>`_
 
   - Case study: DC-DC conversion Pt.1 
   - Schematics for connectivity of components
   - Universal symbols and functional blocks
   - Realizing schematic symbols with real components
   - Reviewing schematic designs with peers
-  - `USB Charger Lab <pcb.html>`_
+  - `USB Charger Schematic Pt.1 <labs/charger/schematic1.html>`_
 
   .. - Case study: DC-DC conversion
   .. - Circuit devices
@@ -87,7 +98,7 @@ Crash Course
   - Drawing schematics with best practices to communicate design intent
   - Importing and checking symbols from other sources
   - Reviewing schematic designs with peers; checking schematics with ERC
-  - `USB Charger Lab <pcb.html>`_
+  - `USB Charger Schematic Pt.2 <pcb.html>`_
 
   .. - Drawing schematics with best practices to communicate design intent
   .. - Creating symbols by reading component datasheets
@@ -158,7 +169,7 @@ Project
 
   .. - (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
 
-- **Week 12 (11/20):** .. `Bringup and Test <pcb.html>`_
+- **Week 12 (11/20):** `Bringup and Test <pcb.html>`_
 
   .. - Bringup strategies
   .. - Testing boards

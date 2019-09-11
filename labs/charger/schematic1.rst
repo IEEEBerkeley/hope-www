@@ -63,11 +63,42 @@ specifications due to time constraints:
 - Form factor small enough to fit in an automotive 12V outlet (about 20mm
   diameter)
 
-- Minimum cost
+- Minimize cost
 
 Functional Diagram
 ==================
+  .. attention:: 
+    Don't skip this step! This is a core part of your design process 
+    (and also checkoff requirement)
 
+Take out a piece of paper or open up a drawing program on your computer.
+Based on the information listed above (idea, specifications), come up with
+a block diagram of the car phone charger system that covers all listed specs.
+As you pick parts in the next section, try to gradually convert your block
+diagram into a rough schematic with the parts you have chosen. You may keep
+everything in one diagram or draw multiple, so long as what you end up doing
+is readily understandable to others. 
+
+Choosing Parts
+==============
+At some point you may start wondering what parts you need to realize your
+design. When designing PCBs, many high-level design choices depend on the cost
+and availability of parts!
+
+Digi-Key and Mouser are two commonly used electronic component distributors.
+We've provided pre-filled links to Digi-Key's component search or compare
+product tools to help narrow down your search.
+
+You should start a Bill of Materials (BOM). A BOM is a spreadsheet or table
+with the quantity, value, part number, cost, and other information about the
+parts you decide to use. We will talk more about BOMs next time. 
+
+.. important::
+
+  To help us check you off, make sure to include a 'description' column in
+  this BOM and put in a description on how you chose the part for each
+  component. It may also help for this lab exercise to include information
+  for which functional block/submodule the component belongs to. 
 
 Understanding USB
 -----------------
@@ -99,27 +130,6 @@ Answer the following questions:
 
 #. How should your charger connect the D+ and D- pins to indicate that it is a
    charging port?
-
-Choosing Parts
-==============
-At some point you may start wondering what parts you need to realize your
-design. When designing PCBs, many high-level design choices depend on the cost
-and availability of parts!
-
-Digi-Key and Mouser are two commonly used electronic component distributors.
-We've provided pre-filled links to Digi-Key's component search or compare
-product tools to help narrow down your search.
-
-You should start a Bill of Materials (BOM). A BOM is a spreadsheet or table
-with the quantity, value, part number, cost, and other information about the
-parts you decide to use. We will talk more about BOMs next time. 
-
-.. important::
-
-  To help us check you off, make sure to include a 'description' column in
-  this BOM and put in a description on how you chose the part for each
-  component. It may also help for this lab exercise to include information
-  for which functional block/submodule the component belongs to. 
 
 Connectors
 ----------
@@ -353,7 +363,9 @@ This includes going over which components/circuits you've selected for each bloc
 
 Checkoff
 --------
-You're now ready for checkoff. Show an instructor your hand-drawn block diagram/schematic
+You're now ready for checkoff. Submit a checkoff request 
+`here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
+Show an instructor your hand-drawn block diagram/schematic
 as well as your list of components. 
 
 Schematic

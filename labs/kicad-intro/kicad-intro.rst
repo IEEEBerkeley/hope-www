@@ -15,6 +15,8 @@ sensor talked about during lecture. Don't feel like you need to understand
 everything; this lab is meant to be a very guided walkthrough of the
 required motions.
 
+`Back to HOPE main page <../../pcb.html>`_ 
+
 .. contents::
 .. sectnum::
 
@@ -343,5 +345,9 @@ Don't worry about the options in either output window.
 
 Lab Checkoff
 ============
-#. Show your DRC report, layout, schematic, and output files to an instructor
-   for check-off.
+Submit a lab checkoff `here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
+
+Show your DRC report, layout, schematic, and output files to an instructor
+for check-off.
+
+`Back to HOPE main page <../../pcb.html>`_ 
