@@ -365,6 +365,9 @@ Checkoff
 --------
 You're now ready for checkoff. Submit a checkoff request 
 `here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
+Take a picture of your block diagram/schematic and zip it
+up with your chosen parts list for the file submission. 
+
 Show an instructor your hand-drawn block diagram/schematic
 as well as your list of components. 
 

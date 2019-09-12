@@ -17,6 +17,8 @@ EE 198: Hands-On PCB Engineering
 If you are currently enrolled in the class, request `lab checkoffs here
 <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_!
 
+`Course Piazza <https://piazza.com/class/k08mkbwvm7937q>`_ 
+
 Announcement
 ============
 (9/10) Registered students should have been added to the class Piazza. 

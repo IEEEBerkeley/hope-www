@@ -346,6 +346,7 @@ Don't worry about the options in either output window.
 Lab Checkoff
 ============
 Submit a lab checkoff `here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
+Zip up your project files and fab outputs and add that to the checkoff submission. 
 
 Show your DRC report, layout, schematic, and output files to an instructor
 for check-off.
