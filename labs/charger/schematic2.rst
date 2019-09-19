@@ -241,9 +241,9 @@ Ask for constructive criticism and be open to questions about your design.
    with the other person's design beforehand and ask any questions 
    you may have during the design review. 
 
-Final Touches
--------------
-Fill out the fields in the title block.
+.. Final Touches
+.. -------------
+.. Fill out the fields in the title block.
 
 Checkoff
 --------
