@@ -91,16 +91,14 @@ Crash Course
   .. - Writing a Bill Of Materials (BOM)
   .. - Survey of electronic suppliers
 
-- **Week 3 (9/18):** `Schematics and Components, Pt.2 <pcb.html>`_
+- **Week 3 (9/18):** `Schematics and Components, Pt.2 <https://docs.google.com/presentation/d/1vJJo3u52cDrXFFdlmIyyNLa7D1YE6D_jZVtpqIui0ZM/edit?usp=sharing>`_
 
   - Case study: DC-DC conversion Pt.2 (in lab)
-  - Creating symbols by reading component datasheets
-  - Assembly technologies
-  - Writing a Bill of Materials (BOM)
   - Drawing schematics with best practices to communicate design intent
-  - Importing and checking symbols from other sources
+  - Creating, importing and checking symbols from other sources
+  - Writing a Bill of Materials (BOM)
   - Reviewing schematic designs with peers; checking schematics with ERC
-  - `USB Charger Schematic Pt.2 <pcb.html>`_
+  - `USB Charger Schematic Pt.2 <labs/charger/schematic2.html>`_
 
   .. - Drawing schematics with best practices to communicate design intent
   .. - Creating symbols by reading component datasheets
@@ -108,7 +106,7 @@ Crash Course
   .. - Reviewing schematic designs with peers; checking schematics with ERC
   .. - `USB Charger Lab <labs/charger/schematic.html>`_
 
-  .. **Homework:** Finish USB charger schematic
+  **Homework:** Finish USB charger schematic
 
 - **Week 4 (9/25):** `Layout Design Crash-Course <pcb.html>`_
 
