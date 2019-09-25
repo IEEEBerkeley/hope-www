@@ -103,6 +103,12 @@ Final Steps
 
    #. Continue doing this until your board passes InstantDFM.
 
+Checkoff
+--------
+# Zip up a pdf printout of your InstandDFM results or a textfile with a link to your InstantDFM results.
+# Submit a checkoff request
+`here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
+
 
 Glossary
 ========

@@ -108,15 +108,14 @@ Crash Course
 
   **Homework:** Finish USB charger schematic
 
-- **Week 4 (9/25):** `Layout Design Crash-Course <pcb.html>`_
+- **Week 4 (9/25):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/1yo39JYgUDUchJvsWPoCP-UsazrFnnZs-Rrj7RpJIJXs/edit?usp=sharing>`_
 
-  .. - Design rules, stackup, and design for manufacturability (DFM)
-  .. - Electrical minimums (width, clearance)
-  .. - Making footprints
-  .. - Placing parts and routing nets
-  .. - Layout best practice
-  .. - Checking your work, generating fabrication outputs
-  .. - `USB Charger Layout <pcb.html>`_
+  - Understanding schematic to layout
+  - Making footprints
+  - Placing parts and routing nets
+  - Design rules, stackup, and design for manufacturability (DFM)
+  - Checking your work, generating fabrication outputs
+  - `USB Charger Layout <labs/charger/layout.html>`_
 
   .. **Homework:** Finish USB charger layout
 
