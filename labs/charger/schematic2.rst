@@ -28,8 +28,9 @@ BOM Update
 ==========
 
 Take some time this lab to turn your parts list from the previous
-lab into a proper looking BOM. Feel free to use an online or built-into KiCAD tool
-to do this. This is required for checkoff, so don't forget to do it! 
+lab into a proper BOM as described in this week's lecutre. Feel free 
+to use an online or built-into KiCAD tool to do this. This is required
+for checkoff, so don't forget to do it! 
 
 Schematic Drawing
 =================
