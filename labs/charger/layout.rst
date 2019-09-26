@@ -105,8 +105,8 @@ Final Steps
 
 Checkoff
 --------
-# Zip up a pdf printout of your InstandDFM results or a textfile with a link to your InstantDFM results.
-# Submit a checkoff request
+#. Zip up a pdf printout of your InstandDFM results or a textfile with a link to your InstantDFM results.
+#. Submit a checkoff request
 `here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
 
 
