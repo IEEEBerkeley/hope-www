@@ -19,21 +19,21 @@ If you are currently enrolled in the class, request `lab checkoffs here
 
 `Course Piazza <https://piazza.com/class/k08mkbwvm7937q>`_ 
 
-Announcement
-============
-(9/10) Registered students should have been added to the class Piazza. 
+.. Announcement
+.. ============
+.. (9/10) Registered students should have been added to the class Piazza. 
 
-Kevin has developed a new checkoff system that will be used for the rest 
-of the class. If you have not yet officially registered for the class,
-please do (find course CCN in first lecture slide). If you cannot officially
-register but would like to be in the checkoff system, email us at
-ieee-hope@lists.berkeley.edu with your full name and your favorite number. 
+.. Kevin has developed a new checkoff system that will be used for the rest 
+.. of the class. If you have not yet officially registered for the class,
+.. please do (find course CCN in first lecture slide). If you cannot officially
+.. register but would like to be in the checkoff system, email us at
+.. ieee-hope@lists.berkeley.edu with your full name and your favorite number. 
 
-For students that do not have building access to Cory: one of the instructors
-will be waiting at the Cory first floor door (across from Sutardja Dai Hall)
-7:55-8:10pm. 
+.. For students that do not have building access to Cory: one of the instructors
+.. will be waiting at the Cory first floor door (across from Sutardja Dai Hall)
+.. 7:55-8:10pm. 
 
-Future announcements will be made on Piazza!
+.. Future announcements will be made on Piazza!
 
 Overview
 ========
@@ -119,19 +119,19 @@ Crash Course
 
   .. **Homework:** Finish USB charger layout
 
-- **Week 5 (10/2):** `Layout Considerations <pcb.html>`_
+- **Week 5 (10/2):** `Layout Considerations <https://docs.google.com/presentation/d/16GKlVBxY2UAE1DY-rgvt_gqPF0uKG0pdG0S5Wwqhy7Q/edit?usp=sharing>`_
 
-  .. - Finish USB charger board
-  .. - Trace resistance, inductance, capacitance
-  .. - Decoupling, current return path
-  .. - Stackup design and planes
-  .. - EMC/EMI
-  .. - Thermal minimums
+  - Trace resistance, inductance, capacitance
+  - Decoupling, current return path
+  - Stackup design and planes
+  - Mechanical, Thermal considerations
+  - Finish `USB charger board layout <labs/charger/layout.html>`_
 
-  .. **Homework:** Submit your `project proposal <https://goo.gl/forms/6127OCKiCTjQvUt22>`_
+  **Homework:** Submit your project proposal by the end of class 10/9
 
 - **Week 6 (10/9):** `Microcontroller Designs <pcb.html>`_
 
+  - Download the Arduino IDE `here <https://www.arduino.cc/en/Main/Software>`_
 
   .. - Microcontroller features and specifications
   .. - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
@@ -175,7 +175,7 @@ Project
   .. - Avoiding measurement errors and understanding limitations in test equipment
   .. - Project assembly
 
-- **Week 13 (11/4): Project Presentations**
+- **Week 13 (12/4): Project Presentations**
 
 
 Course Format
