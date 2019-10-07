@@ -129,18 +129,18 @@ Crash Course
 
   **Homework:** Submit your project proposal by the end of class 10/9
 
-- **Week 6 (10/9):** `Microcontroller Designs <pcb.html>`_
+- **Week 6 (10/9):** `Microcontrollers <https://docs.google.com/presentation/d/1T5n-LxndGfklYw9YXl8rZeHcFY-3M3nTB2AqNhN4o6s/edit?usp=sharing>`_
 
   - Download the Arduino IDE `here <https://www.arduino.cc/en/Main/Software>`_
 
-  .. - Microcontroller features and specifications
-  .. - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
-  .. - Supporting microcontrollers on PCBs
-  .. - Microcontroller datasheets
-  .. - Digital interfaces and buses (SPI, I2C)
-  .. - `Microcontroller design lab <labs/microcontroller.html>`_
+  - Microcontroller features
+  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
+  - Digital interfaces and buses (SPI, I2C)
+  - Supporting microcontrollers on PCBs
+  - Microcontroller datasheets
+  - `Microcontroller HANDS ON LAB <labs/microcontroller/microcontroller_lab.html>`_
 
-  .. **Homework:** Finish microcontroller board layout
+  **Homework:** Project Proposal Revisions, or just work on your project!
 
 Project
 -------
