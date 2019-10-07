@@ -46,7 +46,7 @@ Assembling the Circuit
 
    .. image:: ledblink_demo.jpg
       
-You will need an LED and X Ω resistor to assemble this circuit.
+You will need an LED and X Ω resistor (figure out what value you need) to assemble this circuit.
 
 #. Connect the anode (positive terminal) of the LED to the resistor and the
    cathode (negative terminal) to ground.
@@ -125,7 +125,7 @@ You can read a lot more about how this works with the shift register `here <http
 the gist is that a serial string of binary data will go into the system, and the system outputs will be set according to the order of the 
 input bits. 
 
-   **diagram of that here that I'm too lazy to make right now**
+   .. image:: diagram.png
 
 What this IC allows us to do is utilize SERIAL COMMUNICATION over a few data control lines to control
 lots of on/off outputs. In our case, we will be utlizing the Arduino built-in SPI library and the SPI communication

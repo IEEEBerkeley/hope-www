@@ -134,10 +134,9 @@ Crash Course
   - Download the Arduino IDE `here <https://www.arduino.cc/en/Main/Software>`_
 
   - Microcontroller features
-  - Common microcontroller peripherals (PWM, ADC, watchdog, RTC)
+  - Common microcontroller peripherals (PWM, ADC)
   - Digital interfaces and buses (SPI, I2C)
   - Supporting microcontrollers on PCBs
-  - Microcontroller datasheets
   - `Microcontroller HANDS ON LAB <labs/microcontroller/microcontroller_lab.html>`_
 
   **Homework:** Project Proposal Revisions, or just work on your project!
