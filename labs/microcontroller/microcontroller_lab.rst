@@ -7,6 +7,8 @@ and experiment with a very essential and basic communication protocol: Serial
 Peripheral Interface (SPI). If you have never worked with a breadboard before or would
 like to read a well written article about how to use them, check out Sparkfun's 
 `how to use a breadboard <https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all>`_. 
+This lab will provide you with a better, hands-on understanding of how microcontroller circuits and basic serial
+communication work, fundamental knowledge for building PCBs that involve such devices. 
 
 `Back to HOPE main page <../../pcb.html>`_ 
 
@@ -98,7 +100,11 @@ We first have to make sure our sensor is sending data to the Arduino board befor
 
    .. image:: sensor_test.png
 
-#. In this program, we are taking the sensor information from pin A0 and displaying that data in the Serial Monitor. The Serial Monitor is a feature of the Arduino IDE, and can be accessed by clicking on the magnifying glass icon in top right corner of the program or pressing Ctrl + M (Command + M).
+#. In this program, we are taking the sensor information from pin A0 and displaying that data in the Serial Monitor. 
+   The Serial Monitor is a feature of the Arduino IDE, and can be accessed by clicking on the magnifying glass icon in top right corner of the program or pressing Ctrl + M (Command + M).
+
+   .. note:: 
+      Why do you think it is called the **Serial** Monitor? 
 
 #. Compile and upload the program onto your Arduino. Once you have, open the Serial Monitor. You should see values appearing on the screen vertically. 
    You will know if your sensor is working by blocking the photoresistor with your hand and then noticing a significant change in the values of the photoresistor.
@@ -113,11 +119,17 @@ more of the limited GPIO pins for basic on/off functionality! This is where the 
 SN74HC595N integrated circuits come in! Known as a shift register, this IC takes in Serial data
 and spits outs Parallel Data! 
 
-``more about how this works blah blah``
+   .. image:: serial_parallel.png
+
+You can read a lot more about how this works with the shift register `here <https://www.electronics-tutorials.ws/sequential/seq_5.html>`_, but
+the gist is that a serial string of binary data will go into the system, and the system outputs will be set according to the order of the 
+input bits. 
+
+   **diagram of that here that I'm too lazy to make right now**
 
 What this IC allows us to do is utilize SERIAL COMMUNICATION over a few data control lines to control
-lots of things! In our case, we will be utlizing the Arduino built-in SPI library and the SPI communication
-protocol to "program" the shift registers.
+lots of on/off outputs. In our case, we will be utlizing the Arduino built-in SPI library and the SPI communication
+protocol to "program" the shift registers to control an array of LEDs!
 
   .. attention:: 
     The 74HC595N does not actually use the SPI protocol "officially", but works on a serial input, clock, and enable signal, which
