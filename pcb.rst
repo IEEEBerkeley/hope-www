@@ -127,9 +127,11 @@ Crash Course
   - Mechanical, Thermal considerations
   - Finish `USB charger board layout <labs/charger/layout.html>`_
 
-  **Homework:** Submit your project proposal by the end of class 10/9
+  **Homework:** Submit your project proposal by the end of class 10/9 
 
-- **Week 6 (10/9):** `Microcontrollers <https://docs.google.com/presentation/d/1T5n-LxndGfklYw9YXl8rZeHcFY-3M3nTB2AqNhN4o6s/edit?usp=sharing>`_
+- **Week 6 (10/9):** `Microcontrollers (Cancelled due to power outage) <pcb.html>`_
+
+  **CLASS IS CANCELLED THIS WEEK DUE TO THE POWER OUTAGE CAMPUS CLOSURE**
 
   - Download the Arduino IDE `here <https://www.arduino.cc/en/Main/Software>`_
 
@@ -139,15 +141,16 @@ Crash Course
   - Supporting microcontrollers on PCBs
   - `Microcontroller HANDS ON LAB <labs/microcontroller/microcontroller_lab.html>`_
 
-  **Homework:** Project Proposal Revisions, or just work on your project!
+  **Homework:** Project Proposal Submission! See Piazza for additional information. 
 
 Project
 -------
-- **Week 7 (10/16):** `Designing Your Own System <pcb.html>`_
+- **Week 7 (10/16):** `Designing Your Own System/Microcontrollers <pcb.html>`_
 
-  .. - Design example
-  .. - Design for test (DFT)
-  .. - Managing Bill of Materials (BOM)
+  - Microcontroller lab moved to this week!
+  - Design example
+  - Design for test (DFT)
+  - Managing Bill of Materials (BOM)
 
 - **Week 8 (10/23):** `Fabrication, Assembly, DFX <pcb.html>`_
 
