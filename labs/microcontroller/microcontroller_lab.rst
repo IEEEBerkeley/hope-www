@@ -33,6 +33,11 @@ As you learned in lecture, microcontroller General Purpose Input/Output pins hav
 a core set of pins called **Digital I/O**. We will use these pins on the Ardiuno
 to control an LED and make it blink at any chosen interval!
 
+   .. attention:: 
+   
+      If you're somewhat familiar with microcontrollers, you may skip this section and work on the SPI circuit first. 
+      Don't forget to check the checkoff list first for what you need for checkoff!
+
 .. .. sidebar:: Analog VS Digital: Basic Understanding
 
 ..     In analog circuits, the circuit "understands" a continous range of voltages. 
@@ -106,7 +111,8 @@ We first have to make sure our sensor is sending data to the Arduino board befor
    .. note:: 
       Why do you think it is called the **Serial** Monitor? 
 
-#. Compile and upload the program onto your Arduino. Once you have, open the Serial Monitor. You should see values appearing on the screen vertically. 
+#. Compile and upload the program onto your Arduino. Once you have, open the Serial Monitor. Make sure to set the baud rate to the value specificed in
+   the setup section of the code. You should see values appearing on the screen vertically. 
    You will know if your sensor is working by blocking the photoresistor with your hand and then noticing a significant change in the values of the photoresistor.
 
 More LEDs
