@@ -254,4 +254,7 @@ one big circuit.
 
    #. For fun: How old is the SNx4HC595 series? 
 
+`Submit checkoff request
+<https://ieee.berkeley.edu/cgi-bin/hope/submit>`_!
+
 `Back to HOPE main page <../../pcb.html>`_ 
