@@ -49,7 +49,7 @@ to control an LED and make it blink at any chosen interval!
 Assembling the Circuit
 -----------------------
 
-   .. image:: ledblink_demo.jpg
+   .. image:: ledblink_demo.png
       
 You will need an LED and X Ω resistor (figure out what value you need) to assemble this circuit.
 
@@ -148,7 +148,7 @@ Adding the Shift Register
 
 #. Place the shift register IC across the DIP IC ravine on your breadboard.
 
-   .. image:: DIP_RAVINE.jpg
+   .. image:: DIP_RAVINE.png
       :height: 300px
 
 #. Make sure to have the datasheet open! Find the **Pin Configuration and Functions** section and use it to help you wire up the IC correctly.

@@ -142,7 +142,7 @@ Project
   - Digital interfaces and buses (SPI, I2C)
   - Design for test (DFT)
   - Managing Bill of Materials (BOM)
-  - `Microcontroller HANDS ON LAB <labs/microcontroller/microcontroller_lab.html>`_
+  - `Microcontroller Hands On Lab <labs/microcontroller/microcontroller_lab.html>`_
 
   **Homework:** Project initial BOM and initial schematic due by end of class 10/23
 
