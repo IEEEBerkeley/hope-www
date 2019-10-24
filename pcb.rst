@@ -146,7 +146,7 @@ Project
 
   **Project:** Project initial BOM and initial schematic due by end of class 10/23
 
-- **Week 8 (10/23):** `Fabrication, Assembly, DFx <pcb.html>`_
+- **Week 8 (10/23):** `Fabrication, Assembly, DFx <lectures/DFM,%20Assembly,%20Fab%20-%20Fall%202019.pdf>`_
 
   - **Guest Lecturer from Tempo Automation**
   - PCB Fabrication processing
