@@ -127,7 +127,7 @@ Crash Course
   - Mechanical, Thermal considerations
   - Finish `USB charger board layout <labs/charger/layout.html>`_
 
-  **Homework:** Submit your project proposal by the end of class 10/16
+  **Project:** Submit your project proposal by the end of class 10/16
 
 - **Week 6 (10/9):** Microcontrollers (Cancelled due to power outage)
 
@@ -144,21 +144,33 @@ Project
   - Managing Bill of Materials (BOM)
   - `Microcontroller Hands On Lab <labs/microcontroller/microcontroller_lab.html>`_
 
-  **Homework:** Project initial BOM and initial schematic due by end of class 10/23
+  **Project:** Project initial BOM and initial schematic due by end of class 10/23
 
-- **Week 8 (10/23):** `Fabrication, Assembly, DFX <pcb.html>`_
+- **Week 8 (10/23):** `Fabrication, Assembly, DFx <pcb.html>`_
+
+  - **Guest Lecturer from Tempo Automation**
+  - PCB Fabrication processing
+    - PCB Stackup
+    - Vias
+    -Soldermask & Silkscreen
+  - Assembly process
+  - Design for [X]
+
+  **Project:** Continue working on your projects. They will need to be at a somewhat presentable state by 10/30. See links under that week for more details.
 
 - **Week 9 (10/30):  Project Design Reviews** 
 
-  .. - `Project Design Review <prj-des-rev.html>`_
-  .. - `Project Submission <project.html>`_
+  - `Project Design Review <prj-des-rev.html>`_
+  - `Project Submission <project.html>`_
+
+  **Project** Project manufacturing files are due **11/6 at 6PM** (*BEFORE CLASS*). 
 
 - **Week 10 (11/6):** `Assembly <pcb.html>`_
 
-  .. - Soldering, hot air, and reflow techniques
-  .. - Preheat
-  .. - Hand place, vaccums, pick-and-place
-  .. - Phone charger
+  - Soldering, hot air, and reflow techniques
+  - Preheat
+  - Hand place, vaccums, pick-and-place
+  - Phone charger assembly lab
 
 - **Week 11 (11/13): More Assembly** 
 
@@ -166,12 +178,15 @@ Project
 
 - **Week 12 (11/20):** `Bringup and Test <pcb.html>`_
 
-  .. - Bringup strategies
-  .. - Testing boards
-  .. - Avoiding measurement errors and understanding limitations in test equipment
-  .. - Project assembly
+  - Bringup strategies
+  - Testing boards
+  - Avoiding measurement errors and understanding limitations in test equipment
+  - *Project assembly and testing*
 
 - **Week 13 (12/4): Project Presentations**
+
+  - Project assembly. testing, programming
+  - Presenting completed projects
 
 
 Course Format

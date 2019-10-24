@@ -16,20 +16,24 @@ Project Submission
      - Add these logos to your footprint by pressing 'O' and then finding the
        correct library and the correct components. 
 
-   - If you are using Eagle, find the steps `here
-     <https://www.instructables.com/id/Adding-Custom-Graphics-to-EAGLE-PCB-Layouts/>`_.
-     You can find the bitmap logo files from this `link
-     <https://tinyurl.com/hopelogosbitmap>`_.
+  ..  - If you are using Eagle, find the steps `here
+  ..    <https://www.instructables.com/id/Adding-Custom-Graphics-to-EAGLE-PCB-Layouts/>`_.
+
+     You can also add your own images/logos to your silkscreen (or even other layers, if 
+     you're feeling spicy) using KiCad's 'Bitmap to Component Converter', located in the 
+     main applications toolbar in the project window. Try it yourself with the IEEE 
+     and BAC logos Bitmap files from this `link
+     <https://tinyurl.com/hopelogosbitmap>`_. 
 
 #. Generate production files (all relevant Gerbers and drill files) and
-   generate a ZIP file.
+   put them all into a ZIP file.
 
 #. Upload your ZIP file to `InstantDFM
    <http://instantdfm.bayareacircuits.com/>`_. Select 'Blue' soldermask and
    use default settings for the rest. Make sure your design passes InstantDFM.
-   Save your InstantDFM link; you'll need to send it to us.
+   Save your InstantDFM *link*; you'll need to send it to us.
 
-#. Prepare your BOM for a **single** board in using the `template <https://docs.google.com/spreadsheets/d/1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo/edit?usp=sharing>`_.
+#. Prepare your BOM for a **single** board in using the `template <https://drive.google.com/open?id=1ZZAnW61lbqi8A5PHymeQs3MktsaBvQEssZroThjktFo>`_.
 
    For **resistors only**, if you leave the Digi-Key and Mouser part numbers
    blank, we will pick an appropriate resistor for you based on your part
@@ -37,4 +41,6 @@ Project Submission
    assume 5% 0805**. *If you do not have special requirements for your
    resistors, please leave these fields blank to help us consolidate orders.*
 
-#. Submit your final design using `the project submission form <https://forms.gle/443SBpfo9BnLmNF19>`_.
+.. #. Submit your final design using `the project submission form <https://forms.gle/443SBpfo9BnLmNF19>`_.
+
+#. Final Design submission instructions coming soon...
