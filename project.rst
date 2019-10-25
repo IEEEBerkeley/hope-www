@@ -16,9 +16,6 @@ Project Submission
      - Add these logos to your footprint by pressing 'O' and then finding the
        correct library and the correct components. 
 
-  ..  - If you are using Eagle, find the steps `here
-  ..    <https://www.instructables.com/id/Adding-Custom-Graphics-to-EAGLE-PCB-Layouts/>`_.
-
      You can also add your own images/logos to your silkscreen (or even other layers, if 
      you're feeling spicy) using KiCad's 'Bitmap to Component Converter', located in the 
      main applications toolbar in the project window. Try it yourself with the IEEE 
@@ -43,4 +40,4 @@ Project Submission
 
 .. #. Submit your final design using `the project submission form <https://forms.gle/443SBpfo9BnLmNF19>`_.
 
-#. Final Design submission instructions coming soon...
+#. Final Design submission instructions coming soon... Due **11/6** at **6pm**. 

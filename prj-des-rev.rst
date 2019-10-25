@@ -47,20 +47,20 @@ In-Class Design Review Instructions: 10/30
       by the time an instructor joins, summarize the reviews. It helps if notes, criticisms, and such were noted down on each 
       group's project *printouts*. 
 
-   - As the presenting group, it is your responsibility to answer any questions the reviewers may have about your design. You should also bring up any concerns you may have about your own design so that you can get a fresh perspective on the problem. You should approach the review in the following order: 
-    
-      #. Overview of what your board does, the big picture. Explain relevant standards and specifications. 
-      #. Explain why you chose certain components
-         - What component features led you to choose this specific part?
-         - At this point look over component footprints, layout, and supporting schematic design. 
-         - Make sure your design follows datasheet requirements. 
-      #. Check mechanical requirements 
-      #. **Take notes** of feedback on your printouts. 
- 
-   - As the reviewing group, it is your responsibility to:
-      #. Check/scrutinize the design of the presenting group. 
-      #. Point out any concerns you may have. 
-      #. Critique or ask questions about the design. 
-      #. **Annotate** the printouts of the other group's design. 
-      #. Make sure that the presenting group's design follows the `HOPE PCB Checklist <checklist.html>`_.  
+- As the presenting group, it is your responsibility to answer any questions the reviewers may have about your design. You should also bring up any concerns you may have about your own design so that you can get a fresh perspective on the problem. You should approach the review in the following order: 
+   
+   #. Overview of what your board does, the big picture. Explain relevant standards and specifications. 
+   #. Explain why you chose certain components
+      - What component features led you to choose this specific part?
+      - At this point look over component footprints, layout, and supporting schematic design. 
+      - Make sure your design follows datasheet requirements. 
+   #. Check mechanical requirements 
+   #. **Take notes** of feedback on your printouts. 
+
+- As the reviewing group, it is your responsibility to:
+   #. Check/scrutinize the design of the presenting group. 
+   #. Point out any concerns you may have. 
+   #. Critique or ask questions about the design. 
+   #. **Annotate** the printouts of the other group's design. 
+   #. Make sure that the presenting group's design follows the `HOPE PCB Checklist <checklist.html>`_.  
 

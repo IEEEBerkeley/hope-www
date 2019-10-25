@@ -163,7 +163,7 @@ Project
   - `Project Design Review <prj-des-rev.html>`_
   - `Project Submission <project.html>`_
 
-  **Project** Project manufacturing files are due **11/6 at 6PM** (*BEFORE CLASS*). 
+  **Project** Project manufacturing files are due **11/6 at 6PM** (*BEFORE CLASS*).  
 
 - **Week 10 (11/6):** `Assembly <pcb.html>`_
 
@@ -171,6 +171,8 @@ Project
   - Preheat
   - Hand place, vaccums, pick-and-place
   - Phone charger assembly lab
+
+  **Project** Project manufacturing files are due **11/6 at 6PM** (*BEFORE CLASS*). 
 
 - **Week 11 (11/13): More Assembly** 
 
