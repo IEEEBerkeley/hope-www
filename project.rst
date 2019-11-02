@@ -40,4 +40,9 @@ Project Submission
 
 .. #. Submit your final design using `the project submission form <https://forms.gle/443SBpfo9BnLmNF19>`_.
 
-#. Final Design submission instructions coming soon... Due **11/6** at **6pm**. 
+#. Final Design submission Due **11/6** at **6pm**
+   
+   Email your zipped production files and BOM to ieee-hope@lists.berkeley.edu. Be sure to
+   include your project's name and group member information in the email body. Update your
+   project Piazza post as well. 
+
