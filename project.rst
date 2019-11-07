@@ -42,7 +42,8 @@ Project Submission
 
 #. Final Design submission Due **11/6** at **6pm**
    
-   Email your zipped production files and BOM to ieee-hope@lists.berkeley.edu. Be sure to
-   include your project's name and group member information in the email body. Update your
-   project Piazza post as well. 
+   Email your zipped production files and BOM to ieee-hope@lists.berkeley.edu. Make the subject line
+   clear: HOPE Project: [project name] By [names], or something similar. Be sure to
+   include your project's name and group member information in the email body, as well as
+   your InstantDFM *link*. Update your project Piazza post as well. 
 

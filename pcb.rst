@@ -165,12 +165,12 @@ Project
 
   **Project** Project manufacturing files and BOM are due **11/6 at 6PM** (*BEFORE CLASS*).  
 
-- **Week 10 (11/6):** `Assembly <pcb.html>`_
+- **Week 10 (11/6):** `Assembly <https://docs.google.com/presentation/d/1YTwrY2n3J4X8iEFMPpsd07BMHk4cO3ETunJwRC5Z0BY/edit?usp=sharing>`_
 
   - Soldering, hot air, and reflow techniques
   - Preheat
   - Hand place, vaccums, pick-and-place
-  - Phone charger assembly lab
+  - Phone charger assembly lab (`schematic <https://drive.google.com/open?id=1pB4qGUxjHMJnmX3O-A9nQZrr0hmt28vQ>`_)
 
   **Project** Project manufacturing files and BOM are due **11/6 at 6PM** (*BEFORE CLASS*). 
 
