@@ -1,25 +1,15 @@
-======================
-KiCad Introduction Lab
-======================
-
-------
-Week 1
-------
-
-:authors: Kevin Zheng, Leon Wu, Jeffrey Ni
-:originally by: Kevin Zheng, Hall Chen, Olivia Hsu
-:date: 2019-09-04
-
-In this lab, we will build a printed circuit board (PCB) for the LED light
-sensor talked about during lecture. Don't feel like you need to understand
-everything; this lab is meant to be a very guided walkthrough of the
-required motions.
-
-`Back to HOPE main page <../../pcb.html>`_ 
+==================
+Intro to KiCad Lab
+==================
+:authors: Kevin Zheng, Leon Wu, Jeffrey Ni, Hall Chen, Olivia Hsu
 
 .. contents::
 .. sectnum::
 
+In this lab, we will design a printed circuit board (PCB) for an LED light
+sensor.
+
+`Back to HOPE main page <../../pcb.html>`_ 
 
 Getting Started
 ===============
@@ -131,17 +121,29 @@ we need to assign what each component actually looks like in the real world.
 Or at least, how they will look on our PCB. These representations are called
 **footprints**. 
 
-#. Tools → Assign Footprints. For each unassigned footprint, find the
-   component below and assign it. These footprints correspond to the shapes of
-   the actual parts you'll put on your PCB.
-   
-   For purposes of this exercise, you don't have to use the ones indicated
-   here. However, the footprints you assign for each symbol must be valid.
-   For example, you can't select an LED footprint that has 3 pins for the
-   utilized schematic symbol, which only has 2 pins.
+#. Go to "Tools → Assign Footprints".
 
    .. image:: assign-footprints.png
 
+#. Pick the first unassigned footprint from **A**. If you want to assign
+   multiple components with the same footprint, select multiple components
+   using SHIFT-select.
+
+#. In **B**, select the component library from which you want to select your
+   footprint. For example, for components C1 and C2, you should choose either
+   libraries "Capacitor_SMD" (surface-mount capacitors) or "Capacitor_THT"
+   (through-hole capacitors).
+
+#. Activate the footprint filters in **C**. Filter by the library "L" and the
+   number of pins "#". You can further narrow down your search by adding key
+   words in the text box to the right.
+
+#. Select the appropriate footprint in **D**. If you are unsure which
+   footprint to pick, you can click on one and press **E** to preview it.
+
+#. Repeat these steps until all footprints are assigned.
+
+#. Press "OK" to save and dismiss the window.
 
 PCB Layout
 ==========
