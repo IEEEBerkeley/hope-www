@@ -2,7 +2,7 @@
 EE 198: Hands-On PCB Engineering
 ================================
 :Institution: University of California, Berkeley
-:Semester: `Fall 2019 <https://decal.berkeley.edu/courses/4918>`_
+:Semester: `Spring 2020 <https://decal.berkeley.edu/courses/5133>`_
 :Units: 1
 :Time: Wednesday 8-10 PM
 :Location: 140 Cory Hall
@@ -14,10 +14,10 @@ EE 198: Hands-On PCB Engineering
 
 .. contents::
 
-If you are currently enrolled in the class, request `lab checkoffs here
-<https://ieee.berkeley.edu/cgi-bin/hope/submit>`_!
+.. If you are currently enrolled in the class, request `lab checkoffs here
+.. <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_!
 
-`Course Piazza <https://piazza.com/class/k08mkbwvm7937q>`_ 
+.. `Course Piazza <https://piazza.com/class/k08mkbwvm7937q>`_ 
 
 .. Announcement
 .. ============
@@ -45,150 +45,61 @@ student organizations with working knowledge in PCB design.
 
 Prerequisites
 -------------
-EE 16A or similar working knowledge in circuits
-We strongly suggest coming to class **with a computer mouse** and KiCAD installed. 
+EE 16A or similar working knowledge in circuits. 
+Come to class **with a computer mouse** and KiCAD installed.
 
 Objective
 ---------
-Students learn effective system, schematic, and layout design through hands-on
-applications and exposure to advanced concerns including DFT, DFM, grounding,
-decoupling, EMC/EMI, thermals, isolation.
+Students will learn effective system, schematic, and layout design through hands-on
+applications and exposure to advanced concerns such as DFT, DFM, grounding,
+decoupling, EMC/EMI, and thermal considerations. 
 
+**Please note that...**
+
+This PCB design course's primary objective is not to teach students how to 
+come up with their own circuits. Rather, it is to provide a formal and 
+guided path to the design process of PCBs, which does involve but is not
+exclusively circuit design. 
 
 Timeline
 ========
-Our first class for Fall 2019 is **Wednesday, September 4th**. *This schedule
-is tentative and may change at instructor discretion.* 
+Our first class for Spring 2020 is **Wednesday, January 29th**. 
 
 For alternative or in-depth treatment of topics discussed in class, see
 `Supplemental Reading`_.
 
-Crash Course
--------------
-- **Week 1 (9/4):** `Introduction <https://docs.google.com/presentation/d/1nRpJgGI6Y7DVGxBtlnY7GDtgBJOsmoFTrcAbgedRhyo/edit?usp=sharing>`_
+.. note::
+   Keep in mind that the following schedule is still tentative and subject to (small) changes. 
 
-  - Basics of PCBs and hardware system design
-  - Logistics and course timeline
-  - Electronic computer-aided design (ECAD) for PCBs
-  - KiCAD design flow
-  - `Introduction to KiCad Lab <labs/kicad-intro/kicad-intro.html>`_
+Weekly Topic Breakdown
+----------------------
+- **Week 1 (1/29):** `Introduction <pcb.html>`_
 
-  **Homework:** Finish intro lab
+- **Week 2 (2/5):** `Schematics and Components, Pt.1 <pcb.html>`_
 
-- **Week 2 (9/11):** `Schematics and Components, Pt.1 <https://docs.google.com/presentation/d/1mPcDwflSCoW_kk-Q0KpqWAX0CXXVQ8BZW8dK3V9loh0/edit?usp=sharing>`_
+- **Week 3 (2/12):** `Schematics and Components, Pt.2 <pcb.html>`_
 
-  - Case study: DC-DC conversion Pt.1 
-  - Schematics for connectivity of components
-  - Universal symbols and functional blocks
-  - Realizing schematic symbols with real components
-  - Reviewing schematic designs with peers
-  - `USB Charger Schematic Pt.1 <labs/charger/schematic1.html>`_
+- **Week 4 (2/19):** `PCB Layout, Pt.1 <pcb.html>`_
 
-  .. - Case study: DC-DC conversion
-  .. - Circuit devices
-  .. - Using application notes
-  .. - Preview of assembly technology and packaging
-  .. - Writing a Bill Of Materials (BOM)
-  .. - Survey of electronic suppliers
+- **Week 5 (2/26):** `PCB Layout, Pt.2 <pcb.html>`_
 
-- **Week 3 (9/18):** `Schematics and Components, Pt.2 <https://docs.google.com/presentation/d/1vJJo3u52cDrXFFdlmIyyNLa7D1YE6D_jZVtpqIui0ZM/edit?usp=sharing>`_
+- **Week 6 (3/4):** `PCB Layout, Pt.3 <pcb.html>`_
 
-  - Case study: DC-DC conversion Pt.2 (in lab)
-  - Drawing schematics with best practices to communicate design intent
-  - Creating, importing and checking symbols from other sources
-  - Writing a Bill of Materials (BOM)
-  - Reviewing schematic designs with peers; checking schematics with ERC
-  - `USB Charger Schematic Pt.2 <labs/charger/schematic2.html>`_
+- **Week 7 (3/11):** `PCB Layout, Pt.4 <pcb.html>`_
 
-  .. - Drawing schematics with best practices to communicate design intent
-  .. - Creating symbols by reading component datasheets
-  .. - Importing and checking symbols from other sources
-  .. - Reviewing schematic designs with peers; checking schematics with ERC
-  .. - `USB Charger Lab <labs/charger/schematic.html>`_
+- **Week 8 (3/18):** `Microcontrollers and Digital Systems <pcb.html>`_
 
-  **Homework:** Finish USB charger schematic
+  **Spring Break (3/25)**
 
-- **Week 4 (9/25):** `Layout Design Crash-Course <https://docs.google.com/presentation/d/1yo39JYgUDUchJvsWPoCP-UsazrFnnZs-Rrj7RpJIJXs/edit?usp=sharing>`_
+- **Week 9 (4/1):** `Fab and Assembly Outputs, Documentation, Reviews <pcb.html>`_
 
-  - Understanding schematic to layout
-  - Making footprints
-  - Placing parts and routing nets
-  - Design rules, stackup, and design for manufacturability (DFM)
-  - Checking your work, generating fabrication outputs
-  - `USB Charger Layout <labs/charger/layout.html>`_
+- **Week 10 (4/8):** `PCB Assembly <pcb.html>`_
 
-  .. **Homework:** Finish USB charger layout
+- **Week 11 (4/15):** `Fun Lecture <pcb.html>`_
 
-- **Week 5 (10/2):** `Layout Considerations <https://docs.google.com/presentation/d/16GKlVBxY2UAE1DY-rgvt_gqPF0uKG0pdG0S5Wwqhy7Q/edit?usp=sharing>`_
+- **Week 12 (4/22): Project Assembly**
 
-  - Trace resistance, inductance, capacitance
-  - Decoupling, current return path
-  - Stackup design and planes
-  - Mechanical, Thermal considerations
-  - Finish `USB charger board layout <labs/charger/layout.html>`_
-
-  **Project:** Submit your project proposal by the end of class 10/16
-
-- **Week 6 (10/9):** Microcontrollers (Cancelled due to power outage)
-
-Project
--------
-- **Week 7 (10/16):** `Designing Your Own System/Microcontrollers <https://docs.google.com/presentation/d/1T5n-LxndGfklYw9YXl8rZeHcFY-3M3nTB2AqNhN4o6s/edit?usp=sharing>`_
-
-  - Check this out: https://jaycarlson.net/microcontrollers/
-
-  - Microcontroller features
-  - Common microcontroller peripherals (PWM, ADC)
-  - Digital interfaces and buses (SPI, I2C)
-  - Design for test (DFT)
-  - Managing Bill of Materials (BOM)
-  - `Microcontroller Hands On Lab <labs/microcontroller/microcontroller_lab.html>`_
-
-  **Project:** Project initial BOM and initial schematic due by end of class 10/23
-
-- **Week 8 (10/23):** `Fabrication, Assembly, DFx <pcb.html>`_
-
-  - **Guest Lecturer from Tempo Automation**
-  - PCB Fabrication processing
-    - PCB Stackup
-    - Vias
-    -Soldermask & Silkscreen
-  - Assembly process
-  - Design for [X]
-
-  **Project:** Continue working on your projects. They will need to be at a somewhat presentable state by 10/30. See links under that week for more details.
-
-- **Week 9 (10/30):  Project Design Reviews** 
-
-  - `Project Design Review <prj-des-rev.html>`_
-  - `Project Submission <project.html>`_
-
-  **Project** Project manufacturing files and BOM are due **11/6 at 6PM** (*BEFORE CLASS*).  
-
-- **Week 10 (11/6):** `Assembly <https://docs.google.com/presentation/d/1YTwrY2n3J4X8iEFMPpsd07BMHk4cO3ETunJwRC5Z0BY/edit?usp=sharing>`_
-
-  - Soldering, hot air, and reflow techniques
-  - Preheat
-  - Hand place, vaccums, pick-and-place
-  - Phone charger assembly lab (`schematic <https://drive.google.com/open?id=1pB4qGUxjHMJnmX3O-A9nQZrr0hmt28vQ>`_)
-
-  **Project** Project manufacturing files and BOM are due **11/6 at 6PM** (*BEFORE CLASS*). 
-
-- **Week 11 (11/13): More Assembly** 
-
-  .. - (`SVG schematic <labs/assembly/phone_charger.svg>`_ and `KiCad design files (ZIP) <labs/assembly/phone_charger.zip>`_)
-
-- **Week 12 (11/20):** `Bringup and Test <pcb.html>`_
-
-  - Bringup strategies
-  - Testing boards
-  - Avoiding measurement errors and understanding limitations in test equipment
-  - *Project assembly and testing*
-
-- **Week 13 (12/4): Project Presentations**
-
-  - Project assembly. testing, programming
-  - Presenting completed projects
+- **Week 13 (4/29): Project Presentations**
 
 
 Course Format
@@ -202,8 +113,6 @@ preparing for class meetings, and completing assignments.
 Students are required to complete a final project: a complete PCB design and
 assembly. Students may choose to design a PCB for an engineering student
 organization, class project, or another design of their choice, with instructor approval.
-Final projects are expected to take up to six hours of additional time outside
-of class.
 
 Materials
 ---------
@@ -224,29 +133,18 @@ Grading
 -------
 Your grade is primarily based on completion of labs and assignments. The final
 project is graded on effort and a demonstration of concepts taught in the
-course. Students need 70% to pass.
+course. More details about project grading will be released by the second week of class. 
+Students need 70% to pass.
 
 - Labs/Assignments: 50%
-- Participation: 20%
-- Project: 30%
-
-Labs are graded based on completing a successful checkoff. We encourage you to review your designs with peers 
-because each student will have only 2 attempts at a checkoff for each lab. More information about project
-grading will be released later in the course. 
+- Participation: 15%
+- Project: 35%
 
 Attendance
 ----------
-Since grading is primarily based on completion of labs during class,
-students should make a best effort to attend class.
-
-Absences must be excused to prevent it from affecting your grade. One unexcused absence will be permitted. 
-
-.. If you miss a class (with notification), you *must make up the missed lab or assignment by the
-.. next lecture for the absence to be considered excused. Please also read over the lecture slides 
-.. from the class you missed.
-
-.. Additional unexcused absences may result in a NP.
-
+Since the completion of labs in class contributes the most to class grade,
+students should try their best to attend class. Please let instructors know of
+absenses beforehand, if possible. 
 
 Resources
 =========
