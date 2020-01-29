@@ -9,8 +9,8 @@ Intro to KiCad Lab
 In this lab, we will design a printed circuit board (PCB) the LED light
 sensor mentioned in the introductory lecture. Note that this lab is 
 meant to be a very guided, very rapid intro walkthrough of the very basic 
-processes needed to make a PCB in KiCad. Future labs and lectures will be 
-going much more in depth. 
+processes needed to make a PCB in KiCad. Future labs and lectures will cover
+each step more in depth.
 
 `Back to HOPE main page <../../pcb.html>`_ 
 
@@ -40,7 +40,7 @@ Parts and Wiring
 ----------------
 
 #. The first thing we want to do is add the components: resistors, op-amps, etc.
-   Press 'a' to bring up the parts Symbol library (or click the little op-amp
+   Press '**a**' to bring up the parts Symbol library (or click the little op-amp
    in your right side-bar, then click anywhere in the schematic).
    In the filter bar, type 'LMC6482' to find the component.
    Open the drop-down and select 'Unit A'. Place the unit on the schematic. 
@@ -52,6 +52,13 @@ Parts and Wiring
       :width: 704
       :scale: 75 %
       :align: center
+
+   .. note::
+   
+      Interested in why the op-amps come as these separate units of one part? Take
+      a look at page 18 of the 
+      `LMC6482's datasheet <http://www.ti.com/lit/ds/symlink/lmc6482.pdf>`_ to get
+      some idea of why the component would be set up this way. 
 
 #. Flip Unit A vertically. Right click Unit A of the op amp and Orientation
    → Mirror across X axis.
@@ -65,8 +72,8 @@ Parts and Wiring
 
 #. Open the part symbol browser and search for 'R'. Find the generic resistor part symbol.
    Place 3 resistors as shown in the schematic.
-   To rotate before placing, press 'r' before placing the component. Hovering over a placed
-   component and using 'r' will also rotate it. Right click on any component to look at the
+   To rotate before placing, press '**r**' before placing the component. Hovering over a placed
+   component and using '**r**' will also rotate it. Right click on any component to look at the
    other editing options avalible. 
 
    .. image:: rotating.gif
@@ -89,18 +96,18 @@ Parts and Wiring
    to get all pin-symbols on the schematic before starting to draw wires.
    
    To connect components: move your mouse to where you
-   want to start a wire, press 'w', click around to snap wire, and click on
+   want to start a wire, press '**w**', click around to snap wire, and click on
    a pin to end the wire. Repeat until the schematic is fully captured.
    
-   - Drag placed wires by hovering over them and pressing 'g'. Delete segments
-     by pressing 'del' or right click any wires for more options. 
+   - Drag placed wires by hovering over them and pressing '**g**'. Delete segments
+     by pressing '**Backspace**' or '**Del**', or right click any wires for more options. 
 
    - To create a wire that does not connect to a component on one end
      (floating), double click where you want the wire to end.
 
-   - To add labels (the 'Vout' label shown above), press 'l' and type in the
+   - To add labels (the 'Vout' label shown above), press '**l**' and type in the
      name of your label. Labels connect two or more nodes together without
-     actually drawing the wire on screen. They're basically magic wire tunnels
+     actually drawing the wire on screen. They are basically magic wire tunnels
      linked by name.
 
    - Note that these wires do not *snap* to component pins. If you move or
@@ -113,7 +120,7 @@ Parts and Wiring
       :align: center
 
 #. Now add power symbols to your schematic. Get these from the power symbol
-   window by pressing 'p' or finding its icon (a GND symbol) in the right toolbar. 
+   window by pressing '**p**' or finding its icon (a GND symbol) in the right toolbar. 
 
    - 5 voltage sources labels ('+3.3V')
 
@@ -129,10 +136,10 @@ Parts and Wiring
 
    For this step it may be easier to duplicate a component instead of adding
    multiple of the same component. To do this, hover your cursor over the
-   component you want copied and press 'c'.
+   component you want copied and press '**c**'.
 
 #. Assign component values to components. For each resistor and capacitor,
-   mouse over and press 'v'. Or find it in the 'Properties' section in the 
+   mouse over and press '**v**'. Or find it in the 'Properties' section in the 
    right-click menu. In the 'Text' field, type the appropriate value.
    Omit units.
 
@@ -244,7 +251,7 @@ Placement and Rounting
    of copper that are also a way to represent wires in the schematic (usually power
    related wires). 
 
-   The pink lines denote the silkscreen, which will be talked about later. 
+   The turquoise lines denote the silkscreen, which will be talked about later. 
    
    The gray boundaries denote component courtyards (F/B.CrtYd), or boundaries. If component
    courtyards overlap, a DRC error will occur since two components are trying to
@@ -254,7 +261,7 @@ Placement and Rounting
    It is recommended to position the op-amp IC first, and to keep the inputs/outputs 
    accessible at board edges. 
    Move components by mousing over them
-   and pressing 'm'. To rotate, type 'r'. Click to place back down.
+   and pressing '**m**'. To rotate, type '**r**'. Click to place back down.
 
    .. image:: move-n-orient.gif
 
@@ -285,7 +292,7 @@ Placement and Rounting
 #. Routing: drawing out the physical connections between the components.
    **First, change your grid size to something smaller, such as 10 mil.**
    Switch to the track tool via the button in the right toolbar or by using 
-   the keyboard shortcut 'x'. You need to route a physical track
+   the keyboard shortcut '**x**'. You need to route a physical track
    for each white line you see connecting different pins. Use the 'Highlight
    Net' tool to easily visualize to-be-made and made connections. 
 
@@ -297,16 +304,19 @@ Placement and Rounting
       connections first. Take a peak at the next step about ground planes to 
       understand why!
 
-   #. You may realize one layer might not be enough to ensure no overlaps. Type
-      'Page Down' to switch to the bottom layer. 'Page Up' will return you to
+   #. Delete segments by pressing '**Backspace**', or use '**Del**' to delete the
+      full track, or right click for more options. 
+
+   #. You may realize one layer might not be enough to ensure no overlaps. Use func.
+      key '**Page Down**' to switch to the bottom layer. '**Page Up**' will return you to
       the top layer. You can use Vias (Vertical Interconnect Access), an
       electrical connection between multiple physical layers in a circuit board
       to connect traces on different layers. Note that because all the chosen
       component footprints are *through-hole*, that is, connected to the board
-      via **via** like holes, independent vias are (ideally) unnecessary! 
+      via *via* like holes, independent vias are (ideally) unnecessary! 
 
       Vias are an avaliable option for you though: 
-      Press 'v' while in trace routing
+      Press '**v**' while in trace routing
       mode (i.e. you're in the middle of routing a trace and want to jump to
       the other layer) or find the 'add via' button in the right tool panel to
       add vias.
@@ -353,7 +363,7 @@ Placement and Rounting
       copper layer ('F.Cu' or 'B.Cu' that you have not yet done). 
 
    #. If you update any other part of your board (add new traces, move a component,
-      etc.), press 'b' to re-fill all filled zones. If you find the filled zones 
+      etc.), press '**b**' to re-fill all filled zones. If you find the filled zones 
       visually impairing, you can unfill with 'ctrl+b' or change how they are viewed.
       Fill visibility buttons exist on the left toolbar, try to find them!
 
@@ -406,19 +416,22 @@ Placement and Rounting
 
 Generating Fabrication Outputs
 ==============================
-#. File → Plot → Plot
-
-   .. image:: generate_files.png
+#. File → Plot. In the upper right-hand corner, change the "Output directory" to a new 
+   subfolder inside your project folder. Name the new subfolder "outputs" or
+   something similar. Click 'yes' if KiCad asks if you want to use relative paths.
+   Then to hit the 'Plot' bottom at the bottom right corner of the screen. 
 
 #. (Bottom right corner of Plot window) Generate Drill Files → Generate Drill File
 
-   .. image:: generate_drills.png
+   Don't worry about the options in either output window.
 
-Don't worry about the options in either output window.
+   .. image:: outputs.gif
+
+#. The output files, in their own folder, and now easily packagable to send off to
+   manufacturing! Zip up folder and name it something reasonable. 
 
 Lab Checkoff
 ============
-Submit a lab checkoff `here <https://forms.gle/ssFx9unnRbMy6nQM8>`_ 
 
 Make sure you have...
 
@@ -432,7 +445,9 @@ Make sure you have...
 
    - No DRC errors
 
-   - Generated output files (gerbers: .gbr, and drills: .drl)
+   - Generated output files (gerbers: .gbr, and drills: .drl) in a compressed file. 
+
+Submit a lab checkoff `here <https://forms.gle/ssFx9unnRbMy6nQM8>`_ 
 
 Show your DRC report, layout, schematic, and output files to an instructor
 to get checked off. 

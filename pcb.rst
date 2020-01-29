@@ -69,14 +69,33 @@ Our first class for Spring 2020 is **Wednesday, January 29th**.
 For alternative or in-depth treatment of topics discussed in class, see
 `Supplemental Reading`_.
 
-.. note::
-   Keep in mind that the following schedule is still tentative and subject to (small) changes. 
+`(Slightly More) Detailed Course Schedule <schedule.html>`_ 
 
-Weekly Topic Breakdown
-----------------------
+.. `Weekly Topic Details <pcb.html>`_ 
+
+Weekly Topics Breakdown
+-----------------------
 - **Week 1 (1/29):** `Introduction <pcb.html>`_
+   
+  - What is HOPE?
+  - What is a PCB?
+  - PCB EDA Tools
+  - General PCB Project Workflow
+  - *Lab*: `Intro to KiCad <labs/kicad-intro/kicad-intro.html>`_
 
 - **Week 2 (2/5):** `Schematics and Components, Pt.1 <pcb.html>`_
+
+  - PCB *Design*
+
+    - Design Abstraction for PCBs
+    - Introduction to Stakeholders
+
+  - Schematics for
+
+    - Connectivity of Components
+    - Communication
+
+  - *Lab*: `Schematics & KiCad <pcb.html>`_ 
 
 - **Week 3 (2/12):** `Schematics and Components, Pt.2 <pcb.html>`_
 
@@ -155,7 +174,7 @@ Resources
 
   - `Cheatsheet <https://silica.io/wp-content/uploads/2018/06/kicad-cheatsheet-landscape.pdf>`_
   - `Getting Started Guide <http://docs.kicad-pcb.org/stable/en/getting_started_in_kicad.pdf>`_
- 
+
 Supplemental Reading
 --------------------
 Roughly in the order that is presented in class:
@@ -168,6 +187,9 @@ Roughly in the order that is presented in class:
 - Dunn 2013. `PCB design course & checklist <https://www.edn.com/design/pc-board/4422579/PCB-design-course---checklist>`_. *EDN*.
 - Zumbahlen 2012. `Staying Well Grounded <https://www.analog.com/en/analog-dialogue/articles/staying-well-grounded.html>`_. *Analog Dialogue Technical Journal.*
 
+- Electric Circuits Basics Review/Primer: `Electronics`_ by Ali M. Niknejad.
+
+.. _Electronics: https://d1b10bmlvqabco.cloudfront.net/attach/icgvkl3p4x5m0/gyor3wfgyon205/if0gzqqzwtg7/ee16_electronics.pdf
 
 FAQ
 ===
@@ -200,6 +222,6 @@ industry sponsors:
 
 ----
 
-.. Copyright ⓒ 2018, 2019 Kevin Zheng. This course is licensed under a `Creative
+.. Copyright ⓒ 2018, 2019, 2020 Kevin Zheng. This course is licensed under a `Creative
 .. Commons Attribution-ShareAlike 4.0 International License
 .. <http://creativecommons.org/licenses/by-sa/4.0/>`_.

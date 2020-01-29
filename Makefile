@@ -1,6 +1,6 @@
 PAGES = index.html \
 		checklist.html \
-		hope.html \
+		schedule.html \
 		new.html \
 		pcb.html \
 		project.html \
