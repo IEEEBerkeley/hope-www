@@ -37,22 +37,23 @@ EE 198: Hands-On PCB Engineering
 
 Overview
 ========
-This course introduces printed circuit board (PCB) design and layout practices
-and concerns. It is intended for students with some experience with circuits
-who are interested in learning or improving their PCB design and fabrication
-skills, and particularly those who are part of or intend to join engineering
-student organizations with working knowledge in PCB design.
+EE 198: Hands-On PCB Engineering is an introductory course to printed circuit board
+(PCB) design and layout practices and concerns. It is intended for students with
+some experience with circuits who are interested in learning about and gaining or
+improving PCB design and assembly skills, and particularly those who are part of or
+intend to join engineering student organizations with working knowledge in PCB design.
 
 Prerequisites
 -------------
 EE 16A or similar working knowledge in circuits. 
-Come to class **with a computer mouse** and KiCAD installed.
+Come to class **with a computer mouse** and KiCAD installed. **This includes the first
+class.**
 
 Objective
 ---------
 Students will learn effective system, schematic, and layout design through hands-on
-applications and exposure to advanced concerns such as DFT, DFM, grounding,
-decoupling, EMC/EMI, and thermal considerations. 
+applications and will be exposed to various advanced concerns such as DFx, grounding,
+decoupling, EMC/EMI, and thermal management. 
 
 **Please note that...**
 

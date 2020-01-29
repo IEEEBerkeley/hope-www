@@ -6,8 +6,11 @@ Intro to KiCad Lab
 .. contents::
 .. sectnum::
 
-In this lab, we will design a printed circuit board (PCB) for an LED light
-sensor.
+In this lab, we will design a printed circuit board (PCB) the LED light
+sensor mentioned in the introductory lecture. Note that this lab is 
+meant to be a very guided, very rapid intro walkthrough of the very basic 
+processes needed to make a PCB in KiCad. Future labs and lectures will be 
+going much more in depth. 
 
 `Back to HOPE main page <../../pcb.html>`_ 
 
@@ -28,16 +31,27 @@ Schematic Capture
 
    .. image:: bar-schem.png
 
-#. We want to add components to build this:
+#. Thankfully, someone's cleaned up the messy hand-drawn schematic you saw earlier 
+   in lecture. All you have to do is simply replicate the KiCad schematic below:
 
-   .. image:: led-sensor3.png
+   .. image:: led-sensor4.png
 
-#. Press 'a' to bring up the parts Symbol library (or click the little op-amp
+Parts and Wiring
+----------------
+
+#. The first thing we want to do is add the components: resistors, op-amps, etc.
+   Press 'a' to bring up the parts Symbol library (or click the little op-amp
    in your right side-bar, then click anywhere in the schematic).
    In the filter bar, type 'LMC6482' to find the component.
-   Open the drop-down and select 'Unit A'. Place the unit on the schematic.
+   Open the drop-down and select 'Unit A'. Place the unit on the schematic. 
    Repeat with 'Unit B' and 'Unit C'.
    Place 'Unit C' only once. Press 'ESC' to exit insert mode.
+
+   .. image:: placing_lmc6482.gif
+      :height: 692
+      :width: 704
+      :scale: 75 %
+      :align: center
 
 #. Flip Unit A vertically. Right click Unit A of the op amp and Orientation
    → Mirror across X axis.
@@ -45,51 +59,36 @@ Schematic Capture
     .. hint::
 
         Go to Help -> List Hotkeys... or press Ctrl+F1 (Win) to open up KiCad's
-        built-in keyboard shortcuts cheat sheet!
+        built-in keyboard shortcuts cheat sheet! Note that the middle mouse
+        can be used to drag your view in both the schematic and layout editor.
+        This will help alleviate the headache of trying to scroll around either. 
 
-#. Open the part symbol browser search for 'R'. Place 3 resistors as
-   shown in the schematic.
-   To rotate before placing, press 'r' before placing the component.
+#. Open the part symbol browser and search for 'R'. Find the generic resistor part symbol.
+   Place 3 resistors as shown in the schematic.
+   To rotate before placing, press 'r' before placing the component. Hovering over a placed
+   component and using 'r' will also rotate it. Right click on any component to look at the
+   other editing options avalible. 
 
-   .. image:: parts.png
-      :height: 706
-      :width: 692
-      :scale: 65 %
+   .. image:: rotating.gif
+      :height: 692
+      :width: 704
+      :scale: 75 %
       :align: center
 
-#. Place two capacitors ('C') as shown.
+#. Continue by placing the following parts to match the completed reference schematic:
+   
+   - two capacitors ('C')
 
-.. sidebar:: Shortcuts VS UI Menus
+   - a LED part symbol ('LED')
 
-    Feel free to use the interface menus to learn more about KiCAD's functions,
-    or even to do this entire first lab. However, we recommend
-    learning how to use the keyboard shortcuts, as doing so will speed up your
-    work in future projects considerably. Also, you'll look much cooler. 
+   - a potentiometer part symbol ('POT')
 
-#. Place a LED part symbol ('LED') as shown.
+   - a 1×3 connector part symbol ('CONN_01x03')
 
-#. Place a potentiometer part symbol ('POT') as shown.
-
-#. Place a 1×3 connector part symbol ('CONN_01x03') as shown.
-
-#. Place 5 voltage sources labels ('+3.3V') as shown. Get these from the power symbol
-   window by pressing 'p' or finding its icon (a GND symbol) in the right toolbar. 
-
-   For this step it may be easier to duplicate a component instead of adding
-   multiple of the same component. To do this, hover your cursor over the
-   component you want copied and press 'c'.
-
-#. Place 4 ground power labels ('GND') as shown.
-
-#. Place power flags ('PWR_FLAG') as shown.
-
-   .. image:: power-flag.png
-      :height: 706
-      :width: 692
-      :scale: 65 %
-      :align: center
-
-#. Now we need to hook everything up with wires. Move your mouse to where you
+#. The following instruction is for wiring. Feel free to do step 8 first
+   to get all pin-symbols on the schematic before starting to draw wires.
+   
+   To connect components: move your mouse to where you
    want to start a wire, press 'w', click around to snap wire, and click on
    a pin to end the wire. Repeat until the schematic is fully captured.
    
@@ -104,12 +103,48 @@ Schematic Capture
      actually drawing the wire on screen. They're basically magic wire tunnels
      linked by name.
 
+   - Note that these wires do not *snap* to component pins. If you move or
+     rotate a component, its seemingly connected wires will not follow. 
+
+   .. image:: wiring.gif
+      :height: 690
+      :width: 1261
+      :scale: 50 %
+      :align: center
+
+#. Now add power symbols to your schematic. Get these from the power symbol
+   window by pressing 'p' or finding its icon (a GND symbol) in the right toolbar. 
+
+   - 5 voltage sources labels ('+3.3V')
+
+   - 4 ground power labels ('GND')
+
+   - Power flags ('PWR_FLAG')
+
+   .. image:: power-flag.png
+      :height: 706
+      :width: 692
+      :scale: 65 %
+      :align: center
+
+   For this step it may be easier to duplicate a component instead of adding
+   multiple of the same component. To do this, hover your cursor over the
+   component you want copied and press 'c'.
+
 #. Assign component values to components. For each resistor and capacitor,
-   mouse over and press 'v'. In the 'Text' field, type the appropriate value.
+   mouse over and press 'v'. Or find it in the 'Properties' section in the 
+   right-click menu. In the 'Text' field, type the appropriate value.
    Omit units.
 
 #. Assign unique numbers to each component. Do this automatically by using
    Tools → Annotate Schematic → Annotate → OK.
+
+.. sidebar:: Shortcuts VS UI Menus
+
+    Feel free to use the interface menus to learn more about KiCAD's functions,
+    or even to do this entire first lab. However, we recommend
+    learning how to use the keyboard shortcuts, as doing so will speed up your
+    work in future projects considerably. Also, you'll look much cooler. 
 
 Footprint Assignment
 --------------------
@@ -121,7 +156,7 @@ we need to assign what each component actually looks like in the real world.
 Or at least, how they will look on our PCB. These representations are called
 **footprints**. 
 
-#. Go to "Tools → Assign Footprints".
+#. Go to "Tools → Assign Footprints". Note that it may take a while to open. 
 
    .. image:: assign-footprints.png
 
@@ -130,84 +165,82 @@ Or at least, how they will look on our PCB. These representations are called
    using SHIFT-select.
 
 #. In **B**, select the component library from which you want to select your
-   footprint. For example, for components C1 and C2, you should choose either
-   libraries "Capacitor_SMD" (surface-mount capacitors) or "Capacitor_THT"
+   footprint. For example, for components C1 and C2, you would probably choose
+   either libraries "Capacitor_SMD" (surface-mount capacitors) or "Capacitor_THT"
    (through-hole capacitors).
 
 #. Activate the footprint filters in **C**. Filter by the library "L" and the
    number of pins "#". You can further narrow down your search by adding key
    words in the text box to the right.
 
-#. Select the appropriate footprint in **D**. If you are unsure which
-   footprint to pick, you can click on one and press **E** to preview it.
+#. Select the appropriate footprint in **D**. Press **E** to preview selected
+   footprints. Make sure to **double-click** on the footprint in the
+   right panel assign it. 
 
 #. Repeat these steps until all footprints are assigned.
 
 #. Press "OK" to save and dismiss the window.
 
+Use the following footprints: 
+
+.. image:: footprints.png
+   :align: center
+
 PCB Layout
 ==========
-#. Inside the schematic layout editor, go to Tools → Update PCB From Schematic.
-   This should open up the Pcbnew window and a popup window. Press Update.
 
-   .. image:: update-pcb.png
+PCB Layout Setup
+----------------
+
+#. Inside the schematic layout editor, go to Tools → Update PCB From Schematic.
+   This should open up the Pcbnew window and a popup window. Click 'Update PCB'
+
+   .. image:: update-pcb.gif
 
    If you've done everything correctly so far, there should be no errors in the
-   "Update PCB from schematic" window, as shown above. Your PCB layout window
-   should look like this:
+   "Update PCB from schematic" window, as shown above. Your PCB layout window 
+   should have opened up and should look like this:
 
    .. image:: pcb-editor.png
 
-#. Make sure you're using the Modern Toolset. Preferences → Modern Toolset
-   (Accelerated).
+   Click somewhere in the PCB layout editor window to place down all the
+   imported footprints. 
 
-#. Before you continue, make sure you are set up to use inches. Press the "in" 
-   button in the left sidebar.
+#. Let's do some basic environment setup before actually getting started.
 
-   .. image:: in.png
+   #. Make sure you're using the Modern Toolset. Preferences → Modern Toolset
+      (Accelerated). 
 
-#. Set up the design rules for our board. Design rules are physical
-   constraints that the designer must follow in order for the board to be
-   manufacturable.  We will be using conservative design rules compatible with
-   `Bay Area Circuits (BAC) standard capabilities
-   <https://bayareacircuits.com/capabilities/>`_ .
+   #. Also make sure you are set up to use inches. Press the "in" 
+      button in the left sidebar. (Why the inferior imperial measurement system?
+      Try searching around online if you're interested)
 
-   #. File → Board Setup → Layers. Set Preset Layer Groupings to "Two
-      layers, parts on front and back." Also set the board thickness to an
-      appropriate value so that it falls under BAC capabilities.
-   
-   #. File → Board Setup → Design Rules. Update the rules based of BAC's standard
-      capabilities. Don't worry about chaning the default checkbox selections on
-      the left. Ignore uVias and related settings. Since you will be building a
-      two-layer board, you should use the design rule widths for outer layers.
+   #. Set your grid size (try a 50 or 25 mil grid). When working with 
+      others' designs, using the same grid unit size as they do will help make sure your
+      components and tracks line up with theirs.
 
-      .. image:: design-rules.png
+   .. image:: basic-setup.gif
 
-      .. hint::
-         You can compute the via diameter by adding two times the annular ring width
-         to the drill diameter. The drill diameter is how wide the actual hole is,
-         and the via diameter is the width of the visible copper around the hole. 
+#. Get to the board setup window by File → Board Setup. Set Preset Layer Groupings to "Two
+   layers, parts on front" in the 'Layers' page (default screen that the Board Setup 
+   should open with). 
 
-   #. Now assign values to the subpages Net Classes (default) and Solder Mask/Paste
-      under "Design Rule" that you think would work and fall with BAC capabilities
-      found on their page.
+   .. note:: 
+      For those with some PCB design experience, feel free to verify or set design rules
+      such that you will guarantee that you board fall under `Bay Area Circuit's Standard
+      Capabilities <https://bayareacircuits.com/capabilities/>`_ 
 
-      .. image:: design-rules2.png
+Placement and Rounting
+-----------------------
 
-
-#. With design rules set you're ready to do some actual work (aka draw traces)!
-   First, set your grid size (to something reasonable). When working with others'
-   designs, using the same grid size as they do will help make sure your
-   components and tracks line up with theirs.
-
-#. Placement and Rounting! In the end we want something that looks like this:
+   In the end we want something that looks like this:
 
    .. image:: led-sensor-pcb.png
 
-   The red lines in the layout are called tracks or traces. They are the same
-   as wires in schematic.
+   The red lines in the layout are called **tracks** or **traces**. They represent the
+   physical connections defined by the connections made in the schematic doc. 
 
-   Similarly, the red polygonal shapes are called fills, and represent large spans
+   Similarly, the red polygonal shapes are called **fills**, and represent large spans
    of copper that are also a way to represent wires in the schematic (usually power
    related wires). 
 
@@ -217,115 +250,149 @@ PCB Layout
    courtyards overlap, a DRC error will occur since two components are trying to
    occupy the same place. 
 
-..    The blue lines show component images (F/B.fab). This is used for automated
-..    pick and place machines when a board is being assembled at a fab house.
-
-.. sidebar:: Changing Footprints
-
-   You may have noticed that the potentiometer in the completed board shown above
-   does not match that shown in the just-imported state a couple steps up. Modern
-   PCB EDA tools make changing component properties, connections, or even entire 
-   components easy and consistent. Ask a TA if you would like to swap out a 
-   component footprint.
-
 #. First step is to move and orient components as you would like them to be on the board.
    It is recommended to position the op-amp IC first, and to keep the inputs/outputs 
    accessible at board edges. 
    Move components by mousing over them
    and pressing 'm'. To rotate, type 'r'. Click to place back down.
 
+   .. image:: move-n-orient.gif
+
 #. Finish placing components on the board. Feel free to place them however
    you wish, but try to minimize the number of crossing white wires. These
-   wires (called the "ratsnest") indicate **planned** connections as defined
+   wires (called the "ratsnest") indicate **intended** connections as defined
    in the schematic. 
+
+   .. hint::
+
+      Try disabling the view of the 'F.Fab' layer by unchecking its checkbox in the
+      'Layer Manager' window on the right. It will help make things look neater. 
+
+#. Swapping footprints: Let's say you're told that particular potentiometer won't 
+   work with the project, and you're told to swap it out with another, differently 
+   oriented potentiometer. 
+
+   #. Go back to the schematic editor and reopen the 'Assign footprints' window. 
+
+   #. Click on the potentiometer part in the footprint assignments, as reassign
+      its footprint to be: "Potentiometer_Vishay_T7-YA_Single_Vertical"
+
+   #. Save, then re-update the PCB from the schematic. In the 'Update' window
+      **make 'Update footprints' checkbox is marked**. You should see that the 
+      long potentiometer has changed to one that looks considerably different
+      after the update. 
  
-#. Routing: this is the real meat of PCB: drawing out the physical connections.
-   Switch to the track tool by typing 'x'. You should route a physical track
-   for each white line you see connecting different pins.
+#. Routing: drawing out the physical connections between the components.
+   **First, change your grid size to something smaller, such as 10 mil.**
+   Switch to the track tool via the button in the right toolbar or by using 
+   the keyboard shortcut 'x'. You need to route a physical track
+   for each white line you see connecting different pins. Use the 'Highlight
+   Net' tool to easily visualize to-be-made and made connections. 
+
+   .. image:: routing1.gif
    
    .. hint::
 
-      Don't worry too much about GND connections in your routing. Take a peak
-      at the next step about ground planes to understand why!
+      Don't worry too much about GND connections in your routing, and do the other
+      connections first. Take a peak at the next step about ground planes to 
+      understand why!
 
    #. You may realize one layer might not be enough to ensure no overlaps. Type
       'Page Down' to switch to the bottom layer. 'Page Up' will return you to
       the top layer. You can use Vias (Vertical Interconnect Access), an
       electrical connection between multiple physical layers in a circuit board
-      to connect traces on different layers. Press 'v' while in trace routing
+      to connect traces on different layers. Note that because all the chosen
+      component footprints are *through-hole*, that is, connected to the board
+      via **via** like holes, independent vias are (ideally) unnecessary! 
+
+      Vias are an avaliable option for you though: 
+      Press 'v' while in trace routing
       mode (i.e. you're in the middle of routing a trace and want to jump to
       the other layer) or find the 'add via' button in the right tool panel to
       add vias.
 
-   #. It is good practice to minimize via usage. Try to use as few as possible!
-      It is entirely possible to do this layout on a single layer. 
+      .. image:: changing-layers.gif
 
    #. If you find it hard to draw out traces for all the connections, feel free
       to move and reorient the components themselves (or change them out completely, 
-      if you feel this is necessary). This is an iterative process!
-      Don't feel down if you have to restart completely. PCB layout is an NP hard
-      problem after all. With practice you will be able to arrive at more optimized
-      layouts sooner!
+      if you feel this is necessary). PCB design is an iterative process!
+      Don't feel down if you have to restart completely. PCB layout routing is a 
+      computationally difficult problem after all. With practice you will be able 
+      to arrive at more optimized layouts sooner, and this course go over some
+      general practices and essential tips when approaching PCB layout. 
 
-#. We will be adding a ground plane/ground pour to this board on both the top
+   .. note:: 
+
+      Feel free to do whichever you want first: ground plane or edge cuts (board 
+      outline). Edge cut instructions can be found right after the ground plane
+      instructions. 
+
+#. It is time to add a ground plane/ground pour to this board on both the top
    and bottom layers. A ground plane is a fill of copper dedicated entirely to the 
-   GND net. It is generally a good idea because it makes
+   GND net. It is *generally* a good idea because it makes
    routing easier and reduces ground noise. To do this:
 
-   #. Click the 'Add filled zones' icon on the right-hand side toolbar. Make sure
-      your active layer is set to the 'F.Cu' layer before doing so! 
+   #. Set your grid size to something large, 50 mil+. This will make forming a neat
+      pour polygon easier. 
 
-      .. image:: pours.png
+   #. Click the 'Add filled zones' icon on the right-hand side toolbar then click 
+      on the screen where you want the first corner of your ground plane to be.
+      A settings window should pop up. Select 'F.Cu'/'B.Cu' for Layer and 
+      'GND' for Net. Don't worry about the other settings for now. 
 
-   #. Then click on screen where you want the first corner of your ground plane
-      to be. Make sure to give yourself enough room so that the plane will be
-      able to cover all of the components and so that the plane will be larger
-      than the overall board size.
-
-   #. A settings window should pop up. Select 'F.Cu' for Layer and 'GND' for Net.
-      Don't worry about the other settings for now. 
+   #. Draw the ground plane polygon. Make sure it encompasses all the parts and traces, 
+      make extend beyond your edgecuts, if you did them first.
+      It does not hurt at all to go big, the edge cuts will "trim" it neatly for us. 
 
    #. Finish drawing the ground plane by clicking the other four corners of the
       polygon. Double click on the last corner to close the polygon.
 
-   #. Repeat the above steps again to make a second ground plane but this time
-      on the 'B.Cu' layer.
+      .. image:: pour.gif
+
+   #. Repeat the above steps again to make a second ground plane for the other
+      copper layer ('F.Cu' or 'B.Cu' that you have not yet done). 
 
    #. If you update any other part of your board (add new traces, move a component,
       etc.), press 'b' to re-fill all filled zones. If you find the filled zones 
       visually impairing, you can unfill with 'ctrl+b' or change how they are viewed.
       Fill visibility buttons exist on the left toolbar, try to find them!
 
-#. Since most circuits share a common ground, ground vias are needed for
-   connecting the two ground planes. Place a sufficient number of ground vias
-   spaced throughout the board connecting the top ground plane pour(s) to the
-   one on the bottom. Don't worry too much about minimizing these.
+#. Add edge cuts for the board. This is the physical boundaries of your board.
+   Select the 'Edge.Cuts' layer and, using the trace tool, draw a rectangle
+   that contains all the footprints and traces on your board. If you already did
+   the ground planes, make sure that your edge cuts stay *within* the ground
+   polygons. You may choose to draw rounded corners, too, or other fancy shapes 
+   for the board outline if you would prefer to.
 
-#. To put your name on the board, we will be adding to the board silkscreen (or
-   the identification layer). This is the (usually) white lettering you find
-   on circuit boards.
+   .. image::edgecut.gif
 
-   #. Usually PCB editors default to putting component names on the silkscreen for
-      assembly but we can also put other symbols (like your name, a logo, a date,
+#. Make sure that at least one of the ground planes (should be the one on the 
+   bottom layer) is not cut up too much by signal traces. Use vias to 
+   connect the top ground plane to the bottom. A good amount would be 1 via per 
+   ground island (if completely isolated planes of copper exist on the top layer). 
+
+#. You're almost done! Add to the board silkscreen (the identification layer). 
+   This is the (usually) white lettering you find on circuit boards.
+
+   #. PCB editors will always have component designators on the silkscreen, 
+      but we can also put other symbols (like your name, a logo, a date,
       pin orientation information, etc.) on the board as well.
+
+   #. To make placement easier, reduce your grid size. 
 
    #. To do this select 'F. SilkS' from the 'Layers' right pane. Select
       the text tool and click on your board. Type in your name, press 'OK', and
-      place it on the board, rotating it if desired. 
+      place it on the board. Feel free to add more silkscreen art or text of your
+      choice, but make sure not to overlap silkscreen of components or vias. 
 
-      .. image:: select-text.png
+      .. image:: silkscreen.gif
          :align: center
 
-#. Add edge cuts for the board. This is the physical boundaries of your board.
-   Select the 'Edge.Cuts' layer and, using the trace tool, draw a rectangle
-   that contains all the footprints and traces on your board. Make sure that
-   the board edge rectangle is also inside the ground plane rectangle. You may
-   choose to draw rounded corners, too, or fancy shapes if you prefer.
-
 #. Once you are finished, perform a Design Rules Check. Inspect → Design Rules Checker
-   → Run DRC or find the ladybug icon in the top toolbar. KiCad will warn you if there
-   are any errors. Correct your design (or double check your design rules) and re-run
-   DRC until there are no more DRC violations.
+   → Run DRC or find the ladybug icon in the top toolbar. If you get a pop-up about 
+   needing to 'refill zones', click 'OK'. After running DRC, KiCad will warn you if there
+   are any errors with your board. Correct your design and re-run DRC until there are no 
+   more DRC violations.
 
    .. image:: drc-good.png
       :height: 629
@@ -339,18 +406,36 @@ PCB Layout
 
 Generating Fabrication Outputs
 ==============================
-#. File → Plot -> Plot
+#. File → Plot → Plot
+
+   .. image:: generate_files.png
 
 #. (Bottom right corner of Plot window) Generate Drill Files → Generate Drill File
+
+   .. image:: generate_drills.png
 
 Don't worry about the options in either output window.
 
 Lab Checkoff
 ============
-Submit a lab checkoff `here <https://ieee.berkeley.edu/cgi-bin/hope/submit>`_ 
-Zip up your project files and fab outputs and add that to the checkoff submission. 
+Submit a lab checkoff `here <https://forms.gle/ssFx9unnRbMy6nQM8>`_ 
+
+Make sure you have...
+
+   - Completed schematic (match the reference at the top of the page
+
+   - Completely routed PCB layout (no remaing ratsnest lines, has ground planes, etc.)
+
+   - Some custom silkscreen on the front side of the board
+
+   - Proper board edges defined 
+
+   - No DRC errors
+
+   - Generated output files (gerbers: .gbr, and drills: .drl)
 
 Show your DRC report, layout, schematic, and output files to an instructor
-for check-off.
+to get checked off. 
 
 `Back to HOPE main page <../../pcb.html>`_ 
+
