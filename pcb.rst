@@ -75,7 +75,7 @@ For alternative or in-depth treatment of topics discussed in class, see
 
 Weekly Topics Breakdown
 -----------------------
-- **Week 1 (1/29):** `Introduction <pcb.html>`_
+- **Week 1 (1/29):** `Introduction <https://docs.google.com/presentation/d/1cMx8Gg0X7_RoFsQt89K9XvU_rTtH9zCaoa1wn-6iJ9k/edit?usp=sharing>`_
    
   - What is HOPE?
   - What is a PCB?

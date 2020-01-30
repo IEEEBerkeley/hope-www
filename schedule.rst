@@ -13,7 +13,8 @@ For details on grading: **PAGE COMING SOON**
 Course Schedule Spring 2020
 ===========================
 
-Please note that all lab and project assignments should be submitted to their appropriate BCourses assignment. Please refer to the class BCourses for specific due times and such
+Please note that all lab and project assignments should be submitted to their appropriate BCourses assignment. Please refer to the class BCourses for specific due times.
+Labs are due by the end of class on the specific class week. 
 
 +--------+------------+----------------------------------------------------------+---------------------------------------------------+--------+---------------------------------------+--------------+
 | Week # | Class Date | Topic                                                    | Lab                                               | due by | Project                               | due by       |
