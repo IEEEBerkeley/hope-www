@@ -13,6 +13,7 @@ PAGES = index.html \
 		labs/building-gates.html \
 		labs/kicad-intro/kicad-intro.html \
 		labs/light-comms/light-comms.html \
+		labs/schematics-n-kicad/schematics_n_kicad.html \
 		labs/measurements.html \
 		labs/microcontroller.html \
 		labs/microcontroller/microcontroller_lab.html \

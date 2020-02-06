@@ -83,7 +83,7 @@ Weekly Topics Breakdown
   - General PCB Project Workflow
   - *Lab*: `Intro to KiCad <labs/kicad-intro/kicad-intro.html>`_
 
-- **Week 2 (2/5):** `Schematics and Components, Pt.1 <pcb.html>`_
+- **Week 2 (2/5):** `Schematics and Components, Pt.1 <https://docs.google.com/presentation/d/1EfQPR83EVjRvcEH3Jtqv0qQftLfnUXrH3xYWD04D66M/edit?usp=sharing>`_
 
   - PCB *Design*
 
@@ -95,7 +95,7 @@ Weekly Topics Breakdown
     - Connectivity of Components
     - Communication
 
-  - *Lab*: `Schematics & KiCad <pcb.html>`_ 
+  - *Lab*: `Schematics & KiCad <labs/schematics-n-kicad/schematics_n_kicad.html>`_ 
 
 - **Week 3 (2/12):** `Schematics and Components, Pt.2 <pcb.html>`_
 
