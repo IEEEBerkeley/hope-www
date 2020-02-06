@@ -65,7 +65,7 @@ Part Symbol Creation
        :align: center
 
 #. For this project, you're going to want to create a new part library (why might
-   might that be?). Do that by ``File → New Library``. Give it a relevant name and then
+   that be?). Do that by ``File → New Library``. Give it a relevant name and then
    save it in the project folder. This is a **project** library. 
 
       - Generally there are two conventions to creating custom symbol
@@ -92,7 +92,7 @@ Part Symbol Creation
 
 #. Sanity Checks:
 
-    - When KiCaD first drops you into the part editor, it will be very zoomed in. 
+    - When KiCad first drops you into the part editor, it will be very zoomed in. 
       Zoom out a little. 
     - Make sure that the part you created is underneath your project library 
       in the "Libraries" pane on left side. 
